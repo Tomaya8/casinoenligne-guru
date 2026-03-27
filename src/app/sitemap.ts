@@ -1,0 +1,56 @@
+import { MetadataRoute } from "next";
+import { casinos } from "@/data/casinos";
+import { gameCategories } from "@/data/games";
+import { articles } from "@/data/articles";
+import { providers } from "@/data/providers";
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = "https://casinoenligne.guru";
+
+  const staticPages = [
+    { url: baseUrl, changeFrequency: "daily" as const, priority: 1.0 },
+    { url: `${baseUrl}/casinos`, changeFrequency: "daily" as const, priority: 0.9 },
+    { url: `${baseUrl}/jeux`, changeFrequency: "weekly" as const, priority: 0.8 },
+    { url: `${baseUrl}/bonus-casino`, changeFrequency: "daily" as const, priority: 0.9 },
+    { url: `${baseUrl}/paiements`, changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${baseUrl}/logiciels-casino`, changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${baseUrl}/regulation`, changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${baseUrl}/regulation/france`, changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${baseUrl}/regulation/belgique`, changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${baseUrl}/regulation/suisse`, changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${baseUrl}/regulation/quebec`, changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${baseUrl}/guides`, changeFrequency: "weekly" as const, priority: 0.8 },
+    { url: `${baseUrl}/actualites`, changeFrequency: "daily" as const, priority: 0.8 },
+    { url: `${baseUrl}/analyses`, changeFrequency: "weekly" as const, priority: 0.8 },
+    { url: `${baseUrl}/risques-jeu`, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${baseUrl}/a-propos`, changeFrequency: "monthly" as const, priority: 0.4 },
+    { url: `${baseUrl}/methodologie`, changeFrequency: "monthly" as const, priority: 0.5 },
+  ];
+
+  const casinoPages = casinos.map((c) => ({
+    url: `${baseUrl}/casinos/${c.slug}`,
+    changeFrequency: "weekly" as const,
+    priority: 0.8,
+  }));
+
+  const gamePages = gameCategories.map((g) => ({
+    url: `${baseUrl}/jeux/${g.slug}`,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  const articlePages = articles.map((a) => ({
+    url: `${baseUrl}/${a.category}/${a.slug}`,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+    lastModified: new Date(a.date),
+  }));
+
+  const providerPages = providers.map((p) => ({
+    url: `${baseUrl}/logiciels-casino/${p.slug}`,
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
+
+  return [...staticPages, ...casinoPages, ...gamePages, ...articlePages, ...providerPages];
+}

@@ -1,65 +1,87 @@
-import Image from "next/image";
+import HeroSection from "@/components/home/HeroSection";
+import FeaturedCasinos from "@/components/home/FeaturedCasinos";
+import GameCategories from "@/components/home/GameCategories";
+import LatestArticles from "@/components/home/LatestArticles";
+import QuickNavigation from "@/components/home/QuickNavigation";
+import SeoText from "@/components/ui/SeoText";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <>
+      <HeroSection />
+      <FeaturedCasinos />
+      <GameCategories />
+      <LatestArticles />
+      <QuickNavigation />
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+        <SeoText>
+          <h2 className="text-xl font-bold text-foreground">Casino en Ligne : Votre Guide Expert Francophone</h2>
+          <p>
+            Bienvenue sur casinoenligne.guru, le guide de référence pour les joueurs francophones qui souhaitent découvrir
+            l&apos;univers du casino en ligne en toute sécurité. Que vous soyez un joueur débutant à la recherche de vos premiers
+            repères ou un joueur expérimenté cherchant les meilleures opportunités, notre plateforme vous accompagne à chaque étape
+            de votre parcours dans l&apos;iGaming.
           </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+          <p>
+            Notre équipe d&apos;experts analyse en permanence le marché des casinos en ligne pour vous proposer des comparatifs
+            objectifs, des avis détaillés et des recommandations personnalisées. Nous évaluons chaque casino selon des critères
+            rigoureux : licence et sécurité, qualité des bonus, variété des jeux, rapidité des paiements et qualité du support
+            client. Chaque fiche casino est mise à jour régulièrement pour refléter les dernières évolutions des offres et des
+            conditions.
+          </p>
+          <p>
+            Le monde du casino en ligne évolue rapidement, avec de nouvelles technologies comme les jeux en direct avec croupiers
+            réels, les paiements en cryptomonnaie et les slots à mécaniques innovantes comme Megaways ou Buy Bonus. Notre section
+            actualités vous tient informé des dernières tendances, des changements réglementaires dans les marchés francophones
+            (France, Belgique, Suisse, Québec, Afrique francophone) et des lancements de nouveaux jeux.
+          </p>
+          <p>
+            La sécurité et le jeu responsable sont au coeur de notre démarche. Nous ne recommandons que des casinos disposant de
+            licences reconnues (ANJ, MGA, CFMJ, UKGC) et nous mettons un point d&apos;honneur à informer nos lecteurs sur les
+            risques liés au jeu d&apos;argent. Consultez notre page dédiée au jeu responsable pour découvrir les outils de
+            prévention et les ressources d&apos;aide disponibles. Le jeu doit rester un divertissement : jouez toujours avec
+            modération et ne misez jamais plus que ce que vous pouvez vous permettre de perdre.
+          </p>
+        </SeoText>
+      </div>
+
+      {/* FAQ Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Quel est le meilleur casino en ligne en France ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Le meilleur casino en ligne dépend de vos critères. Consultez notre classement basé sur la sécurité, les bonus, la variété des jeux et la qualité du service client.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Les casinos en ligne sont-ils légaux en France ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "En France, les jeux de casino en ligne sont régulés par l'ANJ (Autorité Nationale des Jeux). Seuls les casinos disposant d'une licence ANJ sont autorisés à opérer légalement.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Comment choisir un casino en ligne fiable ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Vérifiez la licence, les avis des joueurs, les méthodes de paiement, la qualité du support client et les conditions des bonus avant de vous inscrire.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
+    </>
   );
 }
