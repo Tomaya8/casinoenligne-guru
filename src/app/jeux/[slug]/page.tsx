@@ -1,9 +1,11 @@
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import { gameCategories, getGameBySlug } from "@/data/games";
+import { allBlackjackVariants } from "@/data/blackjack-variants";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import Badge from "@/components/ui/Badge";
 import type { Metadata } from "next";
-import { BookOpen, Target, Lightbulb, BarChart3, Gamepad2 } from "lucide-react";
+import { BookOpen, Target, Lightbulb, BarChart3, Gamepad2, ArrowRight } from "lucide-react";
 
 export async function generateStaticParams() {
   return gameCategories.map((g) => ({ slug: g.slug }));
@@ -51,12 +53,36 @@ export default async function GameDetailPage({ params }: { params: Promise<{ slu
               <Gamepad2 className="w-5 h-5 text-accent-secondary" /> Variantes
             </h2>
             <div className="grid sm:grid-cols-2 gap-3">
-              {game.variants.map((v) => (
-                <div key={v} className="flex items-center gap-2 p-3 rounded-lg bg-background-secondary border border-border">
-                  <div className="w-2 h-2 rounded-full bg-accent-primary" />
-                  <span className="text-sm text-foreground">{v}</span>
-                </div>
-              ))}
+              {game.variants.map((v) => {
+                const bjVariant = game.slug === "blackjack"
+                  ? allBlackjackVariants.find((bv) => bv.name === v)
+                  : undefined;
+
+                if (bjVariant) {
+                  return (
+                    <Link
+                      key={v}
+                      href={`/jeux/blackjack/${bjVariant.slug}`}
+                      className="group flex items-center justify-between p-3 rounded-lg bg-background-secondary border border-border hover:border-accent-primary/40 transition-all"
+                    >
+                      <span className="flex items-center gap-2">
+                        <div className="w-2 h-2 rounded-full bg-accent-primary" />
+                        <span className="text-sm text-foreground group-hover:text-accent-primary transition-colors">{v}</span>
+                      </span>
+                      <span className="flex items-center gap-1 text-xs text-foreground-muted">
+                        RTP {bjVariant.rtp} <ArrowRight className="w-3 h-3" />
+                      </span>
+                    </Link>
+                  );
+                }
+
+                return (
+                  <div key={v} className="flex items-center gap-2 p-3 rounded-lg bg-background-secondary border border-border">
+                    <div className="w-2 h-2 rounded-full bg-accent-primary" />
+                    <span className="text-sm text-foreground">{v}</span>
+                  </div>
+                );
+              })}
             </div>
           </section>
 

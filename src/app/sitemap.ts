@@ -6,6 +6,7 @@ import { providers } from "@/data/providers";
 import { getAllGuideArticles } from "@/data/guides";
 import { allGameReviews } from "@/data/game-reviews";
 import { allBonusArticles } from "@/data/bonus-articles";
+import { allBlackjackVariants } from "@/data/blackjack-variants";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://casinoenligne.guru";
@@ -75,5 +76,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...casinoPages, ...gamePages, ...articlePages, ...providerPages, ...guidePages, ...gameReviewPages, ...bonusPages];
+  const blackjackVariantPages = allBlackjackVariants.map((v) => ({
+    url: `${baseUrl}/jeux/blackjack/${v.slug}`,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...casinoPages, ...gamePages, ...articlePages, ...providerPages, ...guidePages, ...gameReviewPages, ...bonusPages, ...blackjackVariantPages];
 }
