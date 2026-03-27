@@ -4,6 +4,7 @@ import { gameCategories } from "@/data/games";
 import { articles } from "@/data/articles";
 import { providers } from "@/data/providers";
 import { getAllGuideArticles } from "@/data/guides";
+import { allGameReviews } from "@/data/game-reviews";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://casinoenligne.guru";
@@ -61,5 +62,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(g.date),
   }));
 
-  return [...staticPages, ...casinoPages, ...gamePages, ...articlePages, ...providerPages, ...guidePages];
+  const gameReviewPages = allGameReviews.map((g) => ({
+    url: `${baseUrl}/logiciels-casino/${g.providerSlug}/${g.slug}`,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...casinoPages, ...gamePages, ...articlePages, ...providerPages, ...guidePages, ...gameReviewPages];
 }
