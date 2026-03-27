@@ -4,7 +4,7 @@ import Badge from "@/components/ui/Badge";
 import StarRating from "@/components/ui/StarRating";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { Gift, AlertTriangle, Info } from "lucide-react";
+import { Gift, AlertTriangle, Info, ArrowRight } from "lucide-react";
 import SeoText from "@/components/ui/SeoText";
 
 export const metadata: Metadata = {
@@ -19,24 +19,28 @@ export const metadata: Metadata = {
 const bonusTypes = [
   {
     title: "Bonus de Bienvenue",
+    slug: "bonus-bienvenue",
     description: "Le bonus le plus courant : un pourcentage de votre premier dépôt est doublé (voire triplé). Généralement entre 100% et 300% jusqu'à un montant plafonné.",
     icon: "🎁",
     example: "Ex: 100% jusqu'à 500€ signifie que vous déposez 500€ et recevez 500€ de bonus.",
   },
   {
     title: "Bonus Sans Dépôt",
+    slug: "bonus-sans-depot",
     description: "Le Graal des joueurs : recevez un bonus (souvent 5€ à 25€) ou des tours gratuits sans avoir à déposer. Idéal pour tester un casino sans risque.",
     icon: "💰",
     example: "Ex: 10€ gratuits à l'inscription, wagering x40 = vous devez miser 400€ avant retrait.",
   },
   {
     title: "Cashback",
+    slug: "cashback-casino",
     description: "Un pourcentage de vos pertes vous est remboursé, généralement entre 5% et 25%. Certains casinos l'offrent sans condition de mise.",
     icon: "🔄",
     example: "Ex: 10% cashback sur vos pertes de la semaine, jusqu'à 200€.",
   },
   {
     title: "Tours Gratuits",
+    slug: "tours-gratuits",
     description: "Des spins offerts sur des machines à sous spécifiques. Souvent associés au bonus de bienvenue ou à des promotions régulières.",
     icon: "🎰",
     example: "Ex: 200 tours gratuits sur Starburst avec un wagering x30.",
@@ -68,17 +72,24 @@ export default function BonusCasinoPage() {
         <h2 className="text-2xl font-bold mb-6">Types de Bonus</h2>
         <div className="grid sm:grid-cols-2 gap-6">
           {bonusTypes.map((type) => (
-            <div key={type.title} className="bg-background-card rounded-xl border border-border p-6">
+            <Link
+              key={type.slug}
+              href={`/bonus-casino/${type.slug}`}
+              className="group bg-background-card rounded-xl border border-border hover:border-accent-gold/40 transition-all duration-300 p-6"
+            >
               <div className="text-3xl mb-3">{type.icon}</div>
-              <h3 className="text-lg font-bold text-foreground mb-2">{type.title}</h3>
+              <h3 className="text-lg font-bold text-foreground group-hover:text-accent-gold transition-colors mb-2">{type.title}</h3>
               <p className="text-sm text-foreground-muted mb-3">{type.description}</p>
-              <div className="p-3 rounded-lg bg-background-secondary border border-border">
+              <div className="p-3 rounded-lg bg-background-secondary border border-border mb-4">
                 <p className="text-xs text-foreground-muted flex items-start gap-1.5">
                   <Info className="w-3.5 h-3.5 text-accent-primary shrink-0 mt-0.5" />
                   {type.example}
                 </p>
               </div>
-            </div>
+              <span className="inline-flex items-center gap-1 text-sm text-accent-primary font-medium group-hover:text-accent-gold transition-colors">
+                Lire le guide complet <ArrowRight className="w-3.5 h-3.5" />
+              </span>
+            </Link>
           ))}
         </div>
       </section>
