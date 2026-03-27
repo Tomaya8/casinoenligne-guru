@@ -4,6 +4,21 @@ import GameCategories from "@/components/home/GameCategories";
 import LatestArticles from "@/components/home/LatestArticles";
 import QuickNavigation from "@/components/home/QuickNavigation";
 import SeoText from "@/components/ui/SeoText";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Casino en Ligne Guide | casinoenligne.guru — Le Guide Ultime du Casino en Ligne",
+  description:
+    "Le guide ultime du casino en ligne pour les joueurs francophones. Comparatif casinos, bonus, jeux, stratégies et actualités iGaming. Expert, indépendant et fiable.",
+  openGraph: {
+    title: "casinoenligne.guru — Le Guide Ultime du Casino en Ligne",
+    description:
+      "Comparatif casinos en ligne, bonus, jeux, stratégies et actualités. Le guide expert pour les joueurs francophones.",
+    type: "website",
+    locale: "fr_FR",
+    siteName: "casinoenligne.guru",
+  },
+};
 
 export default function HomePage() {
   return (

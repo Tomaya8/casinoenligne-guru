@@ -5,6 +5,10 @@ import { Users, Target, Shield, BookOpen } from "lucide-react";
 export const metadata: Metadata = {
   title: "À Propos — Notre Mission et Notre Équipe",
   description: "Découvrez l'équipe derrière casinoenligne.guru, notre mission, nos valeurs et notre engagement envers la transparence et le jeu responsable.",
+  openGraph: {
+    title: "À Propos de casinoenligne.guru",
+    description: "Notre mission, notre équipe d'experts et nos valeurs d'indépendance et de transparence.",
+  },
 };
 
 export default function AProposPage() {

@@ -23,7 +23,14 @@ export default function AnalysesPage() {
         Analyses approfondies du marché iGaming : tendances, comparaisons et études pour comprendre l&apos;industrie.
       </p>
 
-      <ArticleList articles={analyses} showCategory={false} />
+      {analyses.length > 0 ? (
+        <ArticleList articles={analyses} showCategory={false} />
+      ) : (
+        <div className="text-center py-16">
+          <p className="text-foreground-muted text-lg">Aucune analyse pour le moment.</p>
+          <p className="text-foreground-muted text-sm mt-2">Nos experts préparent de nouvelles études du marché.</p>
+        </div>
+      )}
 
       <SeoText>
         <h2 className="text-xl font-bold text-foreground">Analyses du Marché iGaming : Données et Tendances</h2>

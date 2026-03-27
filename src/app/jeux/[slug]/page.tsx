@@ -38,7 +38,7 @@ export default async function GameDetailPage({ params }: { params: Promise<{ slu
       <div className="grid lg:grid-cols-3 gap-8">
         <div className="lg:col-span-2 space-y-8">
           {/* Rules */}
-          <section className="bg-background-card rounded-xl border border-border p-6">
+          <section id="regles" className="bg-background-card rounded-xl border border-border p-6 scroll-mt-24">
             <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
               <BookOpen className="w-5 h-5 text-accent-primary" /> Règles du Jeu
             </h2>
@@ -46,7 +46,7 @@ export default async function GameDetailPage({ params }: { params: Promise<{ slu
           </section>
 
           {/* Variants */}
-          <section className="bg-background-card rounded-xl border border-border p-6">
+          <section id="variantes" className="bg-background-card rounded-xl border border-border p-6 scroll-mt-24">
             <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
               <Gamepad2 className="w-5 h-5 text-accent-secondary" /> Variantes
             </h2>
@@ -61,7 +61,7 @@ export default async function GameDetailPage({ params }: { params: Promise<{ slu
           </section>
 
           {/* Strategies */}
-          <section className="bg-background-card rounded-xl border border-border p-6">
+          <section id="strategies" className="bg-background-card rounded-xl border border-border p-6 scroll-mt-24">
             <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
               <Target className="w-5 h-5 text-accent-gold" /> Stratégies
             </h2>
@@ -78,7 +78,7 @@ export default async function GameDetailPage({ params }: { params: Promise<{ slu
           </section>
 
           {/* Tips */}
-          <section className="bg-background-card rounded-xl border border-border p-6">
+          <section id="conseils" className="bg-background-card rounded-xl border border-border p-6 scroll-mt-24">
             <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
               <Lightbulb className="w-5 h-5 text-accent-green" /> Conseils
             </h2>
@@ -121,9 +121,16 @@ export default async function GameDetailPage({ params }: { params: Promise<{ slu
             <div className="bg-background-card rounded-xl border border-border p-6">
               <h3 className="font-semibold mb-4">Sur cette page</h3>
               <ul className="space-y-2 text-sm">
-                {["Règles du Jeu", "Variantes", "Stratégies", "Conseils"].map((item) => (
-                  <li key={item}>
-                    <span className="text-foreground-muted hover:text-accent-primary cursor-pointer transition-colors">{item}</span>
+                {[
+                  { label: "Règles du Jeu", id: "regles" },
+                  { label: "Variantes", id: "variantes" },
+                  { label: "Stratégies", id: "strategies" },
+                  { label: "Conseils", id: "conseils" },
+                ].map((item) => (
+                  <li key={item.id}>
+                    <a href={`#${item.id}`} className="text-foreground-muted hover:text-accent-primary transition-colors">
+                      {item.label}
+                    </a>
                   </li>
                 ))}
               </ul>
@@ -131,6 +138,24 @@ export default async function GameDetailPage({ params }: { params: Promise<{ slu
           </div>
         </div>
       </div>
+      {/* JSON-LD Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: `${game.name} en Ligne — Règles, Stratégies et Astuces`,
+            description: game.description,
+            author: { "@type": "Organization", name: "casinoenligne.guru" },
+            publisher: { "@type": "Organization", name: "casinoenligne.guru" },
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": `https://casinoenligne.guru/jeux/${game.slug}`,
+            },
+          }),
+        }}
+      />
     </div>
   );
 }

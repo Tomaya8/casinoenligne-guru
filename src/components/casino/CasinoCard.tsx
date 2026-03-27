@@ -78,10 +78,13 @@ export default function CasinoCard({ casino, rank }: { casino: Casino; rank?: nu
           >
             Voir la fiche
           </Link>
-          <button className="flex items-center gap-1 py-2.5 px-4 rounded-lg border border-border text-sm text-foreground-muted hover:text-foreground hover:border-border-light transition-colors">
+          <Link
+            href={`/casinos/${casino.slug}`}
+            className="flex items-center gap-1 py-2.5 px-4 rounded-lg border border-border text-sm text-foreground-muted hover:text-foreground hover:border-border-light transition-colors"
+          >
             <ExternalLink className="w-3.5 h-3.5" />
             Visiter
-          </button>
+          </Link>
         </div>
       </div>
     </div>

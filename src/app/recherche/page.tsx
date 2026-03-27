@@ -10,6 +10,7 @@ import { casinos } from "@/data/casinos";
 import { gameCategories } from "@/data/games";
 import { articles } from "@/data/articles";
 import { providers } from "@/data/providers";
+import { getAllGuideArticles } from "@/data/guides";
 import { ArrowRight } from "lucide-react";
 import { Suspense } from "react";
 
@@ -41,12 +42,14 @@ function SearchContent() {
         .map((a) => ({ type: a.category === "guides" ? "Guide" : a.category === "actualites" ? "Actualité" : "Analyse", title: a.title, href: `/${a.category}/${a.slug}`, description: a.excerpt })),
       ...providers.filter((p) => p.name.toLowerCase().includes(q) || p.description.toLowerCase().includes(q))
         .map((p) => ({ type: "Logiciel", title: p.name, href: `/logiciels-casino/${p.slug}`, description: p.description })),
+      ...getAllGuideArticles().filter((g) => g.title.toLowerCase().includes(q) || g.excerpt.toLowerCase().includes(q) || g.tags.some((t) => t.includes(q)))
+        .map((g) => ({ type: "Guide", title: g.title, href: `/guides/${g.slug}`, description: g.excerpt })),
     ];
     return all;
   }, [query]);
 
   const typeColors: Record<string, "primary" | "secondary" | "gold" | "green"> = {
-    Casino: "primary", Jeu: "secondary", Guide: "gold", Actualité: "green", Analyse: "gold", Logiciel: "primary",
+    Casino: "primary", Jeu: "secondary", Guide: "green", Actualité: "secondary", Analyse: "gold", Logiciel: "primary",
   };
 
   return (

@@ -98,6 +98,29 @@ export default async function ProviderDetailPage({ params }: { params: Promise<{
           </dl>
         </section>
       </div>
+      {/* JSON-LD Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: provider.name,
+            description: provider.description,
+            foundingDate: String(provider.founded),
+            location: {
+              "@type": "Place",
+              address: provider.headquarters,
+            },
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: provider.rating,
+              bestRating: 5,
+              ratingCount: 1,
+            },
+          }),
+        }}
+      />
     </div>
   );
 }

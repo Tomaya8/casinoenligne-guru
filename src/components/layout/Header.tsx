@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useCallback } from "react";
+import { useState, useRef, useCallback, useEffect } from "react";
 import Link from "next/link";
 import { Menu, X, ChevronDown, Search } from "lucide-react";
 import { mainNavigation } from "@/data/navigation";
@@ -11,6 +11,12 @@ export default function Header() {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [searchOpen, setSearchOpen] = useState(false);
   const closeTimeout = useRef<NodeJS.Timeout | null>(null);
+
+  // Body scroll lock when mobile menu is open
+  useEffect(() => {
+    document.body.style.overflow = mobileMenuOpen ? "hidden" : "";
+    return () => { document.body.style.overflow = ""; };
+  }, [mobileMenuOpen]);
 
   const openDropdown = useCallback((label: string) => {
     if (closeTimeout.current) {
@@ -60,7 +66,9 @@ export default function Header() {
                 </Link>
 
                 {item.children && activeDropdown === item.label && (
-                  <div className="absolute top-full left-0 pt-2 w-72">
+                  <div className="absolute top-full left-0 pt-0 w-72">
+                    {/* Invisible bridge to prevent gap mouseLeave */}
+                    <div className="h-2" />
                     <div className="glass rounded-xl p-2 shadow-2xl">
                       {item.children.map((child) => (
                         <Link
@@ -84,7 +92,7 @@ export default function Header() {
           {/* Right side */}
           <div className="flex items-center gap-2">
             <button
-              onClick={() => setSearchOpen(!searchOpen)}
+              onClick={() => { setSearchOpen(!searchOpen); setMobileMenuOpen(false); }}
               className="p-2 text-foreground-muted hover:text-foreground transition-colors rounded-lg hover:bg-background-card"
               aria-label="Rechercher"
             >
@@ -92,7 +100,7 @@ export default function Header() {
             </button>
 
             <button
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              onClick={() => { setMobileMenuOpen(!mobileMenuOpen); setSearchOpen(false); }}
               className="lg:hidden p-2 text-foreground-muted hover:text-foreground transition-colors rounded-lg hover:bg-background-card"
               aria-label="Menu"
             >
@@ -123,12 +131,12 @@ export default function Header() {
                   {item.label}
                 </Link>
                 {item.children && (
-                  <div className="ml-4 space-y-1">
+                  <div className="ml-4 space-y-0.5">
                     {item.children.map((child) => (
                       <Link
                         key={child.href}
                         href={child.href}
-                        className="block px-3 py-1.5 text-sm text-foreground-muted hover:text-foreground transition-colors"
+                        className="block px-3 py-2.5 text-sm text-foreground-muted hover:text-foreground transition-colors rounded-lg hover:bg-background-card"
                         onClick={() => setMobileMenuOpen(false)}
                       >
                         {child.label}

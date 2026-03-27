@@ -7,6 +7,10 @@ import SeoText from "@/components/ui/SeoText";
 export const metadata: Metadata = {
   title: "Régulation Casino en Ligne — Lois et Licences par Pays",
   description: "Guide complet de la régulation des casinos en ligne dans les pays francophones : France (ANJ), Belgique, Suisse, Québec. Légalité et licences.",
+  openGraph: {
+    title: "Régulation Casino en Ligne — Lois et Licences par Pays",
+    description: "Législation des casinos en ligne : France (ANJ), Belgique, Suisse, Québec. Licences et protection des joueurs.",
+  },
 };
 
 const countries = [

@@ -8,6 +8,10 @@ import SeoText from "@/components/ui/SeoText";
 export const metadata: Metadata = {
   title: "Jeux de Casino en Ligne — Guides, Règles et Stratégies",
   description: "Découvrez tous les jeux de casino en ligne : machines à sous, blackjack, roulette, poker. Règles, stratégies, RTP et conseils d'experts.",
+  openGraph: {
+    title: "Jeux de Casino en Ligne — Guides, Règles et Stratégies",
+    description: "Machines à sous, blackjack, roulette, poker : règles, stratégies et RTP pour chaque jeu de casino.",
+  },
 };
 
 const icons: Record<string, React.ReactNode> = {

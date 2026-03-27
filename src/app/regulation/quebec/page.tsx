@@ -71,6 +71,19 @@ export default function RegulationQuebecPage() {
           </dl>
         </div>
       </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: "Casino en Ligne Québec — Régulation Loto-Québec",
+            description: "Guide de la régulation des casinos en ligne au Québec : monopole de Loto-Québec, Espacejeux, et statut des sites internationaux.",
+            author: { "@type": "Organization", name: "casinoenligne.guru" },
+            publisher: { "@type": "Organization", name: "casinoenligne.guru" },
+          }),
+        }}
+      />
     </div>
   );
 }

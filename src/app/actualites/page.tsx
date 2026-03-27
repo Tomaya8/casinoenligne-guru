@@ -23,7 +23,14 @@ export default function ActualitesPage() {
         Les dernières nouvelles de l&apos;industrie du casino en ligne : régulations, lancements, innovations et tendances.
       </p>
 
-      <ArticleList articles={news} showCategory={false} />
+      {news.length > 0 ? (
+        <ArticleList articles={news} showCategory={false} />
+      ) : (
+        <div className="text-center py-16">
+          <p className="text-foreground-muted text-lg">Aucune actualité pour le moment.</p>
+          <p className="text-foreground-muted text-sm mt-2">Revenez bientôt pour les dernières nouvelles de l&apos;industrie.</p>
+        </div>
+      )}
 
       <SeoText>
         <h2 className="text-xl font-bold text-foreground">L&apos;Actualité du Casino en Ligne et de l&apos;iGaming</h2>

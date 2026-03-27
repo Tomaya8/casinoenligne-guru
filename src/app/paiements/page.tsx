@@ -6,6 +6,10 @@ import SeoText from "@/components/ui/SeoText";
 export const metadata: Metadata = {
   title: "Méthodes de Paiement Casino — Dépôts et Retraits Sécurisés",
   description: "Guide complet des méthodes de paiement dans les casinos en ligne : cartes bancaires, e-wallets, crypto. Avantages, délais et sécurité.",
+  openGraph: {
+    title: "Méthodes de Paiement Casino — Dépôts et Retraits Sécurisés",
+    description: "Cartes bancaires, e-wallets, crypto : comparez les méthodes de paiement casino avec délais et frais.",
+  },
 };
 
 const paymentMethods = [
@@ -86,8 +90,10 @@ export default function PaiementsPage() {
                   {category.methods.map((method) => (
                     <tr key={method.name} className="border-b border-border hover:bg-background-card-hover transition-colors">
                       <td className="py-3 px-4 font-medium text-foreground">{method.name}</td>
-                      <td className="py-3 px-4 text-foreground-muted flex items-center gap-1">
-                        <Clock className="w-3 h-3 text-accent-green" /> {method.depositTime}
+                      <td className="py-3 px-4 text-foreground-muted">
+                        <div className="flex items-center gap-1">
+                          <Clock className="w-3 h-3 text-accent-green" /> {method.depositTime}
+                        </div>
                       </td>
                       <td className="py-3 px-4 text-foreground-muted">{method.withdrawalTime}</td>
                       <td className="py-3 px-4 text-foreground-muted">{method.fees}</td>

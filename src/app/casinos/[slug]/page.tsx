@@ -154,9 +154,12 @@ export default async function CasinoDetailPage({ params }: { params: Promise<{ s
             <div className="glass rounded-xl p-6 text-center">
               <p className="text-sm text-foreground-muted mb-2">Bonus exclusif</p>
               <p className="text-xl font-bold gradient-text mb-4">{casino.bonusAmount}</p>
-              <button className="w-full py-3 rounded-lg bg-gradient-to-r from-accent-primary to-purple-500 text-white font-medium hover:opacity-90 transition-opacity">
+              <a
+                href={`#bonus-${casino.slug}`}
+                className="block w-full py-3 rounded-lg bg-gradient-to-r from-accent-primary to-purple-500 text-white font-medium hover:opacity-90 transition-opacity text-center"
+              >
                 Visiter {casino.name}
-              </button>
+              </a>
               <p className="text-xs text-foreground-muted mt-3">18+ | Jeu responsable | T&C appliqués</p>
             </div>
 
@@ -195,6 +198,45 @@ export default async function CasinoDetailPage({ params }: { params: Promise<{ s
           </div>
         </div>
       </div>
+      {/* JSON-LD Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Review",
+            itemReviewed: {
+              "@type": "Organization",
+              name: casino.name,
+              description: casino.shortDescription,
+            },
+            reviewRating: {
+              "@type": "Rating",
+              ratingValue: casino.rating,
+              bestRating: 5,
+              worstRating: 1,
+            },
+            author: { "@type": "Organization", name: "casinoenligne.guru" },
+            publisher: { "@type": "Organization", name: "casinoenligne.guru" },
+            positiveNotes: {
+              "@type": "ItemList",
+              itemListElement: casino.pros.map((pro, i) => ({
+                "@type": "ListItem",
+                position: i + 1,
+                name: pro,
+              })),
+            },
+            negativeNotes: {
+              "@type": "ItemList",
+              itemListElement: casino.cons.map((con, i) => ({
+                "@type": "ListItem",
+                position: i + 1,
+                name: con,
+              })),
+            },
+          }),
+        }}
+      />
     </div>
   );
 }

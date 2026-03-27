@@ -59,6 +59,19 @@ export default function RegulationSuissePage() {
           </dl>
         </div>
       </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: "Casino en Ligne Suisse — Régulation CFMJ et Légalité",
+            description: "Guide de la régulation des casinos en ligne en Suisse : CFMJ, concessions, et jeux autorisés depuis la LJAr de 2019.",
+            author: { "@type": "Organization", name: "casinoenligne.guru" },
+            publisher: { "@type": "Organization", name: "casinoenligne.guru" },
+          }),
+        }}
+      />
     </div>
   );
 }

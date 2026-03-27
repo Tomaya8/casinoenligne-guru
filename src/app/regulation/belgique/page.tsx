@@ -60,6 +60,19 @@ export default function RegulationBelgiquePage() {
           </dl>
         </div>
       </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: "Casino en Ligne Belgique — Régulation et Légalité",
+            description: "Guide complet de la régulation des casinos en ligne en Belgique : Commission des Jeux de Hasard, licences et protection des joueurs.",
+            author: { "@type": "Organization", name: "casinoenligne.guru" },
+            publisher: { "@type": "Organization", name: "casinoenligne.guru" },
+          }),
+        }}
+      />
     </div>
   );
 }

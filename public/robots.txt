@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /recherche
+
+Sitemap: https://casinoenligne.guru/sitemap.xml

@@ -105,6 +105,19 @@ export default function RegulationFrancePage() {
           </div>
         </div>
       </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: "Casino en Ligne France — Régulation ANJ et Légalité",
+            description: "Tout savoir sur la régulation des casinos en ligne en France : rôle de l'ANJ, licences, jeux autorisés, et protection des joueurs.",
+            author: { "@type": "Organization", name: "casinoenligne.guru" },
+            publisher: { "@type": "Organization", name: "casinoenligne.guru" },
+          }),
+        }}
+      />
     </div>
   );
 }

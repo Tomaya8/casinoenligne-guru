@@ -9,6 +9,10 @@ import SeoText from "@/components/ui/SeoText";
 export const metadata: Metadata = {
   title: "Logiciels Casino — Fournisseurs de Jeux en Ligne",
   description: "Découvrez les meilleurs fournisseurs de jeux de casino en ligne : NetEnt, Evolution Gaming, Pragmatic Play. Historique, jeux phares et technologie.",
+  openGraph: {
+    title: "Logiciels Casino — Fournisseurs de Jeux en Ligne",
+    description: "NetEnt, Evolution Gaming, Pragmatic Play : découvrez les meilleurs fournisseurs de jeux casino.",
+  },
 };
 
 export default function LogicielsCasinoPage() {

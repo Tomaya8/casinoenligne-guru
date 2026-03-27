@@ -3,6 +3,7 @@ import { casinos } from "@/data/casinos";
 import { gameCategories } from "@/data/games";
 import { articles } from "@/data/articles";
 import { providers } from "@/data/providers";
+import { getAllGuideArticles } from "@/data/guides";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://casinoenligne.guru";
@@ -25,6 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/risques-jeu`, changeFrequency: "monthly" as const, priority: 0.6 },
     { url: `${baseUrl}/a-propos`, changeFrequency: "monthly" as const, priority: 0.4 },
     { url: `${baseUrl}/methodologie`, changeFrequency: "monthly" as const, priority: 0.5 },
+    { url: `${baseUrl}/recherche`, changeFrequency: "weekly" as const, priority: 0.3 },
   ];
 
   const casinoPages = casinos.map((c) => ({
@@ -52,5 +54,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...casinoPages, ...gamePages, ...articlePages, ...providerPages];
+  const guidePages = getAllGuideArticles().map((g) => ({
+    url: `${baseUrl}/guides/${g.slug}`,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+    lastModified: new Date(g.date),
+  }));
+
+  return [...staticPages, ...casinoPages, ...gamePages, ...articlePages, ...providerPages, ...guidePages];
 }

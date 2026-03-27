@@ -6,6 +6,10 @@ import SeoText from "@/components/ui/SeoText";
 export const metadata: Metadata = {
   title: "Jeu Responsable — Prévention de l'Addiction aux Jeux",
   description: "Guide du jeu responsable : signes d'addiction, outils de prévention, limites de jeu et ressources d'aide pour les joueurs en difficulté.",
+  openGraph: {
+    title: "Jeu Responsable — Prévention de l'Addiction aux Jeux",
+    description: "Signes d'alerte, outils de prévention et ressources d'aide pour jouer de manière responsable.",
+  },
 };
 
 const warningSignals = [

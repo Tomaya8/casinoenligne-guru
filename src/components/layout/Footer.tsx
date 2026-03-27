@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="bg-background-secondary border-t border-border mt-auto">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-12">
           <div>
             <h3 className="text-sm font-semibold text-foreground mb-4 uppercase tracking-wider">Annuaire</h3>
             <ul className="space-y-2">

@@ -10,6 +10,10 @@ import SeoText from "@/components/ui/SeoText";
 export const metadata: Metadata = {
   title: "Bonus Casino en Ligne — Comparatif et Guide Complet",
   description: "Comparez les meilleurs bonus de casino en ligne : bonus de bienvenue, sans dépôt, cashback. Guide complet des conditions et pièges à éviter.",
+  openGraph: {
+    title: "Bonus Casino en Ligne — Comparatif et Guide Complet",
+    description: "Comparatif des meilleurs bonus casino : bienvenue, sans dépôt, cashback, tours gratuits. Comprenez le wagering.",
+  },
 };
 
 const bonusTypes = [
@@ -88,10 +92,10 @@ export default function BonusCasinoPage() {
           <table className="w-full text-sm">
             <thead>
               <tr className="border-b border-border">
-                <th className="text-left py-3 px-4 text-foreground-muted font-medium">Casino</th>
-                <th className="text-left py-3 px-4 text-foreground-muted font-medium">Bonus</th>
-                <th className="text-left py-3 px-4 text-foreground-muted font-medium">Wagering</th>
-                <th className="text-left py-3 px-4 text-foreground-muted font-medium">Note</th>
+                <th className="text-left py-3 px-4 text-foreground-muted font-medium whitespace-nowrap">Casino</th>
+                <th className="text-left py-3 px-4 text-foreground-muted font-medium whitespace-nowrap">Bonus</th>
+                <th className="text-left py-3 px-4 text-foreground-muted font-medium whitespace-nowrap">Wagering</th>
+                <th className="text-left py-3 px-4 text-foreground-muted font-medium whitespace-nowrap">Note</th>
                 <th className="text-left py-3 px-4 text-foreground-muted font-medium"></th>
               </tr>
             </thead>
@@ -180,6 +184,43 @@ export default function BonusCasinoPage() {
           budget.
         </p>
       </SeoText>
+
+      {/* JSON-LD Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Qu'est-ce qu'un bonus de bienvenue casino ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Un bonus de bienvenue est une offre proposée aux nouveaux joueurs lors de leur inscription. Il prend généralement la forme d'un pourcentage de votre premier dépôt (100% à 300%) accompagné de tours gratuits.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Que signifie le wagering (conditions de mise) ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Le wagering est le nombre de fois que vous devez miser le montant du bonus avant de pouvoir retirer vos gains. Un wagering de x35 sur un bonus de 100€ signifie que vous devez miser 3500€ au total.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Quel est un bon wagering pour un bonus casino ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Un wagering entre x20 et x30 est considéré comme excellent. Entre x30 et x40, c'est correct. Au-delà de x40, les conditions sont considérées comme élevées et défavorables au joueur.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }

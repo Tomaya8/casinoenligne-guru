@@ -40,7 +40,12 @@ export const mainNavigation: NavItem[] = [
     label: "Guides",
     href: "/guides",
     children: [
-      { label: "Tous les guides", href: "/guides", description: "Nos guides experts" },
+      { label: "Tous les guides", href: "/guides", description: "Nos guides et revues experts" },
+      { label: "Casino en Direct", href: "/guides#live-casino", description: "Live casino : stratégies et revues" },
+      { label: "Casino Mobile", href: "/guides#casino-mobile", description: "Jeux sur mobile et applications" },
+      { label: "Crypto & Casino", href: "/guides#crypto-casino", description: "Bitcoin et cryptomonnaies" },
+      { label: "Machines à Sous", href: "/guides#slots-avance", description: "RTP, volatilité et mécaniques" },
+      { label: "Sécurité Casino", href: "/guides#securite-casino", description: "Licences, KYC et protection" },
       { label: "Actualités", href: "/actualites", description: "News de l'industrie iGaming" },
       { label: "Analyses", href: "/analyses", description: "Études et tendances du marché" },
       { label: "Jeu responsable", href: "/risques-jeu", description: "Prévention et ressources" },

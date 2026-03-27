@@ -5,6 +5,10 @@ import { ClipboardCheck, Search, BarChart3, RefreshCw } from "lucide-react";
 export const metadata: Metadata = {
   title: "Méthodologie — Comment Nous Évaluons les Casinos",
   description: "Découvrez notre méthodologie rigoureuse d'évaluation des casinos en ligne : critères, processus de test et système de notation transparent.",
+  openGraph: {
+    title: "Notre Méthodologie d'Évaluation des Casinos",
+    description: "Critères, processus de test et système de notation transparent pour évaluer les casinos en ligne.",
+  },
 };
 
 export default function MethodologiePage() {
