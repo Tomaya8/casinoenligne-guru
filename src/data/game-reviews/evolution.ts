@@ -9,9 +9,9 @@ export const evolutionReviews: GameReview[] = [
     excerpt:
       "Découvrez Lightning Roulette, le jeu de roulette en direct révolutionnaire d'Evolution Gaming avec des multiplicateurs jusqu'à 500x. Notre avis détaillé couvre les règles, stratégies et bonus.",
     headerImage:
-      "https://images.unsplash.com/photo-1574027542338-98e75acfd385?w=800&h=400&fit=crop",
+      "https://games.evolution.com/wp-content/uploads/2023/02/lightning_roulette_web_imagery_600x840_2023_01.jpg",
     headerImageAlt:
-      "Table de roulette en direct avec effets d'éclairs Lightning Roulette",
+      "Lightning Roulette d'Evolution Gaming avec effets d'éclairs et multiplicateurs",
     rtp: "97.30%",
     volatility: "Moyenne-Haute",
     minBet: "0,20 €",
@@ -35,8 +35,8 @@ export const evolutionReviews: GameReview[] = [
         content:
           "Lightning Roulette est sans doute le jeu de table en direct le plus innovant jamais créé par Evolution Gaming. Lancé en février 2018, ce jeu a complètement redéfini l'expérience de la roulette en ligne en combinant la roulette européenne classique avec des éléments de jeu télévisé spectaculaires. Le concept est simple mais brillant : à chaque tour, entre un et cinq numéros sont frappés par la foudre et reçoivent des multiplicateurs aléatoires allant de 50x à 500x. Ce mécanisme unique transforme chaque spin en un moment de suspense intense, car un pari straight-up sur un numéro touché par l'éclair peut rapporter jusqu'à 500 fois votre mise initiale.\n\nLe studio dédié à Lightning Roulette est un chef-d'œuvre de design. L'environnement noir et doré, ponctué d'éclairs spectaculaires et d'effets sonores immersifs, crée une atmosphère unique qui se distingue nettement des tables de roulette traditionnelles. Les croupiers, formés spécifiquement pour ce format de jeu show, ajoutent une dimension de divertissement supplémentaire en commentant les résultats et en interagissant avec les joueurs. Chaque tour commence comme une roulette classique, mais le moment où les numéros lightning sont révélés ajoute une couche d'excitation incomparable. Le jeu est diffusé en haute définition depuis un studio professionnel, garantissant une qualité visuelle irréprochable.",
         image:
-          "https://images.unsplash.com/photo-1609902726285-00668009f004?w=600&h=300&fit=crop",
-        imageAlt: "Interface de jeu Lightning Roulette en action",
+          "https://games.evolution.com/wp-content/uploads/2023/03/lightning-roulette-logo.svg",
+        imageAlt: "Logo officiel Lightning Roulette d'Evolution Gaming",
       },
       {
         heading: "Règles et Fonctionnement du Jeu",
@@ -48,8 +48,8 @@ export const evolutionReviews: GameReview[] = [
         content:
           "Pour tirer le meilleur parti de Lightning Roulette, il est essentiel d'adapter votre stratégie au mécanisme unique du jeu. La stratégie la plus courante consiste à couvrir un maximum de numéros avec des paris straight-up pour maximiser vos chances de bénéficier d'un multiplicateur lightning. Certains joueurs expérimentés répartissent leurs mises sur 10 à 15 numéros différents, acceptant de perdre souvent de petites sommes en échange de la possibilité de décrocher un multiplicateur massif. Cette approche à haute volatilité convient aux joueurs patients disposant d'un budget conséquent.\n\nUne autre approche consiste à combiner des paris extérieurs pour sécuriser votre bankroll avec quelques paris straight-up ciblés pour profiter des multiplicateurs. Par exemple, vous pouvez miser sur rouge/noir tout en plaçant de petites mises sur quelques numéros spécifiques. La gestion de votre budget est cruciale dans Lightning Roulette : fixez-vous une limite de pertes stricte et ne la dépassez jamais. Profitez également des statistiques en temps réel affichées à l'écran pour repérer les tendances, même si chaque tour reste indépendant. Enfin, n'oubliez pas que le RTP de 97,30% signifie que le casino conserve un avantage à long terme, donc jouez toujours de manière responsable et considérez le jeu comme un divertissement avant tout.",
         image:
-          "https://images.unsplash.com/photo-1570698473651-b2de99bae12f?w=600&h=300&fit=crop",
-        imageAlt: "Stratégie de jeu à la roulette en direct",
+          "https://games.evolution.com/wp-content/uploads/2023/02/lightning_roulette_web_imagery_1000x563_2023_01.jpg",
+        imageAlt: "Table de jeu Lightning Roulette avec interface et multiplicateurs en direct",
       },
       {
         heading: "Qualité Technique et Expérience Utilisateur",
@@ -120,9 +120,9 @@ export const evolutionReviews: GameReview[] = [
     excerpt:
       "Plongez dans Crazy Time, le game show en direct le plus populaire d'Evolution Gaming. Multiplicateurs massifs, 4 jeux bonus et une ambiance folle. Notre avis complet.",
     headerImage:
-      "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=800&h=400&fit=crop",
+      "https://games.evolution.com/wp-content/uploads/2023/04/crazy_time_thumbnail_600x840_2023_03.jpg",
     headerImageAlt:
-      "Roue colorée de Crazy Time game show en direct Evolution Gaming",
+      "Crazy Time d'Evolution Gaming avec roue colorée et présentateur en direct",
     rtp: "96.08%",
     volatility: "Haute",
     minBet: "0,10 €",
@@ -146,8 +146,8 @@ export const evolutionReviews: GameReview[] = [
         content:
           "Crazy Time est le jeu de game show en direct le plus ambitieux et le plus populaire jamais créé par Evolution Gaming. Lancé en juin 2020, il a immédiatement conquis le monde du casino en ligne grâce à son concept révolutionnaire qui mélange une roue de la fortune géante avec quatre jeux bonus distincts, le tout animé par des présentateurs charismatiques dans un studio coloré et high-tech. Avec un potentiel de gain atteignant 25 000x la mise, Crazy Time est devenu le jeu phare de la catégorie des game shows en direct.\n\nLe concept repose sur une immense roue divisée en 54 segments. Ces segments contiennent des numéros simples (1, 2, 5 et 10) ainsi que quatre types de segments bonus : Coin Flip, Cash Hunt, Pachinko et le tant convoité segment Crazy Time. Avant chaque tour de roue, un Top Slot situé au-dessus de la roue génère un multiplicateur aléatoire qui peut s'appliquer au résultat. Ce double mécanisme de hasard crée des combinaisons de gains potentiellement explosives. Le studio est une véritable production télévisée avec des décors élaborés, des lumières dynamiques et des effets sonores entraînants qui créent une atmosphère festive unique.",
         image:
-          "https://images.unsplash.com/photo-1609902726285-00668009f004?w=600&h=300&fit=crop",
-        imageAlt: "Studio de Crazy Time avec sa roue colorée géante",
+          "https://games.evolution.com/wp-content/uploads/2024/05/crazy-time-symbol.png",
+        imageAlt: "Symbole officiel Crazy Time d'Evolution Gaming",
       },
       {
         heading: "Les 4 Jeux Bonus en Détail",
@@ -159,8 +159,8 @@ export const evolutionReviews: GameReview[] = [
         content:
           "La stratégie à Crazy Time dépend principalement de votre tolérance au risque et de votre objectif de jeu. La stratégie conservatrice consiste à miser principalement sur les numéros 1 et 2, qui représentent la majorité des segments de la roue (respectivement 21 et 13 segments sur 54). Cette approche offre des gains fréquents mais modestes, idéale pour les joueurs qui veulent prolonger leur session. À l'opposé, la stratégie agressive consiste à miser exclusivement sur les segments bonus, en particulier Crazy Time (un seul segment) et Pachinko (deux segments), qui offrent les multiplicateurs les plus élevés mais avec une probabilité de déclenchement plus faible.\n\nUne approche équilibrée populaire consiste à répartir votre mise entre les numéros et un ou deux segments bonus. Par exemple, 60% de votre mise sur les numéros 1 et 2 pour la stabilité, et 40% répartis entre Cash Hunt et Crazy Time pour le potentiel de gros gains. La gestion de budget est absolument cruciale à Crazy Time en raison de sa haute volatilité. Nous recommandons de définir un budget de session strict, de ne jamais miser plus de 2% de votre bankroll par tour, et de fixer un objectif de gain auquel vous vous arrêterez. La tentation de continuer après un gros gain ou de tenter de récupérer ses pertes est le piège le plus courant.",
         image:
-          "https://images.unsplash.com/photo-1570698473651-b2de99bae12f?w=600&h=300&fit=crop",
-        imageAlt: "Joueur planifiant sa stratégie au casino en ligne",
+          "https://games.evolution.com/wp-content/uploads/2023/04/crazy_time_thumbnail_1000x563_2023_03.jpg",
+        imageAlt: "Studio Crazy Time avec roue géante et ambiance de game show en direct",
       },
       {
         heading: "Production et Qualité du Studio",
@@ -228,9 +228,9 @@ export const evolutionReviews: GameReview[] = [
     excerpt:
       "Mega Ball combine le bingo et la loterie dans un game show en direct spectaculaire. Multiplicateurs jusqu'à 1 000 000x, plusieurs cartes et ambiance unique. Notre avis détaillé.",
     headerImage:
-      "https://images.unsplash.com/photo-1596838132731-3301c3fd4317?w=800&h=400&fit=crop",
+      "https://games.evolution.com/wp-content/uploads/2023/02/mega_ball_web_imagery_600x840_2023_01.jpg",
     headerImageAlt:
-      "Boules de loterie colorées pour le jeu Mega Ball Evolution Gaming",
+      "Mega Ball d'Evolution Gaming avec machine à boules et multiplicateurs",
     rtp: "95.40%",
     volatility: "Haute",
     minBet: "0,10 €",
@@ -254,8 +254,8 @@ export const evolutionReviews: GameReview[] = [
         content:
           "Mega Ball est l'un des game shows en direct les plus créatifs d'Evolution Gaming, offrant une fusion innovante entre le bingo traditionnel, la loterie et le format de jeu télévisé. Lancé en septembre 2020, ce jeu unique propose aux joueurs d'acheter des cartes de bingo virtuelles et de regarder un tirage de boules numérotées en direct, avec la possibilité de décrocher des gains colossaux grâce au mécanisme de la Mega Ball et de ses multiplicateurs. Le jeu se déroule dans un studio futuriste conçu autour d'une machine à boules géante, créant une atmosphère spectaculaire.\n\nLe principe est élégant dans sa simplicité : chaque tour, 20 boules sont tirées d'un ensemble de 51 boules numérotées. Les joueurs détiennent des cartes de bingo de format 5x5, et chaque numéro tiré est automatiquement marqué sur toutes les cartes actives. Les gains sont attribués en fonction du nombre de lignes complétées. Mais c'est la 21e boule, la fameuse Mega Ball, qui rend le jeu vraiment spécial. Tirée séparément avec un multiplicateur pouvant atteindre 100x, cette boule bonus peut transformer une session ordinaire en un moment inoubliable. L'accessibilité du jeu est remarquable avec une mise minimum de seulement 0,10 € par carte.",
         image:
-          "https://images.unsplash.com/photo-1609902726285-00668009f004?w=600&h=300&fit=crop",
-        imageAlt: "Machine à boules du jeu Mega Ball en studio",
+          "https://games.evolution.com/wp-content/uploads/2023/03/mega-ball-logo.svg",
+        imageAlt: "Logo officiel Mega Ball d'Evolution Gaming",
       },
       {
         heading: "Règles et Mécaniques de Jeu",
@@ -267,8 +267,8 @@ export const evolutionReviews: GameReview[] = [
         content:
           "La question stratégique principale à Mega Ball est le nombre de cartes à acheter par tour. Avec la possibilité d'acquérir jusqu'à 200 cartes, les joueurs font face à un choix qui influence directement leur expérience de jeu. Acheter plus de cartes augmente mécaniquement vos chances de compléter des lignes et de bénéficier de la Mega Ball, mais cela augmente proportionnellement votre mise totale par tour. Il n'y a pas d'avantage mathématique à acheter plus ou moins de cartes, car le RTP reste constant quel que soit le nombre.\n\nPour les débutants, nous recommandons de commencer avec 5 à 10 cartes pour comprendre le fonctionnement du jeu sans risquer un budget trop important. Les joueurs intermédiaires optent souvent pour 20 à 50 cartes, offrant un bon équilibre entre couverture et coût. Les joueurs expérimentés en quête de grosses émotions peuvent aller jusqu'à 100 ou 200 cartes, maximisant leurs chances de bénéficier du multiplicateur Mega Ball sur plusieurs lignes simultanées. Quelle que soit votre approche, la règle d'or reste la même : ne misez jamais plus que ce que vous pouvez vous permettre de perdre. Fixez un budget strict pour votre session et ajustez le nombre de cartes en conséquence pour pouvoir jouer un nombre suffisant de tours.",
         image:
-          "https://images.unsplash.com/photo-1570698473651-b2de99bae12f?w=600&h=300&fit=crop",
-        imageAlt: "Cartes de bingo virtuelles dans le jeu Mega Ball",
+          "https://games.evolution.com/wp-content/uploads/2023/02/mega_ball_web_imagery_1000x563_2023_01.jpg",
+        imageAlt: "Studio Mega Ball avec machine à boules et interface de jeu en direct",
       },
       {
         heading: "Expérience en Direct et Qualité de Production",
@@ -336,9 +336,9 @@ export const evolutionReviews: GameReview[] = [
     excerpt:
       "Dream Catcher est la roue de la fortune en direct qui a lancé l'ère des game shows au casino. Simplicité, divertissement et gains jusqu'à 40x. Notre avis complet.",
     headerImage:
-      "https://images.unsplash.com/photo-1541278107931-e006523892df?w=800&h=400&fit=crop",
+      "https://games.evolution.com/wp-content/uploads/2023/04/dream_catcher_thumbnail_600x840_2023_03.jpg",
     headerImageAlt:
-      "Grande roue de la fortune Dream Catcher Evolution Gaming",
+      "Dream Catcher d'Evolution Gaming avec roue de la fortune en direct",
     rtp: "96.58%",
     volatility: "Faible-Moyenne",
     minBet: "0,10 €",
@@ -362,8 +362,8 @@ export const evolutionReviews: GameReview[] = [
         content:
           "Dream Catcher occupe une place historique dans l'univers du casino en ligne : c'est le tout premier game show en direct créé par Evolution Gaming, lancé en juin 2017. Ce jeu pionnier a ouvert la voie à tous les game shows qui ont suivi, de Crazy Time à Monopoly Live en passant par Lightning Roulette. Basé sur le concept classique de la roue de la fortune, Dream Catcher séduit par sa simplicité désarmante et son accessibilité universelle. Il suffit de miser sur un numéro et d'espérer que la roue s'arrête dessus. C'est tout. Pas de règles complexes, pas de stratégies élaborées, juste du pur divertissement.\n\nLa roue géante de Dream Catcher est divisée en 54 segments portant les valeurs 1, 2, 5, 10, 20 et 40, ainsi que deux segments spéciaux multiplicateurs (2x et 7x). Le studio est élégant et sobre comparé aux productions plus récentes d'Evolution, avec un décor doré et chaleureux qui évoque les émissions de jeux télévisés classiques. Les présentateurs, toujours souriants et énergiques, sont le cœur du jeu. Ils font tourner physiquement la roue, commentent les résultats avec enthousiasme et interagissent constamment avec les joueurs via le chat. Cette dimension humaine fait tout le charme de Dream Catcher et explique sa longévité dans un marché de plus en plus compétitif.",
         image:
-          "https://images.unsplash.com/photo-1609902726285-00668009f004?w=600&h=300&fit=crop",
-        imageAlt: "Studio Dream Catcher avec roue de la fortune en direct",
+          "https://games.evolution.com/wp-content/uploads/2023/03/dream-catcher-logo.svg",
+        imageAlt: "Logo officiel Dream Catcher d'Evolution Gaming",
       },
       {
         heading: "Règles et Fonctionnement",
@@ -375,8 +375,8 @@ export const evolutionReviews: GameReview[] = [
         content:
           "Bien que Dream Catcher soit un jeu de pur hasard sans stratégie mathématiquement optimale, il existe différentes approches de mise que les joueurs adoptent en fonction de leur style. La stratégie la plus conservatrice consiste à miser principalement sur les segments 1 et 2, qui représentent ensemble 38 segments sur 54 (soit environ 70% de la roue). Cette approche génère des gains fréquents mais modestes, prolongeant considérablement la durée de votre session de jeu. C'est l'approche recommandée pour les joueurs qui recherchent avant tout le divertissement.\n\nÀ l'opposé, certains joueurs audacieux misent exclusivement sur les segments à haute valeur comme le 20 et le 40. Le segment 40, avec une seule occurrence sur la roue, offre un gain de 40:1 mais n'a que 1,85% de chances d'apparaître à chaque tour. Cette approche est très volatile et peut rapidement épuiser votre budget. Une stratégie intermédiaire populaire consiste à couvrir plusieurs segments avec des mises pondérées : par exemple, 50% sur le 1, 25% sur le 2, 15% sur le 5 et 10% sur le 10. Cela offre un bon équilibre entre fréquence de gains et potentiel de profit. Quelle que soit votre approche, n'oubliez jamais que le RTP du jeu est de 96,58%, ce qui signifie que le casino conserve un avantage à long terme. Jouez pour le plaisir avant tout.",
         image:
-          "https://images.unsplash.com/photo-1570698473651-b2de99bae12f?w=600&h=300&fit=crop",
-        imageAlt: "Stratégie de mise pour Dream Catcher",
+          "https://games.evolution.com/wp-content/uploads/2023/04/dream_catcher_thumbnail_1000x563_2023_03.jpg",
+        imageAlt: "Studio Dream Catcher avec roue de la fortune et presentateur en direct",
       },
       {
         heading: "L'Héritage de Dream Catcher dans le Casino en Direct",
@@ -442,9 +442,9 @@ export const evolutionReviews: GameReview[] = [
     excerpt:
       "Monopoly Live fusionne le célèbre jeu de société avec un game show en direct. Jeu bonus 3D Mr. Monopoly, multiplicateurs massifs et fun garanti. Notre avis complet.",
     headerImage:
-      "https://images.unsplash.com/photo-1606167668584-78701c57f13d?w=800&h=400&fit=crop",
+      "https://games.evolution.com/wp-content/uploads/2026/02/monopoly_live_thumbnail_600x840_2026_01.jpg",
     headerImageAlt:
-      "Plateau de jeu Monopoly Live Evolution Gaming en direct",
+      "Monopoly Live d'Evolution Gaming avec Mr. Monopoly et roue en direct",
     rtp: "96.23%",
     volatility: "Haute",
     minBet: "0,10 €",
@@ -468,8 +468,8 @@ export const evolutionReviews: GameReview[] = [
         content:
           "Monopoly Live est né d'une collaboration audacieuse entre Evolution Gaming et Hasbro, le propriétaire de la marque Monopoly. Lancé en avril 2019, ce game show en direct réussit l'exploit de transposer l'esprit du jeu de société le plus célèbre au monde dans un format de casino en direct interactif et spectaculaire. Le jeu combine une roue de la fortune semblable à Dream Catcher avec un plateau de Monopoly 3D en réalité augmentée, créant une expérience de jeu véritablement unique dans l'industrie.\n\nLe studio de Monopoly Live est un décor impressionnant qui évoque l'univers coloré du Monopoly. Au centre trône une grande roue divisée en 54 segments comprenant des numéros (1, 2, 5 et 10), des segments Chance et les précieux segments bonus (2 Rolls et 4 Rolls). Mais la véritable star du jeu est Mr. Monopoly lui-même, qui apparaît en réalité augmentée dans le studio. Ce personnage animé en 3D interagit avec le présentateur en direct, dort dans son fauteuil en attendant le bonus, et prend vie de manière spectaculaire lorsque le jeu bonus est déclenché. L'intégration de la réalité augmentée dans un environnement de casino en direct était une première lors du lancement et reste impressionnante aujourd'hui.",
         image:
-          "https://images.unsplash.com/photo-1609902726285-00668009f004?w=600&h=300&fit=crop",
-        imageAlt: "Studio Monopoly Live avec roue et Mr. Monopoly en AR",
+          "https://games.evolution.com/wp-content/uploads/2023/03/monopoly-live-game-logo.png",
+        imageAlt: "Logo officiel Monopoly Live d'Evolution Gaming",
       },
       {
         heading: "Le Jeu Bonus Monopoly : 2 Rolls et 4 Rolls",
@@ -481,8 +481,8 @@ export const evolutionReviews: GameReview[] = [
         content:
           "La roue principale de Monopoly Live contient 54 segments répartis comme suit : 22 segments portant le numéro 1, 15 segments numéro 2, 7 segments numéro 5, 4 segments numéro 10, 3 segments 2 Rolls, 1 segment 4 Rolls et 4 segments Chance. Le fonctionnement des segments numérotés est identique à Dream Catcher : si vous avez misé sur le numéro correspondant, votre mise est multipliée par cette valeur. Les segments 2 Rolls et 4 Rolls déclenchent le jeu bonus décrit précédemment.\n\nLes segments Chance sont une particularité intéressante de Monopoly Live. Lorsque la roue s'arrête sur Chance, une carte est piochée virtuellement. Cette carte peut révéler soit un gain en cash immédiat appliqué à toutes les mises actives, soit un multiplicateur qui s'appliquera au prochain tour de roue. Ce multiplicateur Chance fonctionne de manière similaire aux multiplicateurs de Dream Catcher : toutes les mises restent en place et la roue est relancée avec les gains potentiellement multipliés. Lorsqu'un multiplicateur Chance précède un segment bonus 2 Rolls ou 4 Rolls, les gains du jeu bonus sont multipliés en conséquence, créant des combinaisons potentiellement explosives. C'est ce mécanisme qui permet d'atteindre les gains les plus élevés du jeu.",
         image:
-          "https://images.unsplash.com/photo-1570698473651-b2de99bae12f?w=600&h=300&fit=crop",
-        imageAlt: "Segments de la roue Monopoly Live avec Chance",
+          "https://games.evolution.com/wp-content/uploads/2026/02/monopoly_live_thumbnails_1000x563_2026_01-400x225.jpg",
+        imageAlt: "Studio Monopoly Live avec roue de la fortune et segments Chance",
       },
       {
         heading: "Stratégies et Approches de Mise",

@@ -9,9 +9,9 @@ export const playngoReviews: GameReview[] = [
     excerpt:
       "Explorez les tombeaux de l'Egypte ancienne avec Rich Wilde dans Book of Dead, la machine a sous culte de Play'n GO offrant un RTP de 96,21% et des tours gratuits avec symbole extensible.",
     headerImage:
-      "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=800&h=400&fit=crop",
     headerImageAlt:
-      "Ambiance de jeu de casino avec des lumieres colorees evoquant l'univers de Book of Dead",
+      "Pyramide egyptienne evoquant l'univers de l'Egypte ancienne de Book of Dead",
     rtp: "96,21%",
     volatility: "Haute",
     minBet: "0,01 €",
@@ -34,9 +34,9 @@ export const playngoReviews: GameReview[] = [
         content:
           "Book of Dead est sans conteste l'une des machines a sous les plus emblematiques jamais creees par Play'n GO. Lancee en janvier 2016, cette slot video a rapidement conquis le coeur des joueurs francophones et internationaux grace a son theme captivant inspire de l'Egypte ancienne et de la mythologie egyptienne. Le personnage principal, Rich Wilde, est un aventurier intrepide qui rappelle les grands explorateurs de tombeaux, et il est devenu une veritable icone dans l'univers des jeux de casino en ligne.\n\nLa machine a sous propose une grille classique de 5 rouleaux et 3 rangees avec 10 lignes de paiement ajustables. Bien que le nombre de lignes soit relativement modeste compare aux slots modernes, c'est precisement cette simplicite qui fait une partie du charme de Book of Dead. Les symboles sont riches en details : on retrouve les classiques cartes a jouer stylisees (10, J, Q, K, A) ainsi que des symboles thematiques de haute valeur comme Anubis, Osiris, un scarabee dore et bien sur Rich Wilde lui-meme, qui est le symbole le plus remunerateur du jeu.\n\nL'ambiance sonore et visuelle est parfaitement maitrisee. Les graphismes sont detailles avec des hieroglyphes, des colonnes de temple et une palette de couleurs chaudes dominee par les ors et les ocres. La bande-son mystique accompagne parfaitement chaque rotation, creant une atmosphere immersive qui transporte le joueur au coeur des pyramides. Meme apres plusieurs annees, la qualite visuelle reste tout a fait honorable et le jeu tourne parfaitement sur tous les appareils, qu'il s'agisse d'un ordinateur de bureau, d'une tablette ou d'un smartphone.",
         image:
-          "https://images.unsplash.com/photo-1541278107931-e006523892df?w=600&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1568322445389-f64ac2515020?w=600&h=300&fit=crop",
         imageAlt:
-          "Jetons et elements de casino evoquant les gains potentiels de Book of Dead",
+          "Temple egyptien et pharaon evoquant l'univers mythique de Book of Dead",
       },
       {
         heading: "Mecaniques de jeu et fonctionnalites bonus",
@@ -48,9 +48,9 @@ export const playngoReviews: GameReview[] = [
         content:
           "Avec un RTP (taux de retour au joueur) de 96,21%, Book of Dead se situe dans la moyenne haute des machines a sous en ligne. Ce pourcentage signifie qu'en theorie, pour chaque 100 € mises, le jeu redistribue 96,21 € aux joueurs sur le long terme. Bien entendu, il s'agit d'une valeur statistique calculee sur des millions de rotations, et l'experience individuelle peut varier considerablement d'une session a l'autre.\n\nLa volatilite elevee de Book of Dead est un element crucial a comprendre avant de commencer a jouer. Contrairement aux slots a faible volatilite qui offrent des gains frequents mais modestes, Book of Dead privilegie les paiements rares mais potentiellement tres importants. Cela signifie que votre bankroll peut subir des fluctuations significatives, et il est essentiel d'adapter votre strategie de mise en consequence. Nous recommandons aux joueurs de prevoir un budget suffisant pour absorber les periodes seches tout en restant dans les limites du jeu responsable.\n\nLe gain maximum de 5 000x la mise est atteint lorsque le symbole Rich Wilde est selectionne comme symbole expansif pendant les tours gratuits et qu'il apparait sur les cinq rouleaux simultanement. Bien que cette situation soit extremement rare, elle represente le reve de tout joueur de Book of Dead. En pratique, des gains de 100x a 500x la mise sont plus frequents lors de bonnes sessions de tours gratuits, ce qui reste neanmoins tres attractif.",
         image:
-          "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=600&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1596838132731-3301c3fd4317?w=600&h=300&fit=crop",
         imageAlt:
-          "Atmosphere de casino avec des lumieres vives symbolisant les gains potentiels",
+          "Table de casino avec jetons evoquant les gains potentiels de Book of Dead",
       },
       {
         heading: "Compatibilite mobile et experience utilisateur",
@@ -119,9 +119,9 @@ export const playngoReviews: GameReview[] = [
     excerpt:
       "Decouvrez Reactoonz, la slot innovante en cluster de Play'n GO avec ses creatures extraterrestres adorables, un RTP de 96,51% et des mecaniques en cascade uniques.",
     headerImage:
-      "https://images.unsplash.com/photo-1596838132731-3301c3fd4317?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&h=400&fit=crop",
     headerImageAlt:
-      "Lumieres neon colorees rappelant l'univers fun et energique de Reactoonz",
+      "Nebuleuse spatiale coloree evoquant l'univers extraterrestre de Reactoonz",
     rtp: "96,51%",
     volatility: "Haute",
     minBet: "0,20 €",
@@ -145,9 +145,9 @@ export const playngoReviews: GameReview[] = [
         content:
           "Reactoonz est une machine a sous veritablement unique dans le catalogue de Play'n GO, et elle se distingue radicalement des slots traditionnelles par son format de grille 7x7 et son systeme de paiement par clusters. Lancee en octobre 2017, cette slot a immediatement suscite l'enthousiasme des joueurs grace a son concept original, ses graphismes colores et son potentiel de gains impressionnant.\n\nContrairement aux machines a sous classiques avec des rouleaux qui tournent, Reactoonz utilise un systeme de chute (cascade) ou les symboles tombent du haut de la grille et remplissent les positions disponibles. Les gains sont obtenus lorsque cinq symboles identiques ou plus sont connectes horizontalement ou verticalement, formant ce qu'on appelle un cluster. Ce systeme Cluster Pays offre une dynamique de jeu radicalement differente et beaucoup plus imprevue que les lignes de paiement traditionnelles.\n\nLes symboles du jeu sont des creatures extraterrestres adorables et colorees, chacune avec une personnalite distincte et des animations amusantes. On trouve des aliens a un oeil de differentes couleurs (rose, vert, bleu, jaune, rouge) ainsi que des symboles de faible valeur representant des formes geometriques simples. Le design est volontairement cartoonesque et accessible, creant une atmosphere legere et divertissante qui contraste agreablement avec les themes plus serieux de nombreuses autres slots.\n\nL'univers sonore de Reactoonz contribue enormement a l'experience de jeu. La musique de fond electronique est entrainante sans etre envahissante, et chaque cascade de gains est accompagnee d'effets sonores satisfaisants. Les petites creatures reagissent de maniere amusante aux evenements du jeu, ajoutant une touche d'humour bienvenue.",
         image:
-          "https://images.unsplash.com/photo-1541278107931-e006523892df?w=600&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=300&fit=crop",
         imageAlt:
-          "Ambiance de jeu avec des couleurs vives evoquant l'univers colore de Reactoonz",
+          "Vue spatiale avec lumieres cosmiques evoquant l'univers extraterrestre de Reactoonz",
       },
       {
         heading: "Mecaniques de cascade et fonctionnalites Quantum",
@@ -159,9 +159,9 @@ export const playngoReviews: GameReview[] = [
         content:
           "Reactoonz affiche un RTP de 96,51%, ce qui le place legerement au-dessus de la moyenne de l'industrie des machines a sous en ligne. Ce taux de retour au joueur est tout a fait appreciable et indique un jeu equilibre du point de vue statistique. Cependant, il est important de rappeler que ce chiffre est calcule sur des milliards de rotations et ne garantit aucun resultat individuel.\n\nLa volatilite de Reactoonz est classee comme haute, ce qui signifie que les gains sont distribues de maniere irreguliere. Vous pouvez connaitre de longues sequences sans gains significatifs, suivies de cascades explosives qui peuvent multiplier votre mise de maniere spectaculaire. Le gain maximum theorique est de 4 570 fois votre mise, un montant atteint grace a l'activation du Gargantoon combine avec des cascades multiples favorables.\n\nEn pratique, les bonnes sessions de Reactoonz se caracterisent par des series de cascades ou les gains s'accumulent rotation apres rotation. Les fonctionnalites Quantum ajoutent une couche de variabilite supplementaire, car chacune d'entre elles peut transformer une situation mediocre en un tour tres rentable. La distribution des gains est fortement concentree sur les tours ou les fonctionnalites speciales s'activent, rendant ces moments particulierement gratifiants.\n\nPour gerer efficacement votre bankroll sur Reactoonz, nous recommandons de prevoir un budget d'au moins 250 a 350 rotations. La mise minimale de 0,20 € rend le jeu accessible, mais la volatilite elevee exige une certaine patience et une discipline financiere rigoureuse.",
         image:
-          "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=600&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&h=300&fit=crop",
         imageAlt:
-          "Scene de casino avec eclairages evoquant les gains en cascade de Reactoonz",
+          "Ambiance gaming avec neons evoquant le gameplay dynamique de Reactoonz",
       },
       {
         heading: "Experience mobile et qualite graphique",
@@ -228,9 +228,9 @@ export const playngoReviews: GameReview[] = [
     excerpt:
       "Plongez dans l'univers enchante de Moon Princess, la machine a sous inspiree des magical girls avec un RTP de 96,50%, une grille 5x5 et des pouvoirs speciaux devastateurs.",
     headerImage:
-      "https://images.unsplash.com/photo-1574027542338-98e75acfd385?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1532693322450-2cb5c511067d?w=800&h=400&fit=crop",
     headerImageAlt:
-      "Ambiance magique et feerique evoquant l'univers enchante de Moon Princess",
+      "Pleine lune majestueuse evoquant l'univers enchante de Moon Princess",
     rtp: "96,50%",
     volatility: "Haute",
     minBet: "0,20 €",
@@ -254,9 +254,9 @@ export const playngoReviews: GameReview[] = [
         content:
           "Moon Princess est une machine a sous fascinante de Play'n GO qui rend un hommage non dissimule a l'univers des magical girls, un genre extremement populaire dans la culture japonaise. Lancee en novembre 2017, cette slot a immediatement captive les joueurs grace a son esthetique manga raffinee, ses mecaniques de jeu innovantes et ses trois heroines aux pouvoirs uniques : Love, Star et Storm.\n\nLe jeu utilise une grille de 5x5 cases avec un systeme de paiement par clusters, ou les gains sont formes lorsque trois symboles identiques ou plus sont alignes horizontalement ou verticalement. Cette structure, combinee au mecanisme de cascades (les symboles gagnants disparaissent et sont remplaces par de nouveaux), cree un gameplay dynamique et riche en surprises. Chaque rotation peut potentiellement declencher une serie de cascades successives, chacune augmentant le multiplicateur de gains.\n\nL'univers visuel de Moon Princess est absolument somptueux. Les trois princesses sont magnifiquement illustrees dans un style anime detaille, et chacune possede sa propre palette de couleurs et son propre element : Love (rose, coeur), Star (bleu, etoile) et Storm (vert, foudre). L'arriere-plan represente un paysage celeste onirique avec une lune majestueuse, et les animations sont fluides et spectaculaires, particulierement lors de l'activation des pouvoirs speciaux.\n\nLa bande-son de Moon Princess merite une mention speciale. La musique de fond est une melodie pop japonaise entrainante qui evolue en fonction des evenements du jeu. Lors des activations de pouvoirs et des tours gratuits, la musique s'intensifie de maniere dramatique, creant des moments d'excitation palpable qui contribuent enormement a l'immersion du joueur.",
         image:
-          "https://images.unsplash.com/photo-1541278107931-e006523892df?w=600&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=600&h=300&fit=crop",
         imageAlt:
-          "Elements de jeu colores evoquant l'esthetique magique de Moon Princess",
+          "Ciel nocturne etoile evoquant l'univers celeste de Moon Princess",
       },
       {
         heading: "Les pouvoirs des trois princesses",
@@ -268,9 +268,9 @@ export const playngoReviews: GameReview[] = [
         content:
           "La fonctionnalite de tours gratuits de Moon Princess est declenchee lorsque le joueur parvient a vider completement la grille 5x5 (Clear the Grid). C'est un evenement relativement rare mais extremement gratifiant, rendu possible grace aux cascades successives et aux interventions des princesses. Lorsque la grille est entierement videe, le joueur peut choisir l'une des trois princesses pour ses tours gratuits, chacune offrant un equilibre different entre le nombre de tours et la puissance du multiplicateur.\n\nLove offre 4 tours gratuits avec un multiplicateur commencant a x3. Star propose 3 tours gratuits avec un multiplicateur debutant a x4. Storm accorde 8 tours gratuits avec un multiplicateur initial de x2. Chaque option a ses avantages : Love et Star offrent des multiplicateurs plus eleves des le depart, tandis que Storm donne plus de tours pour accumuler des cascades.\n\nPendant les tours gratuits, le multiplicateur augmente de x1 a chaque cascade reussie, sans limite superieure theorique, bien que le multiplicateur maximum pratiquement atteignable soit d'environ x20. C'est cette combinaison de cascades multiples et de multiplicateurs croissants qui permet d'atteindre le gain maximum de 5 000 fois la mise. Les pouvoirs des princesses restent actifs pendant les tours gratuits, multipliant les opportunites de cascades consecutives.\n\nEn dehors des tours gratuits, le jeu de base dispose egalement d'un multiplicateur qui augmente a chaque cascade consecutive. Ce multiplicateur se reinitialise a chaque nouvelle rotation, mais il peut neanmoins atteindre des valeurs significatives lors de longues series de cascades, rendant le jeu de base lui-meme potentiellement tres lucratif.",
         image:
-          "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=600&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1606167668584-78701c57f13d?w=600&h=300&fit=crop",
         imageAlt:
-          "Lumieres et ambiance de casino evoquant les tours gratuits de Moon Princess",
+          "Ambiance de casino avec lumieres evoquant les tours gratuits de Moon Princess",
       },
       {
         heading: "Analyse technique et performances",
@@ -335,9 +335,9 @@ export const playngoReviews: GameReview[] = [
     excerpt:
       "Decouvrez Legacy of Dead, le successeur spirituel de Book of Dead avec un RTP de 96,58%, des tours gratuits ameliores et un systeme de symboles expansifs cumules.",
     headerImage:
-      "https://images.unsplash.com/photo-1606167668584-78701c57f13d?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1553913861-c0fddf2619ee?w=800&h=400&fit=crop",
     headerImageAlt:
-      "Eclairages dores et ambiance mystique evoquant l'Egypte ancienne de Legacy of Dead",
+      "Ruines de l'Egypte ancienne evoquant l'univers mystique de Legacy of Dead",
     rtp: "96,58%",
     volatility: "Haute",
     minBet: "0,01 €",
@@ -360,9 +360,9 @@ export const playngoReviews: GameReview[] = [
         content:
           "Legacy of Dead est une machine a sous de Play'n GO lancee en avril 2020, et elle s'inscrit clairement dans la lignee des jeux de type 'Book of'. Si vous avez deja joue a Book of Dead, vous retrouverez ici une structure familiere avec 5 rouleaux, 3 rangees et 10 lignes de paiement. Cependant, Legacy of Dead apporte une amelioration significative qui le distingue de son predecesseur et en fait un jeu veritablement unique dans son genre.\n\nLe theme est une nouvelle fois inspire de l'Egypte ancienne, mais avec une approche visuelle differente. La protagoniste est une pretresse egyptienne qui remplace l'aventurier Rich Wilde. Les symboles incluent les traditionnelles cartes a jouer (A, K, Q, J, 10) pour les valeurs basses, ainsi que des symboles thematiques representant Anubis, le pharaon, un scarabee sacre et la pretresse elle-meme. Le symbole du Livre sacre agit a la fois comme Wild et Scatter, fidele a la tradition des slots de type 'Book of'.\n\nLes graphismes de Legacy of Dead sont superieurs a ceux de Book of Dead, ce qui est logique etant donne les quatre annees de difference entre les deux sorties. Les couleurs sont riches et profondes, avec une dominante de bleu nuit et de dore qui confere au jeu une atmosphere plus mystique et elegante que son predecesseur. Les animations sont fluides et les effets visuels lors des tours gratuits sont particulierement reussis, avec des eclairs d'energie dorée qui accompagnent l'expansion des symboles speciaux.\n\nLa bande-son est atmospherique et immersive, melangeant des sonorités orientales avec des elements electroniques subtils. Elle s'intensifie de maniere appropriee lors des moments de tension, comme le decompte des Scatter ou l'activation des tours gratuits, contribuant a creer une experience de jeu captivante.",
         image:
-          "https://images.unsplash.com/photo-1541278107931-e006523892df?w=600&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=600&h=300&fit=crop",
         imageAlt:
-          "Jetons et ambiance de casino evoquant les richesses de l'Egypte ancienne",
+          "Pyramide egyptienne evoquant les richesses de l'Egypte ancienne de Legacy of Dead",
       },
       {
         heading: "La fonctionnalite de symboles expansifs cumules",
@@ -374,9 +374,9 @@ export const playngoReviews: GameReview[] = [
         content:
           "Legacy of Dead affiche un RTP de 96,58%, ce qui est legerement superieur a celui de Book of Dead (96,21%). Cette difference peut sembler minime, mais sur des milliers de rotations, elle se traduit par un avantage supplementaire en faveur du joueur. Ce taux de retour place Legacy of Dead parmi les meilleures machines a sous de type 'Book of' en termes de redistribution.\n\nLa volatilite reste elevee, conformement a la tradition du genre. Le gain maximum est de 5 000 fois la mise, identique a celui de Book of Dead. Cependant, le chemin pour atteindre ce gain maximum est potentiellement plus accessible grace au systeme de symboles expansifs cumules. Avec deux ou trois symboles expansifs actifs, les gains intermediaires de 500x a 2 000x la mise deviennent plus probables, offrant une distribution de gains legerement plus favorable que dans Book of Dead.\n\nLa structure des paiements suit la hierarchie classique des slots de type 'Book of'. La pretresse est le symbole le plus remunerateur, suivi d'Anubis, du pharaon et du scarabee. Cinq symboles pretresse sur une ligne de paiement active rapportent 5 000 fois la mise par ligne, ce qui constitue le paiement maximum du jeu de base. Pendant les tours gratuits, ce paiement est multiplie par la possibilite d'avoir le symbole pretresse comme symbole expansif, couvrant potentiellement les cinq rouleaux.\n\nPour une gestion optimale de votre bankroll, nous recommandons de prevoir un minimum de 250 rotations a votre mise preferee. La volatilite elevee exige de la patience, mais le RTP avantageux et les symboles expansifs cumules offrent un potentiel de recuperation superieur a la moyenne des slots de cette categorie.",
         image:
-          "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=600&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1570698473651-b2de99bae12f?w=600&h=300&fit=crop",
         imageAlt:
-          "Jetons dores symbolisant le potentiel de gains eleve de Legacy of Dead",
+          "Ambiance de casino evoquant le potentiel de gains eleve de Legacy of Dead",
       },
       {
         heading: "Comparaison avec Book of Dead",
@@ -445,9 +445,9 @@ export const playngoReviews: GameReview[] = [
     excerpt:
       "Affrontez les dieux grecs dans Rise of Olympus, la machine a sous epique de Play'n GO avec Zeus, Poseidon et Hades, un RTP de 96,50% et un potentiel de gain de 5 000x.",
     headerImage:
-      "https://images.unsplash.com/photo-1570698473651-b2de99bae12f?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1603565816030-6b389eeb23cb?w=800&h=400&fit=crop",
     headerImageAlt:
-      "Ciel dramatique avec eclairs evoquant la puissance des dieux de l'Olympe",
+      "Temple grec majestueux evoquant la puissance des dieux de l'Olympe",
     rtp: "96,50%",
     volatility: "Haute",
     minBet: "0,20 €",
@@ -471,9 +471,9 @@ export const playngoReviews: GameReview[] = [
         content:
           "Rise of Olympus est une machine a sous spectaculaire de Play'n GO qui transporte les joueurs au coeur de la mythologie grecque, aux pieds du mont Olympe ou regnent trois dieux tout-puissants : Zeus, Poseidon et Hades. Lancee en aout 2018, cette slot a rapidement ete reconnue comme l'une des meilleures creations du developpeur, et elle partage la meme structure de base que Moon Princess tout en proposant un theme radicalement different et une atmosphere beaucoup plus epique.\n\nLe jeu utilise une grille de 5x5 avec un systeme de paiement par clusters, ou les gains sont formes lorsque trois symboles identiques ou plus sont connectes horizontalement ou verticalement. Le mecanisme de cascades est present : les symboles gagnants disparaissent et de nouveaux tombent pour les remplacer, permettant des enchainements de gains successifs au sein d'une meme rotation. Un multiplicateur progressif accompagne chaque cascade, augmentant de x1 a chaque gain consecutif.\n\nL'univers visuel de Rise of Olympus est veritablement majestueux. L'arriere-plan represente un temple grec somptueux avec des colonnes de marbre et un ciel orageux, creant une ambiance de puissance divine impressionnante. Les trois dieux sont magnifiquement illustres dans un style heroique detaille : Zeus avec ses eclairs, Poseidon avec son trident et Hades avec ses flammes infernales. Les symboles du jeu incluent des representations des dieux pour les hautes valeurs et des artefacts mythologiques (harpe, casque, eclair, trident, heaume) pour les valeurs intermediaires.\n\nLa bande-son est absolument grandiose, avec une musique orchestrale epique qui monte en intensite lors des cascades et des activations de pouvoirs divins. Les effets sonores sont percutants : les eclairs de Zeus creptent, les vagues de Poseidon rugissent et les flammes d'Hades craquelent. Cette attention portee au design sonore contribue enormement a l'immersion et fait de chaque session de jeu une experience cinematographique.",
         image:
-          "https://images.unsplash.com/photo-1541278107931-e006523892df?w=600&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1555993539-1732b0258235?w=600&h=300&fit=crop",
         imageAlt:
-          "Elements de jeu imposants evoquant la grandeur de la mythologie grecque",
+          "Paysage grec avec colonnes antiques evoquant la grandeur de la mythologie grecque",
       },
       {
         heading: "Les pouvoirs divins des trois dieux",
@@ -485,9 +485,9 @@ export const playngoReviews: GameReview[] = [
         content:
           "La fonctionnalite de tours gratuits de Rise of Olympus, baptisee 'Hand of God' (Main de Dieu), est declenchee lorsque le joueur parvient a vider completement la grille 5x5. Comme dans Moon Princess, cet evenement est le resultat de cascades successives aidees par les pouvoirs divins. Lorsque la grille est videe, le joueur choisit l'un des trois dieux pour determiner le type de tours gratuits.\n\nHades offre 4 tours gratuits avec un pouvoir special qui transforme tous les symboles d'un type en un autre avant chaque tour gratuit. Poseidon propose 5 tours gratuits avec l'ajout d'un a deux Wilds supplementaires avant chaque tour. Zeus accorde 8 tours gratuits avec la destruction de deux types de symboles avant chaque tour. Chaque option presente un equilibre different entre frequence d'action et potentiel de gains.\n\nPendant les tours gratuits, le multiplicateur progressif continue d'augmenter a chaque cascade consecutive, sans reinitialisation entre les tours. Cela signifie que si vous enchainez des cascades favorables au debut de vos tours gratuits, le multiplicateur peut atteindre des valeurs tres elevees pour les tours restants, demultipliant ainsi chaque gain subsequant. Le multiplicateur maximum pratique est d'environ x20, bien qu'il puisse theoriquement monter plus haut.\n\nLe potentiel de gain maximum de 5 000 fois la mise est generalement atteint grace a une combinaison de tours gratuits prolonges, de cascades multiples et d'un multiplicateur eleve. Les sessions les plus memorables sont celles ou le pouvoir du dieu choisi s'active parfaitement tour apres tour, creant des enchainements de gains qui font monter le multiplicateur de maniere spectaculaire.\n\nIl est egalement possible de redeclencher les tours gratuits pendant la fonctionnalite Hand of God si la grille est a nouveau completement videe, ajoutant des tours supplementaires a la session en cours. Cet evenement est rare mais represente la situation ideale pour les gains les plus eleves.",
         image:
-          "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=600&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=300&fit=crop",
         imageAlt:
-          "Lumieres dorées et spectaculaires evoquant les tours gratuits divins",
+          "Ambiance gaming evoquant les tours gratuits epiques de Rise of Olympus",
       },
       {
         heading: "Analyse du RTP et strategies de jeu",

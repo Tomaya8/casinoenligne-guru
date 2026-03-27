@@ -7,7 +7,7 @@ export const netentReviews: GameReview[] = [
     name: "Starburst",
     title: "Starburst — Avis, RTP et Guide Complet",
     excerpt: "Découvrez notre avis complet sur Starburst de NetEnt : RTP de 96.09%, fonctionnalités, gains potentiels et conseils pour maximiser vos chances.",
-    headerImage: "https://images.unsplash.com/photo-1596838132731-3301c3fd4317?w=800&h=400&fit=crop",
+    headerImage: "https://fan-cdn.nolimitcity.com/starburst_ne_fansite_splashpost_2560x820_72f766d837.jpg",
     headerImageAlt: "Machine à sous Starburst de NetEnt avec ses gemmes colorées et effets lumineux",
     rtp: "96.09%",
     volatility: "Basse",
@@ -29,14 +29,14 @@ export const netentReviews: GameReview[] = [
       {
         heading: "Présentation de Starburst",
         content: "Starburst est sans doute la machine à sous la plus emblématique jamais créée par NetEnt. Lancée en 2012, elle est rapidement devenue un incontournable des casinos en ligne grâce à son gameplay simple mais addictif. Avec ses gemmes scintillantes et son ambiance cosmique, cette slot attire aussi bien les débutants que les joueurs expérimentés. Le jeu se déroule sur une grille de 5 rouleaux et 3 rangées, avec 10 lignes de paiement fixes qui fonctionnent dans les deux sens, de gauche à droite et de droite à gauche, ce qui double vos opportunités de gains à chaque tour.\n\nLe thème spatial de Starburst est immédiatement reconnaissable. Les symboles sont composés de gemmes aux couleurs vives — violet, bleu, orange, vert et jaune — disposées sur un fond étoilé qui évoque l'immensité de l'univers. La bande sonore électronique accompagne parfaitement l'action avec des effets sonores dynamiques qui s'intensifient lors des combinaisons gagnantes. NetEnt a misé sur un design minimaliste mais efficace, et le résultat est un jeu visuellement attrayant qui ne surcharge jamais le joueur d'informations superflues, tout en maintenant un niveau d'excitation constant.\n\nMalgré son ancienneté, Starburst reste l'une des slots les plus jouées au monde. Sa popularité s'explique par plusieurs facteurs : un RTP compétitif de 96.09%, une volatilité basse qui garantit des gains fréquents, et une mécanique de jeu intuitive qui ne nécessite aucune courbe d'apprentissage. Les casinos en ligne continuent de l'utiliser comme fer de lance pour leurs offres de tours gratuits, ce qui témoigne de son attrait durable auprès des joueurs francophones et internationaux.",
-        image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=300&fit=crop",
-        imageAlt: "Interface de jeu colorée avec des gemmes brillantes"
+        image: "https://fan-cdn.nolimitcity.com/Starburst_fansitethumb_512x512_04_09_2025_79a329f5be.png",
+        imageAlt: "Aperçu de la machine à sous Starburst de NetEnt"
       },
       {
         heading: "Fonctionnalités et mécaniques de jeu",
         content: "La fonctionnalité principale de Starburst repose sur le symbole Wild Starburst, représenté par une étoile multicolore. Ce Wild n'apparaît que sur les rouleaux 2, 3 et 4, mais lorsqu'il se manifeste, il s'étend pour couvrir l'intégralité du rouleau, offrant ainsi un potentiel de gains considérablement accru. Chaque Wild expansif déclenche automatiquement un re-spin, et si un nouveau Wild apparaît durant ce re-spin, un second re-spin est accordé. Vous pouvez obtenir jusqu'à trois re-spins consécutifs si des Wilds apparaissent sur les trois rouleaux centraux simultanément.\n\nLe système de paiement Both Ways constitue un autre atout majeur de Starburst. Contrairement à la majorité des machines à sous qui ne paient que de gauche à droite, Starburst récompense les combinaisons dans les deux directions. Cela signifie que chaque ligne de paiement offre en réalité deux chances de former une combinaison gagnante, ce qui compense largement le nombre relativement faible de 10 lignes de paiement. Cette mécanique bidirectionnelle, combinée aux Wilds expansifs, crée une dynamique de jeu où les gains modestes sont fréquents et où les moments d'excitation arrivent régulièrement.\n\nIl est important de noter que Starburst ne possède pas de fonction de tours gratuits traditionnelle ni de jeu bonus séparé. NetEnt a fait le choix délibéré de garder le gameplay épuré et centré sur la mécanique des Wilds expansifs avec re-spins. Ce minimalisme est en réalité une force : il permet aux joueurs de se concentrer sur l'essentiel sans être distraits par des fonctionnalités complexes. La vitesse de jeu est également remarquable, avec des tours qui s'enchaînent rapidement, ce qui convient parfaitement aux sessions de jeu de toute durée.",
-        image: "https://images.unsplash.com/photo-1574027542338-98e75acfd385?w=600&h=300&fit=crop",
-        imageAlt: "Symbole Wild expansif sur les rouleaux de Starburst"
+        image: "https://fan-cdn.nolimitcity.com/Starburst_star_7006c64157.png",
+        imageAlt: "Symbole Wild étoile de Starburst"
       },
       {
         heading: "RTP, volatilité et potentiel de gains",
@@ -96,7 +96,7 @@ export const netentReviews: GameReview[] = [
     name: "Gonzo's Quest",
     title: "Gonzo's Quest — Avis, RTP et Guide Complet",
     excerpt: "Avis complet sur Gonzo's Quest de NetEnt : RTP 95.97%, rouleaux en cascade, multiplicateurs croissants et guide pour maximiser vos gains.",
-    headerImage: "https://images.unsplash.com/photo-1606167668584-78701c57f13d?w=800&h=400&fit=crop",
+    headerImage: "https://fan-cdn.nolimitcity.com/gonzos_quest_ne_fansite_splashpost_2560x820px_f2768e9202.jpg",
     headerImageAlt: "Machine à sous Gonzo's Quest avec le conquistador et les temples aztèques",
     rtp: "95.97%",
     volatility: "Moyenne",
@@ -118,14 +118,14 @@ export const netentReviews: GameReview[] = [
       {
         heading: "Présentation de Gonzo's Quest",
         content: "Gonzo's Quest est une machine à sous révolutionnaire développée par NetEnt et lancée en 2011. Ce jeu a marqué un tournant dans l'histoire des slots en ligne en introduisant pour la première fois le mécanisme des rouleaux en cascade, également connu sous le nom d'Avalanche. Au lieu de rouleaux qui tournent traditionnellement, les symboles tombent en cascade depuis le haut de l'écran, et les combinaisons gagnantes disparaissent pour laisser place à de nouveaux symboles. Cette innovation a inspiré des dizaines de développeurs et reste l'une des mécaniques les plus populaires dans l'industrie.\n\nLe jeu suit les aventures de Gonzo, un conquistador espagnol qui part à la recherche de la cité perdue d'Eldorado. L'ambiance est immersive, avec des graphismes 3D détaillés représentant un temple ancien perdu dans la jungle. Gonzo lui-même est animé de manière expressive : il réagit aux résultats de chaque tour, dansant de joie lors des gains et montrant sa déception lors des tours perdants. Le design sonore complète parfaitement l'atmosphère, avec des percussions tribales et des effets de jungle qui plongent le joueur dans une véritable aventure archéologique.\n\nAvec ses 5 rouleaux, 3 rangées et 20 lignes de paiement fixes, Gonzo's Quest offre une structure de jeu classique enrichie par des fonctionnalités innovantes. La volatilité moyenne du jeu assure un équilibre satisfaisant entre fréquence des gains et potentiel de paiement, tandis que le RTP de 95.97% reste compétitif. Le gain maximum peut atteindre 2 500 fois la mise grâce aux multiplicateurs croissants, ce qui en fait une option attrayante pour les joueurs de tous niveaux.",
-        image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=300&fit=crop",
-        imageAlt: "Aventure dans un temple ancien avec des symboles en cascade"
+        image: "https://fan-cdn.nolimitcity.com/Gonzo_s_quest_fansitethumb_512x512_04_10_2025_fe4d4693f6.png",
+        imageAlt: "Aperçu de la machine à sous Gonzo's Quest de NetEnt"
       },
       {
         heading: "Le système Avalanche et les multiplicateurs",
         content: "Le cœur de Gonzo's Quest réside dans son système Avalanche, une mécanique qui a véritablement redéfini les attentes des joueurs en matière de machines à sous. À chaque tour, les symboles tombent en cascade dans la grille au lieu de tourner sur des rouleaux mécaniques. Lorsqu'une combinaison gagnante se forme, les symboles concernés explosent et disparaissent, permettant à de nouveaux symboles de tomber depuis le haut pour combler les espaces vides. Ce processus peut se répéter plusieurs fois de suite au sein d'un même tour, générant des cascades de gains consécutifs.\n\nL'aspect le plus excitant du système Avalanche est le multiplicateur croissant qui l'accompagne. Lors du jeu de base, chaque cascade successive augmente le multiplicateur : la première combinaison gagnante est payée à 1x, la deuxième à 2x, la troisième à 3x, et à partir de la quatrième cascade, le multiplicateur atteint 5x. Cela signifie qu'une série de cascades peut transformer un gain modeste en un paiement substantiel. Le multiplicateur se réinitialise au début de chaque nouveau tour, ce qui crée une tension palpitante à chaque cascade supplémentaire.\n\nDurant la fonction Free Falls (tours gratuits), les multiplicateurs sont encore plus généreux. Ils suivent la progression 3x, 6x, 9x et finalement 15x pour les cascades successives. Avec un multiplicateur maximum de 15x applicable à vos gains, le potentiel de paiement pendant les tours gratuits est considérable. C'est principalement durant cette fonctionnalité que les gains les plus importants sont réalisés, et une série chanceuse de cascades peut véritablement transformer une session ordinaire en un moment mémorable.",
-        image: "https://images.unsplash.com/photo-1574027542338-98e75acfd385?w=600&h=300&fit=crop",
-        imageAlt: "Symboles en cascade avec multiplicateurs croissants"
+        image: "https://fan-cdn.nolimitcity.com/sym0_1_5bad1eff76.png",
+        imageAlt: "Symbole en pierre de Gonzo's Quest"
       },
       {
         heading: "Tours gratuits Free Falls",
@@ -185,7 +185,7 @@ export const netentReviews: GameReview[] = [
     name: "Dead or Alive 2",
     title: "Dead or Alive 2 — Avis, RTP et Guide Complet",
     excerpt: "Notre avis détaillé sur Dead or Alive 2 de NetEnt : haute volatilité, RTP 96.82%, Sticky Wilds et un potentiel de gain explosif jusqu'à 111 111x.",
-    headerImage: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=400&fit=crop",
+    headerImage: "https://fan-cdn.nolimitcity.com/dead_or_alive_2_ne_fansite_splashpost_2560x820px_870a5e759f.jpg",
     headerImageAlt: "Machine à sous Dead or Alive 2 dans une ambiance Western avec des revolvers et du Far West",
     rtp: "96.82%",
     volatility: "Haute",
@@ -207,14 +207,14 @@ export const netentReviews: GameReview[] = [
       {
         heading: "Présentation de Dead or Alive 2",
         content: "Dead or Alive 2 est la suite très attendue du légendaire Dead or Alive original, développée par NetEnt et sortie en avril 2019. Cette machine à sous à haute volatilité a immédiatement conquis les joueurs les plus audacieux grâce à son potentiel de gain absolument phénoménal pouvant atteindre 111 111 fois la mise. Le jeu reprend le thème du Far West américain qui avait fait le succès de son prédécesseur, mais avec des graphismes modernisés et surtout trois modes de tours gratuits au lieu d'un seul, offrant une flexibilité et une profondeur stratégique inédites.\n\nLe cadre visuel de Dead or Alive 2 plonge le joueur dans l'ambiance poussiéreuse et dangereuse du Far West. Les rouleaux sont encadrés par des planches de bois vieilli, et l'arrière-plan représente un paysage désertique avec des montagnes au loin et un ciel orangé de coucher de soleil. Les symboles incluent des bottes de cowboy, des chapeaux, des revolvers, des bouteilles de whisky et des têtes de mort, chacun parfaitement cohérent avec l'univers thématique. La bande sonore western, avec ses guitares acoustiques et ses harmonicas plaintifs, complète magistralement l'atmosphère.\n\nAvec 5 rouleaux, 3 rangées et seulement 9 lignes de paiement, Dead or Alive 2 adopte une structure minimaliste qui contraste avec la complexité de ses fonctionnalités bonus. Le RTP élevé de 96.82% est un atout considérable, et la haute volatilité signifie que les gains peuvent être rares mais potentiellement dévastateurs lorsqu'ils surviennent. C'est un jeu conçu pour les amateurs de sensations fortes qui acceptent de traverser de longues périodes sans gain significatif en échange de la possibilité de décrocher des paiements extraordinaires.",
-        image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=300&fit=crop",
-        imageAlt: "Ambiance Western avec symboles de cowboy sur les rouleaux"
+        image: "https://fan-cdn.nolimitcity.com/dead_or_alive_2_08_mobile_screenshot_horz_3701efdac2.jpg",
+        imageAlt: "Capture d'écran mobile de Dead or Alive 2"
       },
       {
         heading: "Les trois modes de tours gratuits",
         content: "L'innovation majeure de Dead or Alive 2 par rapport à son prédécesseur est l'introduction de trois modes de tours gratuits distincts, offrant au joueur un choix stratégique unique. Pour déclencher les tours gratuits, il faut obtenir 3 symboles Scatter (les revolvers croisés) n'importe où sur les rouleaux. Le joueur est alors invité à choisir entre Train Heist, Saloon et High Noon, chacun offrant un profil de risque et de récompense différent, ce qui personnalise véritablement l'expérience de jeu.\n\nLe mode Train Heist est le moins volatil des trois et convient aux joueurs qui préfèrent une approche plus conservatrice. Il accorde 12 tours gratuits avec un multiplicateur appliqué à chaque Wild qui apparaît. Les Wilds se transforment en Sticky Wilds avec des multiplicateurs aléatoires de 1x, 2x ou 3x, et ces multiplicateurs se multiplient entre eux lorsque plusieurs Wilds contribuent à une même ligne gagnante. Bien que le potentiel maximum soit inférieur aux deux autres modes, la fréquence des gains est plus régulière, avec un plafond néanmoins respectable.\n\nLe mode High Noon représente l'extrême opposé du spectre et incarne le potentiel légendaire de Dead or Alive 2. Il offre 12 tours gratuits avec des Sticky Wilds, mais ici chaque Wild qui apparaît reste collé aux rouleaux pour toute la durée de la fonctionnalité et ajoute un multiplicateur de 1x qui s'accumule. Plus important encore, chaque Wild supplémentaire augmente le multiplicateur total, et si un rouleau est entièrement couvert de Wilds, 5 tours supplémentaires sont accordés. C'est dans ce mode que le gain maximum de 111 111x est théoriquement atteignable, bien que cela nécessite une combinaison extraordinairement chanceuse.",
-        image: "https://images.unsplash.com/photo-1574027542338-98e75acfd385?w=600&h=300&fit=crop",
-        imageAlt: "Écran de sélection des modes de tours gratuits"
+        image: "https://fan-cdn.nolimitcity.com/dead_or_alive_2_11_symbol_scatter_d2e4a11057.png",
+        imageAlt: "Symbole Scatter de Dead or Alive 2"
       },
       {
         heading: "Le mode Saloon : l'équilibre parfait",
@@ -274,7 +274,7 @@ export const netentReviews: GameReview[] = [
     name: "Divine Fortune",
     title: "Divine Fortune — Avis, RTP et Guide Complet",
     excerpt: "Avis complet sur Divine Fortune de NetEnt : jackpot progressif, RTP 96.59%, mythologie grecque et fonctionnalités bonus pour décrocher le Mega Jackpot.",
-    headerImage: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=800&h=400&fit=crop",
+    headerImage: "https://fan-cdn.nolimitcity.com/divine_fortune_ne_fansite_splashpost_2560x820px_fb4f6a82de.jpg",
     headerImageAlt: "Machine à sous Divine Fortune avec thème mythologie grecque et symboles dorés",
     rtp: "96.59%",
     volatility: "Moyenne",
@@ -296,8 +296,8 @@ export const netentReviews: GameReview[] = [
       {
         heading: "Présentation de Divine Fortune",
         content: "Divine Fortune est une machine à sous à jackpot progressif développée par NetEnt, lancée en 2017. Ce jeu se distingue dans le catalogue du développeur suédois par sa combinaison unique de fonctionnalités bonus engageantes et de trois niveaux de jackpots progressifs, dont le Mega Jackpot qui peut atteindre des sommes considérables. Le thème de la mythologie grecque est traité avec élégance, offrant une expérience visuelle et ludique de premier plan qui séduit aussi bien les chasseurs de jackpots que les amateurs de gameplay varié.\n\nL'univers visuel de Divine Fortune est inspiré de la Grèce antique et de ses créatures mythologiques. Les symboles incluent des lions majestueux, des taureaux puissants, des aigles en vol et des serpents, tous rendus avec un style doré et raffiné qui évoque la grandeur de l'Olympe. Le Pégase ailé sert de symbole Wild, tandis que la Méduse et le Minotaure apparaissent comme symboles de haute valeur. L'arrière-plan représente un temple grec à colonnes avec un ciel crépusculaire, créant une atmosphère à la fois sereine et mystérieuse qui accompagne parfaitement l'aventure.\n\nAvec 5 rouleaux, 3 rangées et 20 lignes de paiement, Divine Fortune offre une structure solide complétée par une volatilité moyenne et un RTP de 96.59%. Ce qui différencie véritablement ce jeu de la concurrence, c'est la richesse de ses fonctionnalités : Falling Wilds avec re-spins, tours gratuits avec Wilds empilés, et surtout le jeu bonus Jackpot qui ouvre la porte aux trois jackpots progressifs. Cette combinaison de mécaniques garantit que chaque session est ponctuée de moments d'excitation variés et imprévisibles.",
-        image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=300&fit=crop",
-        imageAlt: "Temple grec avec symboles dorés de mythologie"
+        image: "https://fan-cdn.nolimitcity.com/divine_fortune_09_desktop_screenshot_megajackpot_win_ca116e434a.png",
+        imageAlt: "Capture d'écran du Mega Jackpot de Divine Fortune"
       },
       {
         heading: "Falling Wilds et Re-spins",
@@ -306,8 +306,8 @@ export const netentReviews: GameReview[] = [
       {
         heading: "Tours gratuits et Wilds empilés",
         content: "Les tours gratuits de Divine Fortune se déclenchent en obtenant 3 symboles Scatter ou plus n'importe où sur les rouleaux. Trois Scatters accordent 5 tours gratuits, quatre en donnent 8, et cinq Scatters récompensent le joueur avec 12 tours gratuits. Pendant cette fonctionnalité, les Wilds Pégase apparaissent sous forme empilée, pouvant couvrir un rouleau entier, ce qui augmente considérablement le potentiel de gains par rapport au jeu de base où les Wilds sont individuels.\n\nLes Wilds empilés durant les tours gratuits fonctionnent en synergie avec le mécanisme Falling Wilds. Lorsqu'un Wild empilé de trois symboles apparaît sur un rouleau, il génère trois tours de re-spins supplémentaires pendant qu'il descend progressivement. Combiné à d'autres Wilds empilés sur d'autres rouleaux, cela peut créer des configurations où de larges portions de l'écran sont couvertes de Wilds, générant des gains multiples sur de nombreuses lignes de paiement simultanément. Ces moments sont les plus gratifiants du jeu en dehors du jackpot.\n\nIl est également possible de relancer les tours gratuits pendant la fonctionnalité en obtenant à nouveau 3 Scatters ou plus, ce qui ajoute des tours supplémentaires au compteur existant. Cette possibilité de prolongation rend chaque session de tours gratuits potentiellement très lucrative. La combinaison des Wilds empilés, des Falling Wilds et des re-spins crée une dynamique de jeu riche où chaque tour peut déclencher une réaction en chaîne de gains successifs, faisant des tours gratuits de Divine Fortune l'une des fonctionnalités bonus les plus satisfaisantes du catalogue NetEnt.",
-        image: "https://images.unsplash.com/photo-1574027542338-98e75acfd385?w=600&h=300&fit=crop",
-        imageAlt: "Tours gratuits avec Wilds empilés sur les rouleaux"
+        image: "https://fan-cdn.nolimitcity.com/divine_fortune_02_symbol_1_b280f317d2.png",
+        imageAlt: "Symbole de Divine Fortune"
       },
       {
         heading: "Le jeu bonus Jackpot progressif",
@@ -363,7 +363,7 @@ export const netentReviews: GameReview[] = [
     name: "Narcos",
     title: "Narcos — Avis, RTP et Guide Complet",
     excerpt: "Découvrez Narcos de NetEnt : machine à sous inspirée de la série, RTP 96.23%, fonctionnalités Drive-By et Locked Up pour des gains explosifs.",
-    headerImage: "https://images.unsplash.com/photo-1570698473651-b2de99bae12f?w=800&h=400&fit=crop",
+    headerImage: "https://fan-cdn.nolimitcity.com/narcos_ne_fansite_splashpost_2560x820px_c9a0956b75.jpg",
     headerImageAlt: "Machine à sous Narcos de NetEnt avec ambiance colombienne et symboles de la série",
     rtp: "96.23%",
     volatility: "Haute",
@@ -385,8 +385,8 @@ export const netentReviews: GameReview[] = [
       {
         heading: "Présentation de Narcos",
         content: "Narcos est une machine à sous développée par NetEnt en 2019, inspirée de la célèbre série Netflix éponyme qui retrace l'histoire du cartel de Medellín. Le jeu reprend fidèlement l'atmosphère intense et dramatique de la série, avec des symboles, des graphismes et une bande sonore qui plongent immédiatement le joueur dans la Colombie des années 1980. NetEnt a obtenu la licence officielle de la série, ce qui se traduit par une attention méticuleuse aux détails et une intégration authentique des éléments visuels et narratifs qui ont fait le succès du show.\n\nLe design de Narcos est immédiatement reconnaissable pour les fans de la série. L'arrière-plan représente un paysage tropical colombien avec une villa luxueuse, évoquant les domaines extravagants des barons de la drogue. Les symboles de haute valeur sont représentés par les personnages clés de la série, rendus avec un style artistique qui rappelle les affiches promotionnelles du show. Les symboles de faible valeur sont constitués de gemmes de différentes couleurs, tandis que les éléments spéciaux incluent des coffres-forts et des badges DEA qui servent de déclencheurs pour les fonctionnalités bonus.\n\nAvec 5 rouleaux, 3 rangées et 243 façons de gagner, Narcos offre une structure moderne qui maximise les opportunités de combinaisons gagnantes. La haute volatilité du jeu correspond parfaitement au thème : les récompenses sont rares mais potentiellement importantes, à l'image du monde à haut risque dépeint dans la série. Le RTP de 96.23% est tout à fait respectable, et les multiples fonctionnalités bonus maintiennent un niveau d'engagement élevé tout au long des sessions de jeu.",
-        image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=300&fit=crop",
-        imageAlt: "Ambiance colombienne tropicale avec symboles de la série Narcos"
+        image: "https://fan-cdn.nolimitcity.com/Narcos_fansitethumb_512x512_04_09_2025_01_dd2e5dbb39.png",
+        imageAlt: "Aperçu de la machine à sous Narcos de NetEnt"
       },
       {
         heading: "Fonction Drive-By : chaos sur les rouleaux",
@@ -395,8 +395,8 @@ export const netentReviews: GameReview[] = [
       {
         heading: "Fonction Locked Up et Walking Wilds",
         content: "La fonction Locked Up est la deuxième fonctionnalité aléatoire de Narcos, et elle offre un mécanisme distinct de la Drive-By. Lorsqu'elle se déclenche, un symbole personnage spécifique est sélectionné et tous les exemplaires de ce symbole présents sur les rouleaux deviennent des Wilds collants. Un re-spin est ensuite accordé, et si de nouveaux exemplaires du symbole sélectionné apparaissent, ils deviennent également des Wilds collants et un nouveau re-spin est déclenché. La séquence continue tant que de nouveaux symboles correspondants apparaissent, créant une accumulation progressive de Wilds.\n\nLes tours gratuits de Narcos constituent la fonctionnalité principale du jeu et se déclenchent en obtenant 3 symboles Scatter sur les rouleaux. Le joueur reçoit alors 10 tours gratuits qui mettent en vedette les Walking Wilds. Ces Wilds spéciaux se déplacent d'une position vers la gauche à chaque tour, traversant progressivement l'écran avant de disparaître par le côté gauche. Chaque tour gratuit peut faire apparaître de nouveaux Walking Wilds, ce qui signifie que plusieurs Wilds peuvent être actifs simultanément, se déplaçant à travers les rouleaux comme une formation coordonnée.\n\nLa synergie entre les Walking Wilds et les 243 façons de gagner crée un potentiel de gains remarquable pendant les tours gratuits. Lorsque plusieurs Walking Wilds sont présents sur des rouleaux différents, les combinaisons gagnantes se multiplient exponentiellement. De plus, la possibilité de relancer les tours gratuits avec 3 nouveaux Scatters ajoute une couche supplémentaire d'excitation. Les tours gratuits de Narcos représentent la principale source de gains importants du jeu, et une session chanceuse peut générer des paiements très significatifs.",
-        image: "https://images.unsplash.com/photo-1574027542338-98e75acfd385?w=600&h=300&fit=crop",
-        imageAlt: "Walking Wilds en mouvement durant les tours gratuits"
+        image: "https://fan-cdn.nolimitcity.com/paytable_walking_wild_6a520c2586.png",
+        imageAlt: "Walking Wild de Narcos"
       },
       {
         heading: "Graphismes, ambiance et fidélité à la série",

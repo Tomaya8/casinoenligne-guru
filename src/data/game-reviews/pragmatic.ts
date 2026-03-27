@@ -9,9 +9,9 @@ export const pragmaticReviews: GameReview[] = [
     excerpt:
       "Decouvrez Sweet Bonanza de Pragmatic Play, une machine a sous coloree aux fruits et bonbons avec des multiplicateurs pouvant atteindre x100 et un potentiel de gain de 21 175x la mise.",
     headerImage:
-      "https://images.unsplash.com/photo-1606167668584-78701c57f13d?w=800&h=400&fit=crop",
+      "https://www.pragmaticplay.com/wp-content/uploads/2019/03/Sweet-Bonanza™_Thumb_339x180-3.png",
     headerImageAlt:
-      "Illustration coloree representant l'univers sucre de Sweet Bonanza",
+      "Sweet Bonanza - machine a sous Pragmatic Play avec fruits et bonbons",
     rtp: "96.48%",
     volatility: "Moyenne-Haute",
     minBet: "0.20 \u20ac",
@@ -35,8 +35,8 @@ export const pragmaticReviews: GameReview[] = [
         content:
           "Sweet Bonanza est l'une des machines a sous les plus populaires jamais creees par Pragmatic Play, et ce succes n'est pas le fruit du hasard. Lancee en juin 2019, cette slot a rapidement conquis le coeur des joueurs du monde entier grace a son theme gourmand, ses mecaniques de jeu innovantes et son potentiel de gains exceptionnel. Le jeu se deroule sur une grille de 6 rouleaux et 5 rangees, abandonnant les lignes de paiement traditionnelles au profit d'un systeme Cluster Pays. Pour decrocher un gain, il suffit d'obtenir au moins 8 symboles identiques n'importe ou sur les rouleaux, sans qu'ils aient besoin d'etre adjacents.\n\nL'univers visuel de Sweet Bonanza est un veritable festin pour les yeux. L'arriere-plan represente un paysage feerique fait de bonbons et de sucreries, avec des montagnes de barbe a papa et des cascades de caramel. Les symboles du jeu se composent de fruits juteux (bananes, raisins, pasteques, prunes) et de bonbons colores qui servent de symboles a haute valeur. Chaque gain declenche une animation satisfaisante ou les symboles gagnants explosent, laissant place a de nouveaux symboles qui tombent en cascade depuis le haut de la grille.\n\nLa bande sonore accompagne parfaitement l'ambiance du jeu avec une melodie entrainante et joyeuse qui ne devient jamais lassante, meme apres de longues sessions de jeu. Les effets sonores lors des gains ajoutent une couche supplementaire d'excitation, notamment le tintement caracteristique des pieces qui s'accumulent lors des cascades successives. L'ensemble cree une experience immersive qui explique en grande partie la longevite du jeu dans un marche extremement competitif.",
         image:
-          "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=600&h=300&fit=crop",
-        imageAlt: "Bonbons et fruits colores evoquant le theme de Sweet Bonanza",
+          "https://www.pragmaticplay.com/wp-content/uploads/2019/03/Sweet-Bonanza™_Thumb_339x180-3.png",
+        imageAlt: "Capture d'ecran du jeu Sweet Bonanza de Pragmatic Play",
       },
       {
         heading: "Mecaniques de Jeu et Fonctionnalites",
@@ -48,9 +48,9 @@ export const pragmaticReviews: GameReview[] = [
         content:
           "Sweet Bonanza affiche un RTP (Return to Player) de 96.48 %, ce qui la place legerement au-dessus de la moyenne du marche. Ce taux signifie qu'en theorie, pour chaque 100 euros mises, le jeu en redistribue 96.48 sur le long terme. Il est important de rappeler que ce chiffre est calcule sur des millions de tours et ne garantit en rien les resultats d'une session individuelle. La volatilite moyenne-haute du jeu signifie que les gains ne sont pas frequents mais qu'ils peuvent etre substantiels quand ils arrivent.\n\nLe potentiel de gain maximum de Sweet Bonanza atteint l'impressionnant chiffre de 21 175x la mise. Ce multiplicateur astronomique est rendu possible par la combinaison des cascades et des bombes multiplicatrices pendant les tours gratuits. Imaginez une mise de 1 euro : le gain maximal theorique serait donc de 21 175 euros sur un seul tour. Bien sur, atteindre ce plafond est extremement rare, mais des gains de plusieurs milliers de fois la mise sont regulierement rapportes par la communaute de joueurs.\n\nLa distribution des gains dans Sweet Bonanza suit un schema typique des slots a volatilite moyenne-haute. Le jeu de base genere regulierement de petits gains grace aux cascades, maintenant votre solde relativement stable. Les gros gains, en revanche, se concentrent presque exclusivement pendant les tours gratuits, ou l'accumulation des multiplicateurs peut transformer une session mediocre en un moment memorable. Cette structure de gain en fait un jeu adapte aux joueurs patients qui acceptent des periodes de secheresse en echange de pics de gains potentiellement enormes.",
         image:
-          "https://images.unsplash.com/photo-1574027542338-98e75acfd385?w=600&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1606167668584-78701c57f13d?w=600&h=300&fit=crop",
         imageAlt:
-          "Ecran de machine a sous illustrant les multiplicateurs de gains",
+          "Sweet Bonanza - multiplicateurs et potentiel de gains",
       },
       {
         heading: "Strategies et Conseils pour les Joueurs",
@@ -119,9 +119,9 @@ export const pragmaticReviews: GameReview[] = [
     excerpt:
       "Decouvrez Gates of Olympus de Pragmatic Play, la machine a sous mythologique ou Zeus distribue des multiplicateurs colossaux avec un gain maximum de 5 000x la mise.",
     headerImage:
-      "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=400&fit=crop",
+      "https://www.pragmaticplay.com/wp-content/uploads/2021/02/GOOL_EN_339x180.png",
     headerImageAlt:
-      "Ambiance epique evoquant les portes de l'Olympe et la mythologie grecque",
+      "Gates of Olympus - machine a sous Pragmatic Play avec Zeus",
     rtp: "96.50%",
     volatility: "Haute",
     minBet: "0.20 \u20ac",
@@ -145,9 +145,9 @@ export const pragmaticReviews: GameReview[] = [
         content:
           "Gates of Olympus, sortie en fevrier 2021, est devenue en un temps record l'une des machines a sous les plus jouees au monde. Pragmatic Play a capitalise sur le succes de la formule inauguree par Sweet Bonanza en l'adaptant a un univers mythologique grandiose, et le resultat est spectaculaire. Le joueur est transporte au sommet du Mont Olympe, ou Zeus en personne preside les rouleaux et distribue sa grace divine sous forme de multiplicateurs genereux.\n\nLa grille de jeu reprend le format 6x5 avec le systeme Cluster Pays qui a fait ses preuves. Pas besoin de lignes de paiement ici : il suffit d'obtenir 8 symboles identiques ou plus n'importe ou sur les rouleaux pour decrocher un gain. Les symboles comprennent des pierres precieuses de differentes couleurs (bleue, verte, rouge, violette) pour les valeurs basses, et des objets sacres (calice, bague, sablier, couronne) pour les valeurs hautes. Zeus lui-meme apparait en arriere-plan, animant le jeu de ses eclairs et de ses reactions expressives.\n\nLes graphismes de Gates of Olympus sont parmi les plus impressionnants du catalogue Pragmatic Play. Les colonnes de marbre, les nuages dores et les effets de lumiere creent une atmosphere majestueuse qui tranche avec les themes plus legers habituels. La bande sonore epique, avec ses choeurs et ses percussions, renforce cette impression de grandeur et fait monter l'adrenaline a chaque tour. C'est un jeu qui prend immediatement au serieux l'experience du joueur et qui ne relache jamais la tension.",
         image:
-          "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=600&h=300&fit=crop",
+          "https://www.pragmaticplay.com/wp-content/uploads/2021/02/GOOL_EN_339x180.png",
         imageAlt:
-          "Decor majestueux evoquant le sommet de l'Olympe mythologique",
+          "Capture d'ecran du jeu Gates of Olympus de Pragmatic Play",
       },
       {
         heading: "Fonctionnalites et Multiplicateurs",
@@ -159,9 +159,9 @@ export const pragmaticReviews: GameReview[] = [
         content:
           "Avec un RTP de 96.50 %, Gates of Olympus se positionne favorablement dans le paysage des machines a sous en ligne. Ce taux est legerement superieur a celui de nombreuses slots concurrentes et temoigne de l'engagement de Pragmatic Play a offrir un jeu equitable. Cependant, comme toujours, il convient de verifier le RTP propose par votre casino, car certains operateurs optent pour des versions a RTP reduit (94.50 % ou 87.00 %) qui sont significativement moins avantageuses pour le joueur.\n\nLa volatilite de Gates of Olympus est classee comme haute, ce qui est un cran au-dessus de Sweet Bonanza. Concretement, cela signifie que les periodes de secheresse peuvent etre plus longues, mais que les gains potentiels sont proportionnellement plus importants. Le gain maximum est plafonne a 5 000x la mise, ce qui peut sembler modeste compare aux 21 175x de Sweet Bonanza, mais les gains de taille moyenne (100x a 1 000x) sont plus frequents grace au systeme de multiplicateurs cumulatifs.\n\nLa structure mathematique du jeu favorise les sessions longues et patientes. Les analyses de milliers de sessions montrent que la majorite des profits significatifs proviennent d'un petit nombre de tours gratuits exceptionnels. Il n'est pas rare de jouer 200 tours ou plus sans declencher les Free Spins, puis de recuperer l'integralite de ses pertes et plus encore en une seule sequence bonus chanceuse. Cette distribution des gains est typique de la haute volatilite et doit etre comprise avant de s'engager dans le jeu.",
         image:
-          "https://images.unsplash.com/photo-1574027542338-98e75acfd385?w=600&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&h=300&fit=crop",
         imageAlt:
-          "Graphique illustrant la distribution des gains sur une slot a haute volatilite",
+          "Gates of Olympus - analyse du RTP et de la volatilite",
       },
       {
         heading: "Strategie et Gestion de Bankroll",
@@ -231,9 +231,9 @@ export const pragmaticReviews: GameReview[] = [
     excerpt:
       "Decouvrez The Dog House de Pragmatic Play, une machine a sous amusante avec des Wilds collants et multiplicateurs offrant un potentiel de gain de 6 750x la mise.",
     headerImage:
-      "https://images.unsplash.com/photo-1570698473651-b2de99bae12f?w=800&h=400&fit=crop",
+      "https://www.pragmaticplay.com/wp-content/uploads/2019/02/The-Dog-House™_339x180px-1-1.png",
     headerImageAlt:
-      "Illustration ludique evoquant l'univers canin de The Dog House",
+      "The Dog House - machine a sous Pragmatic Play avec chiens",
     rtp: "96.51%",
     volatility: "Haute",
     minBet: "0.20 \u20ac",
@@ -256,9 +256,9 @@ export const pragmaticReviews: GameReview[] = [
         content:
           "The Dog House est une machine a sous qui a su conquérir une place speciale dans le coeur des joueurs grace a son charme indeniable et ses mecaniques de jeu efficaces. Lancee en mars 2019 par Pragmatic Play, cette slot adopte un theme canin adorable qui la distingue immediatement dans un marche sature de themes egyptiens et mythologiques. Le jeu se deroule devant une niche de chien coloree qui occupe l'arriere-plan, tandis que les rouleaux accueillent une galerie de races canines plus mignonnes les unes que les autres.\n\nLe format de jeu est plus traditionnel que les creations recentes de Pragmatic Play : 5 rouleaux, 3 rangees et 20 lignes de paiement fixes. Cette simplicite apparente cache pourtant une mecanique de bonus redoutablement efficace centree sur les symboles Wild. Les symboles du jeu comprennent des races de chiens variees (rottweiler, carlin, teckel, shih tzu) comme symboles a haute valeur, et les habituels A, K, Q, J, 10 comme symboles a basse valeur. Le symbole Scatter, represente par une patte de chien, ouvre les portes des tours gratuits.\n\nL'ambiance sonore de The Dog House est aussi charmante que ses visuels. Des aboiements joyeux, des jappements et des melodies entrainantes accompagnent chaque tour, creant une atmosphere detendue et amusante. Le jeu ne se prend pas au serieux et c'est precisement cette legerete qui le rend si attachant. Les animations des chiens lors des gains ajoutent une touche d'humour bienvenue qui fait sourire meme apres des centaines de tours. C'est un jeu qui rappelle que l'essence des machines a sous est avant tout le divertissement.",
         image:
-          "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=600&h=300&fit=crop",
+          "https://www.pragmaticplay.com/wp-content/uploads/2019/02/The-Dog-House™_339x180px-1-1.png",
         imageAlt:
-          "Ambiance coloree et ludique rappelant le theme canin du jeu",
+          "Capture d'ecran du jeu The Dog House de Pragmatic Play",
       },
       {
         heading: "Les Wilds Collants : Coeur du Gameplay",
@@ -270,9 +270,9 @@ export const pragmaticReviews: GameReview[] = [
         content:
           "The Dog House affiche un RTP de 96.51 %, ce qui le place dans la fourchette haute des machines a sous en ligne. Ce taux temoigne de la generosite relative du jeu et offre aux joueurs un avantage mathematique legerement superieur a la majorite des slots concurrentes. La volatilite est classee haute, ce qui signifie que le jeu alterne entre des periodes de gains modestes ou inexistants et des explosions soudaines de profits importants.\n\nLe gain maximum de The Dog House atteint 6 750 fois la mise, un chiffre atteint lorsque les rouleaux centraux sont couverts de Wilds avec des multiplicateurs x3 et que les lignes de paiement sont completes par les symboles a haute valeur. Avec une mise maximale de 100 euros, le gain theorique maximal depasse 675 000 euros, un montant qui fait rever meme les joueurs les plus experimentes.\n\nEn pratique, les gains les plus frequents en phase bonus se situent entre 20x et 200x la mise, avec des pics occasionnels au-dela de 500x lorsque les conditions sont favorables. Le jeu de base est relativement avare en gains significatifs, son role etant principalement de maintenir le solde du joueur en attendant le declenchement des Free Spins. Les Wilds empiles du jeu de base peuvent neanmoins generer des gains appreciables de temps a autre, brisant la monotonie des tours non productifs.\n\nLa frequence de declenchement des tours gratuits est d'environ 1 bonus toutes les 150 a 200 tours en moyenne, ce qui est dans la norme pour une slot a haute volatilite. Les joueurs doivent etre conscients de cette realite et adapter leur budget en consequence. Une session trop courte risque de ne jamais atteindre la phase bonus, privant le joueur de la mecanique qui fait tout l'interet du jeu.",
         image:
-          "https://images.unsplash.com/photo-1574027542338-98e75acfd385?w=600&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1570698473651-b2de99bae12f?w=600&h=300&fit=crop",
         imageAlt:
-          "Illustration symbolisant le potentiel de gains d'une machine a sous",
+          "The Dog House - RTP et potentiel de gains",
       },
       {
         heading: "Conseils et Bonnes Pratiques",
@@ -342,9 +342,9 @@ export const pragmaticReviews: GameReview[] = [
     excerpt:
       "Decouvrez Big Bass Bonanza de Pragmatic Play, la slot de peche incontournable avec son pecheur collecteur et un potentiel de gain de 2 100x la mise.",
     headerImage:
-      "https://images.unsplash.com/photo-1596838132731-3301c3fd4317?w=800&h=400&fit=crop",
+      "https://www.pragmaticplay.com/wp-content/uploads/2020/11/Big-Bass-Bonanza™_EN_339x180_04.png",
     headerImageAlt:
-      "Scene de peche evoquant l'ambiance lacustre de Big Bass Bonanza",
+      "Big Bass Bonanza - machine a sous Pragmatic Play theme peche",
     rtp: "96.71%",
     volatility: "Haute",
     minBet: "0.10 \u20ac",
@@ -367,9 +367,9 @@ export const pragmaticReviews: GameReview[] = [
         content:
           "Big Bass Bonanza est l'une des machines a sous les plus iconiques du catalogue Pragmatic Play et a donne naissance a l'une des franchises les plus prolifiques de l'industrie. Lancee en decembre 2020, cette slot adopte un theme de peche au bord d'un lac paisible qui se revele rapidement bien plus captivant qu'il n'y parait. Le jeu s'adresse a un public large, des pecheurs du dimanche qui apprecieront le clin d'oeil thematique aux chasseurs de gros gains attires par la mecanique de collecte unique.\n\nLe jeu se presente avec un format classique de 5 rouleaux et 3 rangees, avec seulement 10 lignes de paiement. Cette simplicite structurelle est deliberee et contribue a la lisibilite du jeu. Les symboles comprennent du materiel de peche (boites a leurres, cannes, moulinets, hamecons) pour les valeurs basses et moyennes, ainsi que des poissons de differentes tailles et couleurs representant des symboles monetaires (Money Symbols) qui portent des valeurs en argent.\n\nL'arriere-plan represente un lac serein entoure de vegetation luxuriante, avec des libellules et des reflets d'eau animant le decor. La bande sonore melange des sons de nature, des bruits d'eau et une musique country decontractee qui installe parfaitement l'ambiance. Les graphismes sont soignes sans etre ostentatoires, privilegiant une esthetique chaleureuse et realiste qui differencie Big Bass Bonanza des slots plus flashy. L'ensemble cree une experience de jeu relaxante qui contraste agreablement avec la tension inherente aux mises en argent reel.",
         image:
-          "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=600&h=300&fit=crop",
+          "https://www.pragmaticplay.com/wp-content/uploads/2020/11/Big-Bass-Bonanza™_EN_339x180_04.png",
         imageAlt:
-          "Paysage lacustre paisible evoquant l'univers de peche du jeu",
+          "Capture d'ecran du jeu Big Bass Bonanza de Pragmatic Play",
       },
       {
         heading: "La Mecanique de Collecte du Pecheur",
@@ -381,9 +381,9 @@ export const pragmaticReviews: GameReview[] = [
         content:
           "Big Bass Bonanza affiche un RTP de 96.71 %, l'un des plus eleves du catalogue Pragmatic Play. Ce chiffre genereux est en partie compense par une volatilite haute qui signifie que les gains sont irreguliers mais potentiellement importants. Le gain maximum est plafonne a 2 100x la mise, un chiffre relativement modeste compare a d'autres blockbusters de Pragmatic Play, mais qui reste tout a fait respectable pour un jeu a 10 lignes de paiement.\n\nLa structure de 10 lignes de paiement merite une attention particuliere. Avec moins de lignes que la plupart des slots modernes, chaque spin coute moins cher en termes absolus pour une mise par ligne donnee. Cela signifie egalement que les gains du jeu de base sont moins frequents mais que le budget dure plus longtemps, un compromis que de nombreux joueurs apprecient. La mise minimale de 0.10 euro en fait l'une des slots les plus accessibles du marche.\n\nLes tours gratuits se declenchent en obtenant 3, 4 ou 5 symboles Scatter, offrant respectivement 10, 15 ou 20 tours gratuits. La possibilite de retriggerer les Free Spins avec 3 Scatters supplementaires (qui ajoutent 10 tours) est essentielle pour maximiser le potentiel du jeu. Plus les tours gratuits durent, plus la probabilite d'accumuler des pecheurs a multiplicateur eleve augmente, et c'est pendant ces sessions prolongees que les gains les plus spectaculaires se produisent.\n\nLe jeu de base de Big Bass Bonanza est fonctionnel mais sans surprise. Les gains reguliers maintiennent le solde a flot, mais c'est clairement dans la phase bonus que reside tout l'interet du jeu. Les symboles Money Symbols qui apparaissent pendant le jeu de base ne versent pas de gains tant qu'un pecheur ne les collecte pas, creant un sentiment d'anticipation permanent.",
         image:
-          "https://images.unsplash.com/photo-1574027542338-98e75acfd385?w=600&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1596838132731-3301c3fd4317?w=600&h=300&fit=crop",
         imageAlt:
-          "Graphique de performances illustrant les statistiques de Big Bass Bonanza",
+          "Big Bass Bonanza - statistiques et analyse des performances",
       },
       {
         heading: "Strategies et Recommandations",
@@ -453,9 +453,9 @@ export const pragmaticReviews: GameReview[] = [
     excerpt:
       "Decouvrez Sugar Rush de Pragmatic Play, une machine a sous gourmande avec des multiplicateurs de position pouvant atteindre x128 et un potentiel de gain de 5 000x la mise.",
     headerImage:
-      "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&h=400&fit=crop",
+      "https://www.pragmaticplay.com/wp-content/uploads/2022/06/Sugar_Rush_EN_339x180.png",
     headerImageAlt:
-      "Univers colore et gourmand illustrant l'ambiance de Sugar Rush",
+      "Sugar Rush - machine a sous Pragmatic Play avec bonbons et confiseries",
     rtp: "96.50%",
     volatility: "Haute",
     minBet: "0.20 \u20ac",
@@ -478,9 +478,9 @@ export const pragmaticReviews: GameReview[] = [
         content:
           "Sugar Rush est une machine a sous lancee en juillet 2022 par Pragmatic Play qui s'inscrit dans la lignee des slots a theme gourmand dont le studio est devenu specialiste. Le jeu transporte les joueurs dans un monde feerique entierement compose de bonbons, de sucettes et de sucreries multicolores. Mais derriere cette facade candide se cache une mecanique de jeu sophistiquee et un potentiel de gains considerable qui en font bien plus qu'un simple jeu pour amateurs de douceurs.\n\nLa grille de Sugar Rush adopte un format genereux de 7 colonnes et 7 rangees, soit 49 positions au total, ce qui en fait l'une des plus grandes grilles du catalogue Pragmatic Play. Le systeme de gains repose sur le Cluster Pays : il faut obtenir un minimum de 5 symboles identiques connectes horizontalement ou verticalement (pas en diagonale) pour decrocher un gain. Cette mecanique offre une multitude de possibilites de combinaisons et rend chaque tour visuellement dynamique.\n\nLes symboles du jeu sont tous des bonbons de differentes formes et couleurs. On retrouve des oursons en gelee, des sucettes coeur, des bonbons ronds, des pastilles et d'autres confiseries, chacune avec une valeur specifique. L'arriere-plan represente un paysage de conte de fees fait de gateaux, de cremes et de decorations sucrees, baigne dans une lumiere pastel agreable. La bande sonore est joyeuse et entrainante, avec des effets sonores croquants et petillants qui renforcent l'immersion dans cet univers gourmand. L'ensemble est extremement soigne et demontre le savoir-faire de Pragmatic Play en matiere de design.",
         image:
-          "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=600&h=300&fit=crop",
+          "https://www.pragmaticplay.com/wp-content/uploads/2022/06/Sugar_Rush_EN_339x180.png",
         imageAlt:
-          "Confiseries colorees evoquant l'univers sucre de Sugar Rush",
+          "Capture d'ecran du jeu Sugar Rush de Pragmatic Play",
       },
       {
         heading: "Les Multiplicateurs de Position : Innovation Cle",
@@ -492,9 +492,9 @@ export const pragmaticReviews: GameReview[] = [
         content:
           "Sugar Rush affiche un RTP de 96.50 %, conforme aux standards de qualite de Pragmatic Play. Ce taux est calcule sur l'ensemble du jeu, incluant le jeu de base et les tours gratuits. La volatilite est classee haute, ce qui implique des sessions avec une distribution de gains irreguliere : de nombreux tours sans profits significatifs entrecoupes de pics de gains potentiellement impressionnants lors des phases bonus.\n\nLe gain maximum est plafonne a 5 000x la mise, identique a celui de Gates of Olympus. Avec la mise maximale de 100 euros, le gain theorique maximal atteint 500 000 euros. Ce plafond est atteint lorsque les multiplicateurs de position s'accumulent suffisamment pendant les tours gratuits pour produire des combinaisons aux valeurs demesurees. Bien que ce maximum soit rarement atteint, des gains de 500x a 2 000x sont regulierement rapportes par la communaute.\n\nLa grille 7x7 offre 49 positions, ce qui signifie que les clusters de grande taille sont relativement frequents. Un cluster de 15 symboles ou plus n'est pas rare et genere des gains de base confortables. La vraie puissance du jeu reside dans les cascades multiples qui activent les multiplicateurs de position. Une sequence de 5 a 6 cascades consecutives dans le jeu de base est deja satisfaisante, mais c'est pendant les Free Spins que le jeu montre son vrai visage.\n\nLes tours gratuits se declenchent avec 3 ou plus symboles Scatter, offrant 10 Free Spins. L'obtention de 3 Scatters supplementaires pendant le bonus ajoute 5 tours. La frequence de declenchement est dans la moyenne pour une slot haute volatilite, environ 1 bonus toutes les 120 a 180 rotations.",
         image:
-          "https://images.unsplash.com/photo-1574027542338-98e75acfd385?w=600&h=300&fit=crop",
+          "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=300&fit=crop",
         imageAlt:
-          "Illustration des multiplicateurs de position sur une grille de jeu",
+          "Sugar Rush - analyse du RTP et des performances",
       },
       {
         heading: "Strategies et Gestion du Budget",

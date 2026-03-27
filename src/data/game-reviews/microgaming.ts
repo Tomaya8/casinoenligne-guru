@@ -9,9 +9,9 @@ export const microgamingReviews: GameReview[] = [
     excerpt:
       "Decouvrez notre avis detaille sur Mega Moolah, la celebre machine a sous progressive de Microgaming qui a distribue des millions d'euros en jackpots record.",
     headerImage:
-      "https://images.unsplash.com/photo-1570698473651-b2de99bae12f?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&h=400&fit=crop",
     headerImageAlt:
-      "Machine a sous Mega Moolah de Microgaming avec theme safari africain",
+      "Safari africain evoquant le theme de la machine a sous Mega Moolah",
     rtp: "88.12%",
     volatility: "Moyenne",
     minBet: "0.25",
@@ -35,8 +35,8 @@ export const microgamingReviews: GameReview[] = [
         content:
           "Mega Moolah est sans conteste la machine a sous la plus celebre de l'univers des casinos en ligne. Developpee par Microgaming et lancee en 2006, cette machine a sous progressive a acquis une reputation legendaire grace a ses jackpots colossaux qui ont change la vie de nombreux joueurs a travers le monde. Le theme safari africain de Mega Moolah transporte les joueurs dans la savane avec des symboles representant des animaux emblematiques tels que le lion, l'elephant, le buffle, la girafe et le zebre. L'ambiance sonore tropicale et les graphismes colores contribuent a creer une experience de jeu immersive et agreable, meme si le design commence a montrer son age par rapport aux standards actuels. Ce qui distingue veritablement Mega Moolah des autres machines a sous, c'est son systeme de jackpot progressif a quatre niveaux : le Mini, le Minor, le Major et le Mega. Le jackpot Mega demarre a 1 million d'euros et peut atteindre des sommes astronomiques. En 2015, un soldat britannique a remporte la somme record de 17.8 millions d'euros, un record qui a ete battu en 2018 avec un gain de 18.9 millions d'euros. Ces chiffres vertigineux expliquent pourquoi Mega Moolah continue d'attirer des millions de joueurs dans le monde entier, malgre un RTP relativement bas de 88.12%. Chaque mise contribue a alimenter les jackpots progressifs, ce qui justifie ce taux de retour inferieur a la moyenne du marche.",
         image:
-          "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&h=300&fit=crop",
-        imageAlt: "Interface de jeu de machine a sous en ligne",
+          "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=600&h=300&fit=crop",
+        imageAlt: "Lion dans la savane africaine, symbole Wild de Mega Moolah",
       },
       {
         heading: "Fonctionnalites et mecaniques de jeu",
@@ -48,8 +48,8 @@ export const microgamingReviews: GameReview[] = [
         content:
           "En termes de graphismes, Mega Moolah affiche clairement son age. Les visuels sont en 2D avec des animations simples qui contrastent avec les machines a sous modernes aux graphismes 3D sophistiques. Les couleurs vives et les symboles d'animaux africains restent neanmoins charmants et facilement reconnaissables. L'interface est intuitive et ne pose aucun probleme de navigation, meme pour les joueurs debutants. La bande sonore plonge le joueur dans une ambiance de savane africaine avec des percussions et des sons d'animaux. Les effets sonores accompagnent chaque gain et chaque fonctionnalite speciale, ajoutant a l'excitement du jeu. Certains joueurs pourront trouver la musique repetitive apres de longues sessions, mais l'option de couper le son est toujours disponible. La compatibilite mobile est excellente depuis la version HTML5 du jeu. Mega Moolah fonctionne parfaitement sur smartphones et tablettes iOS et Android, avec une interface adaptee aux ecrans tactiles. Les temps de chargement sont rapides et la fluidite du jeu est preservee, meme sur des appareils plus anciens. Microgaming a egalement lance plusieurs variantes comme Mega Moolah Isis et Mega Moolah Goddess, qui partagent le meme reseau de jackpots progressifs tout en offrant des themes differents.",
         image:
-          "https://images.unsplash.com/photo-1609902726285-00668009f004?w=600&h=300&fit=crop",
-        imageAlt: "Joueur profitant d'un jeu de casino sur son appareil mobile",
+          "https://images.unsplash.com/photo-1570698473651-b2de99bae12f?w=600&h=300&fit=crop",
+        imageAlt: "Jetons de casino evoquant le jackpot progressif de Mega Moolah",
       },
       {
         heading: "Strategie et gestion de bankroll",
@@ -118,9 +118,9 @@ export const microgamingReviews: GameReview[] = [
     excerpt:
       "Decouvrez notre avis complet sur Thunderstruck II de Microgaming, une machine a sous epique inspiree de la mythologie nordique avec 243 facons de gagner.",
     headerImage:
-      "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1605806616949-1e87b487fc2f?w=800&h=400&fit=crop",
     headerImageAlt:
-      "Machine a sous Thunderstruck II avec theme mythologie nordique",
+      "Eclairs et tempete evoquant le theme nordique de Thunderstruck II",
     rtp: "96.65%",
     volatility: "Haute",
     minBet: "0.30",
@@ -144,8 +144,8 @@ export const microgamingReviews: GameReview[] = [
         content:
           "Thunderstruck II est la suite tant attendue du celebre Thunderstruck original, et elle depasse son predecesseur sur pratiquement tous les plans. Lancee en 2010 par Microgaming, cette machine a sous a rapidement conquis les joueurs du monde entier grace a son theme captivant inspire de la mythologie nordique. Les dieux Thor, Odin, Loki et Valkyrie prennent vie sur les rouleaux dans une ambiance epique et immersive qui transporte le joueur au coeur de l'Asgard. Avec ses 5 rouleaux et ses 243 facons de gagner, Thunderstruck II abandonne le systeme traditionnel de lignes de paiement au profit d'un mecanisme plus moderne ou chaque symbole adjacent de gauche a droite forme une combinaison gagnante. Ce systeme offre davantage d'opportunites de gains et rend le jeu plus dynamique. Le RTP de 96.65% place Thunderstruck II parmi les machines a sous les mieux dotees du marche, ce qui signifie que les joueurs recuperent en moyenne 96.65 EUR pour chaque 100 EUR mises sur le long terme. La volatilite haute implique toutefois que les gains sont moins frequents mais potentiellement plus importants. C'est un jeu qui recompense la patience et qui offre des moments d'intense excitement lorsque les fonctionnalites speciales se declenchent. Thunderstruck II est considere comme l'un des meilleurs jeux jamais crees par Microgaming et reste un favori des joueurs plus de quinze ans apres sa sortie.",
         image:
-          "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&h=300&fit=crop",
-        imageAlt: "Ambiance epique de jeu de machine a sous en ligne",
+          "https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=600&h=300&fit=crop",
+        imageAlt: "Ciel orageux evoquant la puissance de Thor dans Thunderstruck II",
       },
       {
         heading: "Le Great Hall of Spins : la fonctionnalite phare",
@@ -157,8 +157,8 @@ export const microgamingReviews: GameReview[] = [
         content:
           "Pour un jeu sorti en 2010, Thunderstruck II affiche des graphismes remarquablement bien vieillis. Le design sombre et atmospherique, avec des teintes de bleu et de violet, cree une ambiance mystique parfaitement adaptee au theme de la mythologie nordique. Les symboles des quatre divinites sont finement dessines et animes avec soin lors des combinaisons gagnantes. Le logo Thunderstruck II brille d'eclairs electriques en tant que symbole Wild, tandis que le marteau de Thor vibre d'energie en tant que Scatter. La bande sonore est l'un des points forts du jeu, avec une musique orchestrale epique qui s'intensifie pendant les fonctionnalites bonus. Les effets sonores d'eclairs et de tonnerre accompagnent les gains importants, renforçant le sentiment de puissance divine. L'animation d'introduction qui presente les quatre dieux est cinematographique et donne le ton de l'experience. La Wildstorm est une fonctionnalite aleatoire qui peut se declencher a tout moment pendant le jeu de base. Lorsqu'elle s'active, jusqu'a 5 rouleaux peuvent devenir entierement Wild, creant des possibilites de gains massifs. C'est un moment spectaculaire tant visuellement que financierement, et il contribue grandement a l'attrait du jeu. La compatibilite mobile est excellente, avec une adaptation fluide a tous les formats d'ecran et des temps de chargement courts.",
         image:
-          "https://images.unsplash.com/photo-1609902726285-00668009f004?w=600&h=300&fit=crop",
-        imageAlt: "Experience de jeu immersive sur casino en ligne",
+          "https://images.unsplash.com/photo-1596838132731-3301c3fd4317?w=600&h=300&fit=crop",
+        imageAlt: "Table de casino evoquant l'univers de jeu de Thunderstruck II",
       },
       {
         heading: "Strategie et conseils pour les joueurs",
@@ -224,9 +224,9 @@ export const microgamingReviews: GameReview[] = [
     excerpt:
       "Decouvrez notre avis detaille sur Immortal Romance, la machine a sous culte de Microgaming sur le theme des vampires avec 243 facons de gagner et une histoire captivante.",
     headerImage:
-      "https://images.unsplash.com/photo-1596838132731-3301c3fd4317?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1509557965875-b88c97052f0e?w=800&h=400&fit=crop",
     headerImageAlt:
-      "Machine a sous Immortal Romance de Microgaming avec theme vampirique sombre",
+      "Ambiance gothique sombre evoquant le theme vampirique d'Immortal Romance",
     rtp: "96.86%",
     volatility: "Haute",
     minBet: "0.30",
@@ -250,8 +250,8 @@ export const microgamingReviews: GameReview[] = [
         content:
           "Immortal Romance est l'une des machines a sous les plus acclamees de Microgaming et de toute l'industrie du casino en ligne. Lancee en 2011, elle a captive des millions de joueurs grace a une combinaison rare de narration profonde, de graphismes somptueux et de mecaniques de jeu innovantes. Le theme tourne autour d'une histoire d'amour interdit entre des vampires et des humains, mettant en scene quatre personnages principaux : Amber, une sorciere ; Troy, un vampire seducteur de 800 ans ; Michael, un scientifique brillant ; et Sarah, une vampire ancienne aux pouvoirs immenses. Cette trame narrative donne au jeu une profondeur inhabituelle pour une machine a sous et motive les joueurs a explorer les differents niveaux de bonus pour decouvrir l'histoire complete. Avec 5 rouleaux et 243 facons de gagner, Immortal Romance utilise le meme systeme que Thunderstruck II, ou toute combinaison de symboles adjacents de gauche a droite forme un gain. Le RTP de 96.86% est excellent et place le jeu parmi les meilleurs du catalogue Microgaming. La volatilite haute signifie que les gains peuvent etre espacees mais potentiellement tres importants, ce qui convient parfaitement a l'atmosphere tendue et dramatique du jeu. La qualite de production est remarquable, avec des animations cinematiques, des portraits de personnages detailles et une bande sonore gothique envoOtante qui cree une atmosphere unique dans l'univers des machines a sous.",
         image:
-          "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&h=300&fit=crop",
-        imageAlt: "Ambiance sombre et immersive de machine a sous en ligne",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=300&fit=crop",
+        imageAlt: "Atmosphere mysterieuse et sombre evoquant l'univers d'Immortal Romance",
       },
       {
         heading: "La Chamber of Spins : le coeur du jeu",
@@ -263,8 +263,8 @@ export const microgamingReviews: GameReview[] = [
         content:
           "En plus de la Chamber of Spins, Immortal Romance propose la fonctionnalite Wild Desire, qui peut se declencher aleatoirement pendant le jeu de base. Lorsqu'elle s'active, entre 1 et 5 rouleaux sont entierement transformes en symboles Wild, creant des combinaisons potentiellement tres lucratives. Avec 5 rouleaux Wild, chaque position genere un gain, ce qui constitue le scenario le plus profitable du jeu de base. La frequence du Wild Desire est relativement rare, ce qui en fait un evenement excitant et memorable a chaque declenchement. Le symbole Wild standard d'Immortal Romance est represente par le logo du jeu. Il substitue tous les symboles sauf le Scatter et apparait sur les 5 rouleaux. Les gains avec des symboles Wild sont doubles, ajoutant une dimension supplementaire aux combinaisons gagnantes. Les symboles des quatre personnages sont les plus remunerateurs, avec Sarah offrant les gains les plus eleves suivie de Michael, Troy et Amber. Les symboles de carte a jouer (A, K, Q, J, 10) completent la table de paiement avec des valeurs inferieures mais des apparitions plus frequentes. L'equilibre entre les gains bas frequents et les gains eleves rares est bien calibre, offrant suffisamment d'action pour maintenir l'interet des joueurs pendant les periodes sans fonctionnalites bonus.",
         image:
-          "https://images.unsplash.com/photo-1609902726285-00668009f004?w=600&h=300&fit=crop",
-        imageAlt: "Jeu de casino en ligne avec fonctionnalites speciales",
+          "https://images.unsplash.com/photo-1606167668584-78701c57f13d?w=600&h=300&fit=crop",
+        imageAlt: "Casino en ligne evoquant les fonctionnalites d'Immortal Romance",
       },
       {
         heading: "Qualite narrative et immersion thematique",
@@ -331,9 +331,9 @@ export const microgamingReviews: GameReview[] = [
     excerpt:
       "Decouvrez notre avis detaille sur Avalon II, la machine a sous epique de Microgaming inspiree de la legende du Roi Arthur avec des graphismes 3D et 8 fonctionnalites bonus.",
     headerImage:
-      "https://images.unsplash.com/photo-1606167668584-78701c57f13d?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&h=400&fit=crop",
     headerImageAlt:
-      "Machine a sous Avalon II avec theme legende arthurienne medievale",
+      "Chateau medieval evoquant la legende arthurienne d'Avalon II",
     rtp: "96.50%",
     volatility: "Moyenne-haute",
     minBet: "0.30",
@@ -357,8 +357,8 @@ export const microgamingReviews: GameReview[] = [
         content:
           "Avalon II : La Quete du Graal est la suite ambitieuse du tres populaire Avalon original de Microgaming. Lancee en 2014, cette machine a sous transporte les joueurs dans l'univers enchante de la legende du Roi Arthur, ou chevaliers, sorciers et creatures magiques peuplent un monde medieval magnifiquement realise en graphismes 3D. Le jeu se distingue par sa profondeur narrative exceptionnelle et ses huit fonctionnalites bonus distinctes, un nombre rarement vu dans l'industrie des machines a sous. Avec 5 rouleaux et 243 facons de gagner, Avalon II offre une experience de jeu riche et variee. Le RTP de 96.50% est tres competitif et assure un bon retour aux joueurs sur le long terme. La volatilite moyenne-haute signifie que les gains sont raisonnablement espaces, offrant un bon equilibre entre frequence et taille des gains. Les symboles du jeu representent des elements cles de la legende arthurienne : le Roi Arthur, Guinevere, Merlin, Morgane le Fay, la Dame du Lac, ainsi que le Saint Graal et Excalibur. Chaque symbole est rendu avec un soin artistique remarquable, avec des animations fluides et detaillees qui temoignent du budget de production eleve investi par Microgaming dans ce titre. L'interface est elegante et thematique, avec des ornements medievaux qui encadrent les rouleaux. Avalon II est souvent cite comme l'une des machines a sous les plus completes jamais produites, et il est facile de comprendre pourquoi lorsqu'on decouvre l'etendue de ses fonctionnalites.",
         image:
-          "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&h=300&fit=crop",
-        imageAlt: "Interface de jeu de machine a sous medievale",
+          "https://images.unsplash.com/photo-1533154683220-c7142c0a94e0?w=600&h=300&fit=crop",
+        imageAlt: "Chateau et epee evoquant la quete du Graal d'Avalon II",
       },
       {
         heading: "La Quete du Graal : 8 fonctionnalites bonus",
@@ -370,8 +370,8 @@ export const microgamingReviews: GameReview[] = [
         content:
           "Avalon II represente un sommet en matiere de qualite visuelle pour une machine a sous de Microgaming. Les graphismes 3D sont impressionnants, avec des personnages modelises en trois dimensions, des decors detailles et des animations cinematiques qui ponctuent chaque fonctionnalite bonus. L'introduction animee du jeu pose l'univers avec une qualite digne d'un court-metrage d'animation, presentant les personnages principaux et les enjeux de la quete. Les transitions entre le jeu de base et les fonctionnalites bonus sont fluides et bien animees, contribuant a l'immersion. Chaque etape de la Quete du Graal possede son propre environnement visuel, de la foret brumeuse aux salles du chateau en passant par le lac mystique. Cette variete visuelle est l'une des raisons pour lesquelles les joueurs reviennent inlassablement a Avalon II. La bande sonore medievale est composee de themes orchestraux varies qui s'adaptent au contexte du jeu. La musique du jeu de base est douce et atmospherique, tandis que les morceaux des fonctionnalites bonus sont plus intenses et dramatiques. Les effets sonores d'epees, de magie et de creatures fantastiques ajoutent une couche supplementaire d'immersion. La compatibilite mobile est excellente, bien que les graphismes 3D complexes puissent occasionner des temps de chargement legerement plus longs sur des appareils plus anciens. L'experience reste neanmoins fluide et agreable sur les smartphones et tablettes modernes.",
         image:
-          "https://images.unsplash.com/photo-1609902726285-00668009f004?w=600&h=300&fit=crop",
-        imageAlt: "Qualite graphique 3D d'un jeu de casino moderne",
+          "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&h=300&fit=crop",
+        imageAlt: "Univers du gaming evoquant les fonctionnalites bonus d'Avalon II",
       },
       {
         heading: "Strategie et approche recommandee",
@@ -438,9 +438,9 @@ export const microgamingReviews: GameReview[] = [
     excerpt:
       "Decouvrez notre avis complet sur Break da Bank Again de Microgaming, une machine a sous classique sur le theme du braquage bancaire avec des multiplicateurs x25.",
     headerImage:
-      "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1621981386829-9b458a9f3ab5?w=800&h=400&fit=crop",
     headerImageAlt:
-      "Machine a sous Break da Bank Again de Microgaming avec theme braquage bancaire",
+      "Or et argent evoquant le theme de braquage bancaire de Break da Bank Again",
     rtp: "95.43%",
     volatility: "Haute",
     minBet: "0.09",
@@ -464,8 +464,8 @@ export const microgamingReviews: GameReview[] = [
         content:
           "Break da Bank Again est la suite du tres populaire Break da Bank original de Microgaming. Lancee en 2008, cette machine a sous sur le theme du braquage bancaire a conquis les joueurs grace a son concept simple mais terriblement efficace : des multiplicateurs de gains massifs qui peuvent transformer des petites mises en gains spectaculaires. Le jeu propose 5 rouleaux et 9 lignes de paiement dans un format plus traditionnel que les 243 facons de gagner des autres productions Microgaming. L'ambiance est celle d'un coffre-fort de banque avec des symboles representant des lingots d'or, des liasses de billets, des pieces d'or, des coffres-forts et le logo Break da Bank. Les graphismes sont simples mais efficaces, avec des teintes dorees et vertes evoquant la richesse et l'argent. L'interface est epuree et directe, sans fioritures inutiles, ce qui correspond parfaitement a l'esprit du jeu : aller droit au but et chercher les gros gains. Ce qui rend Break da Bank Again veritablement special, c'est son systeme de multiplicateurs. Le symbole Wild est le logo du jeu, et il ne fait pas que substituer les autres symboles : il multiplie les gains par 5 chaque fois qu'il participe a une combinaison gagnante. Si deux Wilds apparaissent dans la meme combinaison, le multiplicateur passe a x25. Ce mecanisme simple mais puissant est le coeur du jeu et la raison principale de sa popularite durable. Le RTP de 95.43% est correct sans etre exceptionnel, mais les multiplicateurs compensent largement en offrant un potentiel de gains tres eleve.",
         image:
-          "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&h=300&fit=crop",
-        imageAlt: "Interface de machine a sous sur le theme de l'argent",
+          "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=600&h=300&fit=crop",
+        imageAlt: "Pieces et monnaie evoquant les gains de Break da Bank Again",
       },
       {
         heading: "Tours gratuits et multiplicateurs explosifs",
@@ -477,8 +477,8 @@ export const microgamingReviews: GameReview[] = [
         content:
           "Break da Bank Again adopte un design deliberement simple et classique. Les graphismes ne rivalisent pas avec les productions modernes en termes de sophistication, mais ils sont clairs, lisibles et parfaitement fonctionnels. Le theme du coffre-fort bancaire est rendu avec des symboles facilement identifiables : les lingots d'or brillent, les liasses de billets sont epaisses, et le coffre-fort massif en tant que Scatter inspire la promesse de richesses. Les animations sont simples : les symboles gagnants scintillent et les gains s'affichent clairement. Pendant les tours gratuits, l'ecran s'assombrit legerement pour signaler le changement de mode, et les multiplicateurs s'affichent en gros caracteres pour que le joueur sache toujours exactement quel multiplicateur est en jeu. La fonctionnalite Gamble permet de doubler les gains apres chaque combinaison gagnante en devinant la couleur d'une carte cachee. Cette option ajoute un element de risque supplementaire pour les joueurs qui aiment le frisson de la prise de risque. Il est possible de doubler son gain jusqu'a 5 fois consecutives, mais un mauvais choix fait perdre l'integralite du gain. La bande sonore est discrete et accompagne le jeu sans devenir envahissante. Les effets sonores de pieces et de caisses enregistreuses s'activent lors des gains, renforçant le sentiment de recolter un butin. L'ambiance generale est celle d'un casse reussi, simple et directe.",
         image:
-          "https://images.unsplash.com/photo-1609902726285-00668009f004?w=600&h=300&fit=crop",
-        imageAlt: "Experience de jeu classique de machine a sous",
+          "https://images.unsplash.com/photo-1570698473651-b2de99bae12f?w=600&h=300&fit=crop",
+        imageAlt: "Jetons de casino evoquant les multiplicateurs de Break da Bank Again",
       },
       {
         heading: "Strategie et gestion de la bankroll",
