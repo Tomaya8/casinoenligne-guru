@@ -6,6 +6,7 @@ import { allStrategies } from "@/data/blackjack-strategies";
 import { allRouletteVariants } from "@/data/roulette-variants";
 import { allRouletteStrategies } from "@/data/roulette-strategies";
 import { allPokerVariants } from "@/data/poker-variants";
+import { allPokerStrategies } from "@/data/poker-strategies";
 import { allGameReviews } from "@/data/game-reviews";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import Badge from "@/components/ui/Badge";
@@ -129,14 +130,21 @@ export default async function GameDetailPage({ params }: { params: Promise<{ slu
                   ? allRouletteStrategies.find((st) => st.name.toLowerCase().split("(")[0].trim() === sLower || sLower.includes(st.name.toLowerCase().split("(")[0].trim()))
                   : undefined;
 
+                // Match poker strategies
+                const pkStrategy = game.slug === "poker"
+                  ? allPokerStrategies.find((st) => st.name.toLowerCase().split("(")[0].trim() === sLower || sLower.includes(st.name.toLowerCase().split("(")[0].trim()))
+                  : undefined;
+
                 const matchedHref = bjStrategy
                   ? `/jeux/blackjack/strategie/${bjStrategy.slug}`
                   : rlStrategy
                     ? `/jeux/roulette/strategie/${rlStrategy.slug}`
-                    : undefined;
-                const matchedLabel = bjStrategy ? bjStrategy.difficulty : rlStrategy ? rlStrategy.difficulty : "";
+                    : pkStrategy
+                      ? `/jeux/poker/strategie/${pkStrategy.slug}`
+                      : undefined;
+                const matchedLabel = bjStrategy ? bjStrategy.difficulty : rlStrategy ? rlStrategy.difficulty : pkStrategy ? pkStrategy.difficulty : "";
 
-                if ((bjStrategy || rlStrategy) && matchedHref) {
+                if ((bjStrategy || rlStrategy || pkStrategy) && matchedHref) {
                   return (
                     <li key={i}>
                       <Link
