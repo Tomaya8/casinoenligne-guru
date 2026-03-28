@@ -33,7 +33,7 @@ export const gameCategories: GameCategory[] = [
     description: "Le blackjack est le jeu de table le plus stratégique du casino. Avec une stratégie de base optimale, l'avantage de la maison peut descendre sous 0.5%, ce qui en fait le jeu le plus favorable pour les joueurs avertis.",
     shortDescription: "Le jeu de stratégie avec le meilleur avantage joueur",
     rules: "L'objectif est d'obtenir une main dont la valeur est la plus proche possible de 21 sans la dépasser. Les cartes numérotées valent leur valeur faciale, les figures valent 10, et l'As vaut 1 ou 11. Le joueur joue contre le croupier et peut tirer (hit), rester (stand), doubler (double) ou séparer (split).",
-    variants: ["Blackjack Européen", "Blackjack Américain", "Blackjack Switch", "Spanish 21", "Pontoon", "Lightning Blackjack", "Infinite Blackjack"],
+    variants: ["Blackjack Européen", "Blackjack Américain", "Blackjack Switch", "Spanish 21", "Pontoon", "Lightning Blackjack", "Infinite Blackjack", "Blackjack VIP", "Speed Blackjack", "Free Bet Blackjack"],
     strategies: ["Stratégie de base (tableau optimal)", "Comptage de cartes (casino physique)", "Gestion du bankroll", "Savoir quand doubler", "Ne jamais prendre l'assurance"],
     rtp: "99.0% - 99.7% (avec stratégie optimale)",
     tips: ["Apprenez la stratégie de base par coeur", "Évitez les paris secondaires (side bets)", "Cherchez les tables 3:2 plutôt que 6:5", "Ne prenez jamais l'assurance"],
