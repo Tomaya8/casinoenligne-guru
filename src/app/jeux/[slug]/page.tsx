@@ -3,6 +3,7 @@ import Link from "next/link";
 import { gameCategories, getGameBySlug } from "@/data/games";
 import { allBlackjackVariants } from "@/data/blackjack-variants";
 import { allStrategies } from "@/data/blackjack-strategies";
+import { allRouletteVariants } from "@/data/roulette-variants";
 import { allGameReviews } from "@/data/game-reviews";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import Badge from "@/components/ui/Badge";
@@ -56,15 +57,28 @@ export default async function GameDetailPage({ params }: { params: Promise<{ slu
             </h2>
             <div className="grid sm:grid-cols-2 gap-3">
               {game.variants.map((v) => {
+                // Check blackjack variants
                 const bjVariant = game.slug === "blackjack"
                   ? allBlackjackVariants.find((bv) => bv.name === v)
                   : undefined;
+                // Check roulette variants (fuzzy: strip parenthetical text)
+                const vBase = v.split("(")[0].trim().toLowerCase();
+                const rlVariant = game.slug === "roulette"
+                  ? allRouletteVariants.find((rv) => rv.name.split("(")[0].trim().toLowerCase() === vBase || rv.name.toLowerCase() === v.toLowerCase())
+                  : undefined;
 
-                if (bjVariant) {
+                const matchedVariant = bjVariant || rlVariant;
+                const matchedHref = bjVariant
+                  ? `/jeux/blackjack/${bjVariant.slug}`
+                  : rlVariant
+                    ? `/jeux/roulette/${rlVariant.slug}`
+                    : undefined;
+
+                if (matchedVariant && matchedHref) {
                   return (
                     <Link
                       key={v}
-                      href={`/jeux/blackjack/${bjVariant.slug}`}
+                      href={matchedHref}
                       className="group flex items-center justify-between p-3 rounded-lg bg-background-secondary border border-border hover:border-accent-primary/40 transition-all"
                     >
                       <span className="flex items-center gap-2">
@@ -72,7 +86,7 @@ export default async function GameDetailPage({ params }: { params: Promise<{ slu
                         <span className="text-sm text-foreground group-hover:text-accent-primary transition-colors">{v}</span>
                       </span>
                       <span className="flex items-center gap-1 text-xs text-foreground-muted">
-                        RTP {bjVariant.rtp} <ArrowRight className="w-3 h-3" />
+                        RTP {matchedVariant.rtp} <ArrowRight className="w-3 h-3" />
                       </span>
                     </Link>
                   );
@@ -171,6 +185,18 @@ export default async function GameDetailPage({ params }: { params: Promise<{ slu
                   if (bjVariant) {
                     return (
                       <Link key={g} href={`/jeux/blackjack/${bjVariant.slug}`}>
+                        <Badge variant="primary" className="cursor-pointer hover:opacity-80 transition-opacity">{g}</Badge>
+                      </Link>
+                    );
+                  }
+
+                  // Check roulette variants
+                  const rlVariant = game.slug === "roulette"
+                    ? allRouletteVariants.find((v) => v.name === g || v.name.split("(")[0].trim() === g.split("(")[0].trim())
+                    : undefined;
+                  if (rlVariant) {
+                    return (
+                      <Link key={g} href={`/jeux/roulette/${rlVariant.slug}`}>
                         <Badge variant="primary" className="cursor-pointer hover:opacity-80 transition-opacity">{g}</Badge>
                       </Link>
                     );
