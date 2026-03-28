@@ -75,88 +75,92 @@ export default async function BonusDetailPage({
           <article>
             <p className="text-lg text-foreground-muted mb-8">{article.excerpt}</p>
 
-            {/* Sections */}
+            {/* Sections with pros/cons and examples integrated */}
             <div className="space-y-10">
               {article.sections.map((section, i) => (
-                <section key={i} id={`section-${i}`} className="scroll-mt-24">
-                  <h2 className="text-2xl font-bold text-foreground mb-4">{section.heading}</h2>
-                  {section.image && section.image.startsWith("http") && (
-                    <div className="relative h-48 rounded-xl overflow-hidden mb-4">
-                      <Image
-                        src={section.image}
-                        alt={section.imageAlt || section.heading}
-                        fill
-                        className="object-cover"
-                        sizes="(max-width: 768px) 100vw, 800px"
-                      />
+                <div key={i}>
+                  <section id={`section-${i}`} className="scroll-mt-24">
+                    <h2 className="text-2xl font-bold text-foreground mb-4">{section.heading}</h2>
+                    {section.image && section.image.startsWith("http") && (
+                      <div className="relative h-48 rounded-xl overflow-hidden mb-4">
+                        <Image
+                          src={section.image}
+                          alt={section.imageAlt || section.heading}
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 768px) 100vw, 800px"
+                        />
+                      </div>
+                    )}
+                    <div className="space-y-4">
+                      {section.content.split("\n\n").map((p, j) => (
+                        <p key={j} className="text-foreground-muted leading-relaxed">{p}</p>
+                      ))}
                     </div>
+                  </section>
+
+                  {/* Pros/Cons after 2nd section */}
+                  {i === 1 && (
+                    <section className="mt-10">
+                      <h2 className="text-2xl font-bold text-foreground mb-4">Avantages et Inconvénients</h2>
+                      <div className="grid sm:grid-cols-2 gap-6">
+                        <div className="bg-accent-green/5 rounded-xl border border-accent-green/20 p-6">
+                          <h3 className="text-sm font-semibold text-accent-green mb-3 uppercase tracking-wider">Avantages</h3>
+                          <ul className="space-y-2">
+                            {article.pros.map((pro, pi) => (
+                              <li key={pi} className="flex items-start gap-2 text-sm text-foreground-muted">
+                                <Check className="w-4 h-4 text-accent-green shrink-0 mt-0.5" /> {pro}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                        <div className="bg-accent-red/5 rounded-xl border border-accent-red/20 p-6">
+                          <h3 className="text-sm font-semibold text-accent-red mb-3 uppercase tracking-wider">Inconvénients</h3>
+                          <ul className="space-y-2">
+                            {article.cons.map((con, ci) => (
+                              <li key={ci} className="flex items-start gap-2 text-sm text-foreground-muted">
+                                <X className="w-4 h-4 text-accent-red shrink-0 mt-0.5" /> {con}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
+                    </section>
                   )}
-                  <div className="space-y-4">
-                    {section.content.split("\n\n").map((p, j) => (
-                      <p key={j} className="text-foreground-muted leading-relaxed">{p}</p>
-                    ))}
-                  </div>
-                </section>
+
+                  {/* Examples after 3rd section */}
+                  {i === 2 && article.examples.length > 0 && (
+                    <section id="examples" className="mt-10 scroll-mt-24">
+                      <h2 className="text-2xl font-bold text-foreground mb-6 flex items-center gap-2">
+                        <Gift className="w-6 h-6 text-accent-gold" /> Exemples Concrets
+                      </h2>
+                      <div className="overflow-x-auto">
+                        <table className="w-full text-sm border border-border rounded-xl overflow-hidden">
+                          <thead>
+                            <tr className="bg-background-secondary">
+                              <th className="text-left py-3 px-4 text-foreground font-semibold border-b border-border whitespace-nowrap">Casino</th>
+                              <th className="text-left py-3 px-4 text-foreground font-semibold border-b border-border whitespace-nowrap">Offre</th>
+                              <th className="text-left py-3 px-4 text-foreground font-semibold border-b border-border whitespace-nowrap">Wagering</th>
+                              <th className="text-left py-3 px-4 text-foreground font-semibold border-b border-border whitespace-nowrap">Verdict</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {article.examples.map((ex, ei) => (
+                              <tr key={ei} className="border-b border-border last:border-0 hover:bg-background-card-hover transition-colors">
+                                <td className="py-3 px-4 font-medium text-foreground">{ex.casino}</td>
+                                <td className="py-3 px-4 text-accent-gold font-medium">{ex.offer}</td>
+                                <td className="py-3 px-4 text-foreground-muted">{ex.wagering}</td>
+                                <td className="py-3 px-4 text-foreground-muted">{ex.verdict}</td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  )}
+                </div>
               ))}
             </div>
-
-            {/* Examples */}
-            {article.examples.length > 0 && (
-              <section id="examples" className="mt-10 scroll-mt-24">
-                <h2 className="text-2xl font-bold text-foreground mb-6 flex items-center gap-2">
-                  <Gift className="w-6 h-6 text-accent-gold" /> Exemples Concrets
-                </h2>
-                <div className="overflow-x-auto">
-                  <table className="w-full text-sm border border-border rounded-xl overflow-hidden">
-                    <thead>
-                      <tr className="bg-background-secondary">
-                        <th className="text-left py-3 px-4 text-foreground font-semibold border-b border-border whitespace-nowrap">Casino</th>
-                        <th className="text-left py-3 px-4 text-foreground font-semibold border-b border-border whitespace-nowrap">Offre</th>
-                        <th className="text-left py-3 px-4 text-foreground font-semibold border-b border-border whitespace-nowrap">Wagering</th>
-                        <th className="text-left py-3 px-4 text-foreground font-semibold border-b border-border whitespace-nowrap">Verdict</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {article.examples.map((ex, i) => (
-                        <tr key={i} className="border-b border-border last:border-0 hover:bg-background-card-hover transition-colors">
-                          <td className="py-3 px-4 font-medium text-foreground">{ex.casino}</td>
-                          <td className="py-3 px-4 text-accent-gold font-medium">{ex.offer}</td>
-                          <td className="py-3 px-4 text-foreground-muted">{ex.wagering}</td>
-                          <td className="py-3 px-4 text-foreground-muted">{ex.verdict}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              </section>
-            )}
-
-            {/* Pros / Cons */}
-            <section className="mt-10">
-              <h2 className="text-2xl font-bold text-foreground mb-4">Avantages et Inconvénients</h2>
-              <div className="grid sm:grid-cols-2 gap-6">
-                <div className="bg-accent-green/5 rounded-xl border border-accent-green/20 p-6">
-                  <h3 className="text-sm font-semibold text-accent-green mb-3 uppercase tracking-wider">Avantages</h3>
-                  <ul className="space-y-2">
-                    {article.pros.map((pro, i) => (
-                      <li key={i} className="flex items-start gap-2 text-sm text-foreground-muted">
-                        <Check className="w-4 h-4 text-accent-green shrink-0 mt-0.5" /> {pro}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                <div className="bg-accent-red/5 rounded-xl border border-accent-red/20 p-6">
-                  <h3 className="text-sm font-semibold text-accent-red mb-3 uppercase tracking-wider">Inconvénients</h3>
-                  <ul className="space-y-2">
-                    {article.cons.map((con, i) => (
-                      <li key={i} className="flex items-start gap-2 text-sm text-foreground-muted">
-                        <X className="w-4 h-4 text-accent-red shrink-0 mt-0.5" /> {con}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </section>
 
             {/* Tips */}
             {article.tips.length > 0 && (

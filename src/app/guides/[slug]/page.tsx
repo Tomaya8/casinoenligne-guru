@@ -84,90 +84,86 @@ export default async function GuideDetailPage({ params }: { params: Promise<{ sl
               {/* Sections */}
               <div className="space-y-10">
                 {guide.sections.map((section, i) => (
-                  <section key={i} id={`section-${i}`} className="scroll-mt-24">
-                    <h2 className="text-2xl font-bold text-foreground mb-4">{section.heading}</h2>
-                    {section.image && (
-                      <GuideImage
-                        src={section.image}
-                        alt={section.imageAlt || section.heading}
-                        topic={guide.topic}
-                        className="w-full h-48 rounded-xl mb-4"
-                      />
+                  <div key={i}>
+                    <section id={`section-${i}`} className="scroll-mt-24">
+                      <h2 className="text-2xl font-bold text-foreground mb-4">{section.heading}</h2>
+                      {section.image && (
+                        <GuideImage
+                          src={section.image}
+                          alt={section.imageAlt || section.heading}
+                          topic={guide.topic}
+                          className="w-full h-48 rounded-xl mb-4"
+                        />
+                      )}
+                      <div className="space-y-4">
+                        {section.content.split("\n\n").map((paragraph, j) => (
+                          <p key={j} className="text-foreground-muted leading-relaxed">{paragraph}</p>
+                        ))}
+                      </div>
+                    </section>
+
+                    {/* Pros/Cons after 2nd section */}
+                    {i === 1 && (guide.pros || guide.cons) && (
+                      <section className="mt-10">
+                        <h2 className="text-2xl font-bold text-foreground mb-4">Avantages et Inconvénients</h2>
+                        <div className="grid sm:grid-cols-2 gap-6">
+                          {guide.pros && (
+                            <div className="bg-accent-green/5 rounded-xl border border-accent-green/20 p-6">
+                              <h3 className="text-sm font-semibold text-accent-green mb-3 uppercase tracking-wider">Points forts</h3>
+                              <ul className="space-y-2">
+                                {guide.pros.map((pro, pi) => (
+                                  <li key={pi} className="flex items-start gap-2 text-sm text-foreground-muted">
+                                    <Check className="w-4 h-4 text-accent-green shrink-0 mt-0.5" /> {pro}
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          )}
+                          {guide.cons && (
+                            <div className="bg-accent-red/5 rounded-xl border border-accent-red/20 p-6">
+                              <h3 className="text-sm font-semibold text-accent-red mb-3 uppercase tracking-wider">Points faibles</h3>
+                              <ul className="space-y-2">
+                                {guide.cons.map((con, ci) => (
+                                  <li key={ci} className="flex items-start gap-2 text-sm text-foreground-muted">
+                                    <X className="w-4 h-4 text-accent-red shrink-0 mt-0.5" /> {con}
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          )}
+                        </div>
+                      </section>
                     )}
-                    <div className="space-y-4">
-                      {section.content.split("\n\n").map((paragraph, j) => (
-                        <p key={j} className="text-foreground-muted leading-relaxed">{paragraph}</p>
-                      ))}
-                    </div>
-                  </section>
+
+                    {/* Comparison after 3rd section */}
+                    {i === 2 && guide.comparison && (
+                      <section id="comparison" className="mt-10 scroll-mt-24">
+                        <h2 className="text-2xl font-bold text-foreground mb-4">{guide.comparison.title}</h2>
+                        <div className="overflow-x-auto">
+                          <table className="w-full text-sm border border-border rounded-xl overflow-hidden">
+                            <thead>
+                              <tr className="bg-background-secondary">
+                                {guide.comparison.headers.map((header, hi) => (
+                                  <th key={hi} className="text-left py-3 px-4 text-foreground font-semibold border-b border-border">{header}</th>
+                                ))}
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {guide.comparison.rows.map((row, ri) => (
+                                <tr key={ri} className="border-b border-border last:border-0 hover:bg-background-card-hover transition-colors">
+                                  {row.map((cell, ci) => (
+                                    <td key={ci} className={`py-3 px-4 ${ci === 0 ? "font-medium text-foreground" : "text-foreground-muted"}`}>{cell}</td>
+                                  ))}
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    )}
+                  </div>
                 ))}
               </div>
-
-              {/* Comparison table */}
-              {guide.comparison && (
-                <section id="comparison" className="mt-10 scroll-mt-24">
-                  <h2 className="text-2xl font-bold text-foreground mb-4">{guide.comparison.title}</h2>
-                  <div className="overflow-x-auto">
-                    <table className="w-full text-sm border border-border rounded-xl overflow-hidden">
-                      <thead>
-                        <tr className="bg-background-secondary">
-                          {guide.comparison.headers.map((header, i) => (
-                            <th key={i} className="text-left py-3 px-4 text-foreground font-semibold border-b border-border">
-                              {header}
-                            </th>
-                          ))}
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {guide.comparison.rows.map((row, i) => (
-                          <tr key={i} className="border-b border-border last:border-0 hover:bg-background-card-hover transition-colors">
-                            {row.map((cell, j) => (
-                              <td key={j} className={`py-3 px-4 ${j === 0 ? "font-medium text-foreground" : "text-foreground-muted"}`}>
-                                {cell}
-                              </td>
-                            ))}
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
-                </section>
-              )}
-
-              {/* Pros / Cons */}
-              {(guide.pros || guide.cons) && (
-                <section className="mt-10">
-                  <h2 className="text-2xl font-bold text-foreground mb-4">Avantages et Inconvénients</h2>
-                  <div className="grid sm:grid-cols-2 gap-6">
-                    {guide.pros && (
-                      <div className="bg-accent-green/5 rounded-xl border border-accent-green/20 p-6">
-                        <h3 className="text-sm font-semibold text-accent-green mb-3 uppercase tracking-wider">Points forts</h3>
-                        <ul className="space-y-2">
-                          {guide.pros.map((pro, i) => (
-                            <li key={i} className="flex items-start gap-2 text-sm text-foreground-muted">
-                              <Check className="w-4 h-4 text-accent-green shrink-0 mt-0.5" />
-                              {pro}
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
-                    {guide.cons && (
-                      <div className="bg-accent-red/5 rounded-xl border border-accent-red/20 p-6">
-                        <h3 className="text-sm font-semibold text-accent-red mb-3 uppercase tracking-wider">Points faibles</h3>
-                        <ul className="space-y-2">
-                          {guide.cons.map((con, i) => (
-                            <li key={i} className="flex items-start gap-2 text-sm text-foreground-muted">
-                              <X className="w-4 h-4 text-accent-red shrink-0 mt-0.5" />
-                              {con}
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
-                  </div>
-                </section>
-              )}
 
               {/* FAQs */}
               {guide.faqs.length > 0 && (

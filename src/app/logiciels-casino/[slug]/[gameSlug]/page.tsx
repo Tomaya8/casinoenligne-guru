@@ -112,57 +112,61 @@ export default async function GameReviewPage({
               </div>
             </div>
 
-            {/* Sections */}
+            {/* Sections with pros/cons integrated after section 2 */}
             <div className="space-y-10">
               {review.sections.map((section, i) => (
-                <section key={i} id={`section-${i}`} className="scroll-mt-24">
-                  <h2 className="text-2xl font-bold text-foreground mb-4">{section.heading}</h2>
-                  {section.image && section.image.startsWith("http") && (
-                    <div className="relative h-48 rounded-xl overflow-hidden mb-4">
-                      <Image
-                        src={section.image}
-                        alt={section.imageAlt || section.heading}
-                        fill
-                        className="object-cover"
-                        sizes="(max-width: 768px) 100vw, 800px"
-                      />
+                <div key={i}>
+                  <section id={`section-${i}`} className="scroll-mt-24">
+                    <h2 className="text-2xl font-bold text-foreground mb-4">{section.heading}</h2>
+                    {section.image && section.image.startsWith("http") && (
+                      <div className="relative h-48 rounded-xl overflow-hidden mb-4">
+                        <Image
+                          src={section.image}
+                          alt={section.imageAlt || section.heading}
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 768px) 100vw, 800px"
+                        />
+                      </div>
+                    )}
+                    <div className="space-y-4">
+                      {section.content.split("\n\n").map((p, j) => (
+                        <p key={j} className="text-foreground-muted leading-relaxed">{p}</p>
+                      ))}
                     </div>
+                  </section>
+
+                  {/* Pros/Cons after 2nd section */}
+                  {i === 1 && (
+                    <section className="mt-10">
+                      <h2 className="text-2xl font-bold text-foreground mb-4">Avantages et Inconvénients</h2>
+                      <div className="grid sm:grid-cols-2 gap-6">
+                        <div className="bg-accent-green/5 rounded-xl border border-accent-green/20 p-6">
+                          <h3 className="text-sm font-semibold text-accent-green mb-3 uppercase tracking-wider">Points forts</h3>
+                          <ul className="space-y-2">
+                            {review.pros.map((pro, pi) => (
+                              <li key={pi} className="flex items-start gap-2 text-sm text-foreground-muted">
+                                <Check className="w-4 h-4 text-accent-green shrink-0 mt-0.5" /> {pro}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                        <div className="bg-accent-red/5 rounded-xl border border-accent-red/20 p-6">
+                          <h3 className="text-sm font-semibold text-accent-red mb-3 uppercase tracking-wider">Points faibles</h3>
+                          <ul className="space-y-2">
+                            {review.cons.map((con, ci) => (
+                              <li key={ci} className="flex items-start gap-2 text-sm text-foreground-muted">
+                                <X className="w-4 h-4 text-accent-red shrink-0 mt-0.5" /> {con}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
+                    </section>
                   )}
-                  <div className="space-y-4">
-                    {section.content.split("\n\n").map((p, j) => (
-                      <p key={j} className="text-foreground-muted leading-relaxed">{p}</p>
-                    ))}
-                  </div>
-                </section>
+                </div>
               ))}
             </div>
-
-            {/* Pros / Cons */}
-            <section className="mt-10">
-              <h2 className="text-2xl font-bold text-foreground mb-4">Avantages et Inconvénients</h2>
-              <div className="grid sm:grid-cols-2 gap-6">
-                <div className="bg-accent-green/5 rounded-xl border border-accent-green/20 p-6">
-                  <h3 className="text-sm font-semibold text-accent-green mb-3 uppercase tracking-wider">Points forts</h3>
-                  <ul className="space-y-2">
-                    {review.pros.map((pro, i) => (
-                      <li key={i} className="flex items-start gap-2 text-sm text-foreground-muted">
-                        <Check className="w-4 h-4 text-accent-green shrink-0 mt-0.5" /> {pro}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                <div className="bg-accent-red/5 rounded-xl border border-accent-red/20 p-6">
-                  <h3 className="text-sm font-semibold text-accent-red mb-3 uppercase tracking-wider">Points faibles</h3>
-                  <ul className="space-y-2">
-                    {review.cons.map((con, i) => (
-                      <li key={i} className="flex items-start gap-2 text-sm text-foreground-muted">
-                        <X className="w-4 h-4 text-accent-red shrink-0 mt-0.5" /> {con}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </section>
 
             {/* Verdict */}
             <section className="mt-10">
