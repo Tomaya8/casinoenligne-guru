@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { gameCategories, getGameBySlug } from "@/data/games";
 import { allBlackjackVariants } from "@/data/blackjack-variants";
+import { allStrategies } from "@/data/blackjack-strategies";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import Badge from "@/components/ui/Badge";
 import type { Metadata } from "next";
@@ -92,14 +93,37 @@ export default async function GameDetailPage({ params }: { params: Promise<{ slu
               <Target className="w-5 h-5 text-accent-gold" /> Stratégies
             </h2>
             <ul className="space-y-3">
-              {game.strategies.map((s, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="w-6 h-6 rounded-full bg-accent-primary/20 text-accent-primary text-xs flex items-center justify-center shrink-0 mt-0.5 font-bold">
-                    {i + 1}
-                  </span>
-                  <span className="text-foreground-muted">{s}</span>
-                </li>
-              ))}
+              {game.strategies.map((s, i) => {
+                const bjStrategy = game.slug === "blackjack"
+                  ? allStrategies.find((st) => st.name === s)
+                  : undefined;
+
+                if (bjStrategy) {
+                  return (
+                    <li key={i}>
+                      <Link
+                        href={`/jeux/blackjack/strategie/${bjStrategy.slug}`}
+                        className="flex items-center justify-between gap-3 group p-3 -mx-3 rounded-lg hover:bg-background-secondary transition-colors"
+                      >
+                        <span className="flex items-start gap-3">
+                          <span className="w-6 h-6 rounded-full bg-accent-primary/20 text-accent-primary text-xs flex items-center justify-center shrink-0 mt-0.5 font-bold">{i + 1}</span>
+                          <span className="text-foreground-muted group-hover:text-accent-primary transition-colors">{s}</span>
+                        </span>
+                        <span className="flex items-center gap-1 text-xs text-foreground-muted shrink-0">
+                          {bjStrategy.difficulty} <ArrowRight className="w-3 h-3" />
+                        </span>
+                      </Link>
+                    </li>
+                  );
+                }
+
+                return (
+                  <li key={i} className="flex items-start gap-3">
+                    <span className="w-6 h-6 rounded-full bg-accent-primary/20 text-accent-primary text-xs flex items-center justify-center shrink-0 mt-0.5 font-bold">{i + 1}</span>
+                    <span className="text-foreground-muted">{s}</span>
+                  </li>
+                );
+              })}
             </ul>
           </section>
 
