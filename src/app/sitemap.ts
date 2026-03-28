@@ -9,6 +9,7 @@ import { allBonusArticles } from "@/data/bonus-articles";
 import { allBlackjackVariants } from "@/data/blackjack-variants";
 import { allStrategies } from "@/data/blackjack-strategies";
 import { allRouletteVariants } from "@/data/roulette-variants";
+import { allRouletteStrategies } from "@/data/roulette-strategies";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://casinoenligne.guru";
@@ -96,5 +97,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...casinoPages, ...gamePages, ...articlePages, ...providerPages, ...guidePages, ...gameReviewPages, ...bonusPages, ...blackjackVariantPages, ...blackjackStrategyPages, ...rouletteVariantPages];
+  const rouletteStrategyPages = allRouletteStrategies.map((s) => ({
+    url: `${baseUrl}/jeux/roulette/strategie/${s.slug}`,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...casinoPages, ...gamePages, ...articlePages, ...providerPages, ...guidePages, ...gameReviewPages, ...bonusPages, ...blackjackVariantPages, ...blackjackStrategyPages, ...rouletteVariantPages, ...rouletteStrategyPages];
 }

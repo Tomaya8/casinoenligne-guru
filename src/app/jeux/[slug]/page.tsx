@@ -4,6 +4,7 @@ import { gameCategories, getGameBySlug } from "@/data/games";
 import { allBlackjackVariants } from "@/data/blackjack-variants";
 import { allStrategies } from "@/data/blackjack-strategies";
 import { allRouletteVariants } from "@/data/roulette-variants";
+import { allRouletteStrategies } from "@/data/roulette-strategies";
 import { allGameReviews } from "@/data/game-reviews";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import Badge from "@/components/ui/Badge";
@@ -110,15 +111,29 @@ export default async function GameDetailPage({ params }: { params: Promise<{ slu
             <ul className="space-y-3">
               {game.strategies.map((s, i) => {
                 const sLower = s.toLowerCase().split("(")[0].trim();
+
+                // Match blackjack strategies
                 const bjStrategy = game.slug === "blackjack"
                   ? allStrategies.find((st) => st.name.toLowerCase().split("(")[0].trim() === sLower || sLower.includes(st.name.toLowerCase().split("(")[0].trim()))
                   : undefined;
 
-                if (bjStrategy) {
+                // Match roulette strategies
+                const rlStrategy = game.slug === "roulette"
+                  ? allRouletteStrategies.find((st) => st.name.toLowerCase().split("(")[0].trim() === sLower || sLower.includes(st.name.toLowerCase().split("(")[0].trim()))
+                  : undefined;
+
+                const matchedHref = bjStrategy
+                  ? `/jeux/blackjack/strategie/${bjStrategy.slug}`
+                  : rlStrategy
+                    ? `/jeux/roulette/strategie/${rlStrategy.slug}`
+                    : undefined;
+                const matchedLabel = bjStrategy ? bjStrategy.difficulty : rlStrategy ? rlStrategy.difficulty : "";
+
+                if ((bjStrategy || rlStrategy) && matchedHref) {
                   return (
                     <li key={i}>
                       <Link
-                        href={`/jeux/blackjack/strategie/${bjStrategy.slug}`}
+                        href={matchedHref}
                         className="flex items-center justify-between gap-3 group p-3 -mx-3 rounded-lg hover:bg-background-secondary transition-colors"
                       >
                         <span className="flex items-start gap-3">
@@ -126,7 +141,7 @@ export default async function GameDetailPage({ params }: { params: Promise<{ slu
                           <span className="text-foreground-muted group-hover:text-accent-primary transition-colors">{s}</span>
                         </span>
                         <span className="flex items-center gap-1 text-xs text-foreground-muted shrink-0">
-                          {bjStrategy.difficulty} <ArrowRight className="w-3 h-3" />
+                          {matchedLabel} <ArrowRight className="w-3 h-3" />
                         </span>
                       </Link>
                     </li>
