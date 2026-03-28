@@ -95,8 +95,9 @@ export default async function GameDetailPage({ params }: { params: Promise<{ slu
             </h2>
             <ul className="space-y-3">
               {game.strategies.map((s, i) => {
+                const sLower = s.toLowerCase().split("(")[0].trim();
                 const bjStrategy = game.slug === "blackjack"
-                  ? allStrategies.find((st) => st.name === s)
+                  ? allStrategies.find((st) => st.name.toLowerCase().split("(")[0].trim() === sLower || sLower.includes(st.name.toLowerCase().split("(")[0].trim()))
                   : undefined;
 
                 if (bjStrategy) {
