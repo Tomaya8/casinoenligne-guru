@@ -1,16 +1,11 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import SearchBar from "@/components/search/SearchBar";
 import Badge from "@/components/ui/Badge";
-import { casinos } from "@/data/casinos";
-import { gameCategories } from "@/data/games";
-import { articles } from "@/data/articles";
-import { providers } from "@/data/providers";
-import { getAllGuideArticles } from "@/data/guides";
 import { ArrowRight } from "lucide-react";
 import { Suspense } from "react";
 
@@ -25,28 +20,60 @@ function SearchContent() {
   const searchParams = useSearchParams();
   const initialQuery = searchParams.get("q") || "";
   const [query, setQuery] = useState(initialQuery);
+  const [results, setResults] = useState<SearchResult[]>([]);
+  const searchIndex = useRef<SearchResult[] | null>(null);
 
   useEffect(() => {
     setQuery(searchParams.get("q") || "");
   }, [searchParams]);
 
-  const results = useMemo(() => {
-    if (!query || query.length < 2) return [];
-    const q = query.toLowerCase();
-    const all: SearchResult[] = [
-      ...casinos.filter((c) => c.name.toLowerCase().includes(q) || c.description.toLowerCase().includes(q) || c.tags.some((t) => t.includes(q)))
-        .map((c) => ({ type: "Casino", title: c.name, href: `/casinos/${c.slug}`, description: c.shortDescription })),
-      ...gameCategories.filter((g) => g.name.toLowerCase().includes(q) || g.description.toLowerCase().includes(q))
-        .map((g) => ({ type: "Jeu", title: g.name, href: `/jeux/${g.slug}`, description: g.shortDescription })),
-      ...articles.filter((a) => a.title.toLowerCase().includes(q) || a.excerpt.toLowerCase().includes(q) || a.tags.some((t) => t.includes(q)))
-        .map((a) => ({ type: a.category === "guides" ? "Guide" : a.category === "actualites" ? "Actualité" : "Analyse", title: a.title, href: `/${a.category}/${a.slug}`, description: a.excerpt })),
-      ...providers.filter((p) => p.name.toLowerCase().includes(q) || p.description.toLowerCase().includes(q))
-        .map((p) => ({ type: "Logiciel", title: p.name, href: `/logiciels-casino/${p.slug}`, description: p.description })),
-      ...getAllGuideArticles().filter((g) => g.title.toLowerCase().includes(q) || g.excerpt.toLowerCase().includes(q) || g.tags.some((t) => t.includes(q)))
-        .map((g) => ({ type: "Guide", title: g.title, href: `/guides/${g.slug}`, description: g.excerpt })),
+  const loadSearchIndex = useCallback(async () => {
+    if (searchIndex.current) return searchIndex.current;
+
+    const [
+      { casinos },
+      { gameCategories },
+      { articles },
+      { providers },
+      { getAllGuideArticles },
+    ] = await Promise.all([
+      import("@/data/casinos"),
+      import("@/data/games"),
+      import("@/data/articles"),
+      import("@/data/providers"),
+      import("@/data/guides"),
+    ]);
+
+    searchIndex.current = [
+      ...casinos.map((c) => ({ type: "Casino", title: c.name, href: `/casinos/${c.slug}`, description: c.shortDescription })),
+      ...gameCategories.map((g) => ({ type: "Jeu", title: g.name, href: `/jeux/${g.slug}`, description: g.shortDescription })),
+      ...articles.map((a) => ({ type: a.category === "guides" ? "Guide" : a.category === "actualites" ? "Actualité" : "Analyse", title: a.title, href: `/${a.category}/${a.slug}`, description: a.excerpt })),
+      ...providers.map((p) => ({ type: "Logiciel", title: p.name, href: `/logiciels-casino/${p.slug}`, description: p.description })),
+      ...getAllGuideArticles().map((g) => ({ type: "Guide", title: g.title, href: `/guides/${g.slug}`, description: g.excerpt })),
     ];
-    return all;
-  }, [query]);
+    return searchIndex.current;
+  }, []);
+
+  useEffect(() => {
+    if (!query || query.length < 2) {
+      setResults([]);
+      return;
+    }
+
+    let cancelled = false;
+    loadSearchIndex().then((index) => {
+      if (cancelled) return;
+      const q = query.toLowerCase();
+      const all = index.filter(
+        (item) =>
+          item.title.toLowerCase().includes(q) ||
+          item.description.toLowerCase().includes(q)
+      );
+      setResults(all);
+    });
+
+    return () => { cancelled = true; };
+  }, [query, loadSearchIndex]);
 
   const typeColors: Record<string, "primary" | "secondary" | "gold" | "green"> = {
     Casino: "primary", Jeu: "secondary", Guide: "green", Actualité: "secondary", Analyse: "gold", Logiciel: "primary",

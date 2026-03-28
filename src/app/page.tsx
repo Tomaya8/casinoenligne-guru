@@ -7,7 +7,7 @@ import SeoText from "@/components/ui/SeoText";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Casino en Ligne Guide | casinoenligne.guru — Le Guide Ultime du Casino en Ligne",
+  title: "Le Guide Ultime du Casino en Ligne Francophone",
   description:
     "Le guide ultime du casino en ligne pour les joueurs francophones. Comparatif casinos, bonus, jeux, stratégies et actualités iGaming. Expert, indépendant et fiable.",
   openGraph: {

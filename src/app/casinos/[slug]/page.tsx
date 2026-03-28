@@ -78,7 +78,7 @@ export default async function CasinoDetailPage({ params }: { params: Promise<{ s
         {/* Main content */}
         <div className="lg:col-span-2 space-y-8">
           {/* Bonus */}
-          <section className="bg-background-card rounded-xl border border-border p-6">
+          <section id="bonus" className="bg-background-card rounded-xl border border-border p-6 scroll-mt-24">
             <h2 className="text-xl font-bold mb-4">Bonus & Promotions</h2>
             <div className="p-4 rounded-lg bg-gradient-to-r from-accent-primary/10 to-accent-secondary/10 border border-accent-primary/20">
               <p className="text-sm text-foreground-muted">{casino.bonusTitle}</p>
@@ -155,10 +155,10 @@ export default async function CasinoDetailPage({ params }: { params: Promise<{ s
               <p className="text-sm text-foreground-muted mb-2">Bonus exclusif</p>
               <p className="text-xl font-bold gradient-text mb-4">{casino.bonusAmount}</p>
               <a
-                href={`#bonus-${casino.slug}`}
+                href="#bonus"
                 className="block w-full py-3 rounded-lg bg-gradient-to-r from-accent-primary to-purple-500 text-white font-medium hover:opacity-90 transition-opacity text-center"
               >
-                Visiter {casino.name}
+                Voir le bonus {casino.name}
               </a>
               <p className="text-xs text-foreground-muted mt-3">18+ | Jeu responsable | T&C appliqués</p>
             </div>

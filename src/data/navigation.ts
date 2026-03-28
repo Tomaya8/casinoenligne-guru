@@ -32,8 +32,8 @@ export const mainNavigation: NavItem[] = [
     href: "/bonus-casino",
     children: [
       { label: "Tous les bonus", href: "/bonus-casino", description: "Comparatif des meilleurs bonus" },
-      { label: "Bonus sans dépôt", href: "/bonus-casino#sans-depot", description: "Jouez gratuitement" },
-      { label: "Tours gratuits", href: "/bonus-casino#tours-gratuits", description: "Free spins disponibles" },
+      { label: "Bonus sans dépôt", href: "/bonus-casino/bonus-sans-depot", description: "Jouez gratuitement" },
+      { label: "Tours gratuits", href: "/bonus-casino/tours-gratuits", description: "Free spins disponibles" },
     ],
   },
   {

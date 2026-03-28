@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6c5ce7"/>
+      <stop offset="100%" style="stop-color:#a855f7"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e6a817"/>
+      <stop offset="100%" style="stop-color:#f0c040"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="200" cy="100" r="300" fill="#6c5ce7" opacity="0.08"/>
+  <circle cx="1000" cy="530" r="250" fill="#0097a7" opacity="0.06"/>
+  <rect x="80" y="260" width="70" height="70" rx="16" fill="url(#accent)"/>
+  <text x="115" y="308" text-anchor="middle" font-family="Arial,sans-serif" font-size="32" font-weight="bold" fill="white">CG</text>
+  <text x="170" y="305" font-family="Arial,sans-serif" font-size="42" font-weight="bold">
+    <tspan fill="#6c5ce7">casino</tspan><tspan fill="#8888aa">enligne</tspan><tspan fill="#e6a817">.guru</tspan>
+  </text>
+  <text x="80" y="390" font-family="Arial,sans-serif" font-size="52" font-weight="bold" fill="white">Le Guide Ultime du</text>
+  <text x="80" y="455" font-family="Arial,sans-serif" font-size="52" font-weight="bold" fill="url(#accent)">Casino en Ligne</text>
+  <text x="80" y="520" font-family="Arial,sans-serif" font-size="24" fill="#8888aa">Comparatifs · Bonus · Stratégies · Jeux · 100% Francophone</text>
+  <rect x="80" y="560" width="120" height="4" rx="2" fill="url(#gold)"/>
+</svg>
