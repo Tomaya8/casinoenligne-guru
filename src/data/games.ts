@@ -59,7 +59,7 @@ export const gameCategories: GameCategory[] = [
     description: "Le poker en ligne offre une expérience stratégique unique où le talent surpasse la chance sur le long terme. Des tournois massifs aux tables cash, explorez l'univers du poker en ligne francophone.",
     shortDescription: "Le jeu de stratégie ultime entre joueurs",
     rules: "Le poker se joue avec un jeu de 52 cartes. Les joueurs reçoivent des cartes et doivent former la meilleure combinaison possible. Le Texas Hold'em est la variante la plus populaire : chaque joueur reçoit 2 cartes privées et partage 5 cartes communes.",
-    variants: ["Texas Hold'em", "Omaha", "Stud", "Vidéo Poker", "Caribbean Stud", "Casino Hold'em", "Three Card Poker"],
+    variants: ["Texas Hold'em Live", "Casino Hold'em", "Three Card Poker", "Caribbean Stud Poker", "Video Poker Jacks or Better", "Omaha", "Stud"],
     strategies: ["Position à la table", "Lecture des adversaires", "Gestion du pot", "Calcul des cotes", "Bluff et semi-bluff"],
     rtp: "95% - 99.5% (dépend de la variante et du skill)",
     tips: ["Commencez avec des petites limites", "Apprenez les cotes du pot", "La position est cruciale", "Gérez votre bankroll séparément"],

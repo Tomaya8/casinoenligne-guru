@@ -5,6 +5,7 @@ import { allBlackjackVariants } from "@/data/blackjack-variants";
 import { allStrategies } from "@/data/blackjack-strategies";
 import { allRouletteVariants } from "@/data/roulette-variants";
 import { allRouletteStrategies } from "@/data/roulette-strategies";
+import { allPokerVariants } from "@/data/poker-variants";
 import { allGameReviews } from "@/data/game-reviews";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import Badge from "@/components/ui/Badge";
@@ -67,13 +68,19 @@ export default async function GameDetailPage({ params }: { params: Promise<{ slu
                 const rlVariant = game.slug === "roulette"
                   ? allRouletteVariants.find((rv) => rv.name.split("(")[0].trim().toLowerCase() === vBase || rv.name.toLowerCase() === v.toLowerCase())
                   : undefined;
+                // Check poker variants
+                const pkVariant = game.slug === "poker"
+                  ? allPokerVariants.find((pv) => pv.name.toLowerCase() === v.toLowerCase() || pv.name.split("(")[0].trim().toLowerCase() === vBase)
+                  : undefined;
 
-                const matchedVariant = bjVariant || rlVariant;
+                const matchedVariant = bjVariant || rlVariant || pkVariant;
                 const matchedHref = bjVariant
                   ? `/jeux/blackjack/${bjVariant.slug}`
                   : rlVariant
                     ? `/jeux/roulette/${rlVariant.slug}`
-                    : undefined;
+                    : pkVariant
+                      ? `/jeux/poker/${pkVariant.slug}`
+                      : undefined;
 
                 if (matchedVariant && matchedHref) {
                   return (
@@ -217,8 +224,21 @@ export default async function GameDetailPage({ params }: { params: Promise<{ slu
                     );
                   }
 
-                  // Check game reviews (slots, live casino games etc.)
-                  const gameReview = allGameReviews.find((r) => r.name === g);
+                  // Check poker variants
+                  const pkVariant = game.slug === "poker"
+                    ? allPokerVariants.find((v) => v.name === g || v.name.split("(")[0].trim() === g.split("(")[0].trim())
+                    : undefined;
+                  if (pkVariant) {
+                    return (
+                      <Link key={g} href={`/jeux/poker/${pkVariant.slug}`}>
+                        <Badge variant="primary" className="cursor-pointer hover:opacity-80 transition-opacity">{g}</Badge>
+                      </Link>
+                    );
+                  }
+
+                  // Check game reviews (slots, live casino games etc.) — fuzzy match for apostrophes
+                  const gNorm = g.toLowerCase().replace(/['']/g, "");
+                  const gameReview = allGameReviews.find((r) => r.name === g || r.name.toLowerCase().replace(/['']/g, "") === gNorm);
                   if (gameReview) {
                     return (
                       <Link key={g} href={`/logiciels-casino/${gameReview.providerSlug}/${gameReview.slug}`}>
