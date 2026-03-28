@@ -3,6 +3,7 @@ import Link from "next/link";
 import { gameCategories, getGameBySlug } from "@/data/games";
 import { allBlackjackVariants } from "@/data/blackjack-variants";
 import { allStrategies } from "@/data/blackjack-strategies";
+import { allGameReviews } from "@/data/game-reviews";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import Badge from "@/components/ui/Badge";
 import type { Metadata } from "next";
@@ -161,9 +162,31 @@ export default async function GameDetailPage({ params }: { params: Promise<{ slu
             <div className="bg-background-card rounded-xl border border-border p-6">
               <h3 className="font-semibold mb-4">Jeux populaires</h3>
               <div className="flex flex-wrap gap-2">
-                {game.popularGames.map((g) => (
-                  <Badge key={g} variant="primary">{g}</Badge>
-                ))}
+                {game.popularGames.map((g) => {
+                  // Check blackjack variants
+                  const bjVariant = game.slug === "blackjack"
+                    ? allBlackjackVariants.find((v) => v.name === g)
+                    : undefined;
+                  if (bjVariant) {
+                    return (
+                      <Link key={g} href={`/jeux/blackjack/${bjVariant.slug}`}>
+                        <Badge variant="primary" className="cursor-pointer hover:opacity-80 transition-opacity">{g}</Badge>
+                      </Link>
+                    );
+                  }
+
+                  // Check game reviews (slots, live casino games etc.)
+                  const gameReview = allGameReviews.find((r) => r.name === g);
+                  if (gameReview) {
+                    return (
+                      <Link key={g} href={`/logiciels-casino/${gameReview.providerSlug}/${gameReview.slug}`}>
+                        <Badge variant="primary" className="cursor-pointer hover:opacity-80 transition-opacity">{g}</Badge>
+                      </Link>
+                    );
+                  }
+
+                  return <Badge key={g} variant="primary">{g}</Badge>;
+                })}
               </div>
             </div>
 
