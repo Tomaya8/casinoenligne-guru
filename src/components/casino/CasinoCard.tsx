@@ -74,17 +74,19 @@ export default function CasinoCard({ casino, rank }: { casino: Casino; rank?: nu
         <div className="flex gap-3 mt-4">
           <Link
             href={`/casinos/${casino.slug}`}
-            className="flex-1 text-center py-2.5 px-4 rounded-lg bg-gradient-to-r from-accent-primary to-purple-500 text-white text-sm font-medium hover:opacity-90 transition-opacity"
+            className="flex-1 text-center py-2.5 px-4 rounded-lg border border-border text-sm text-foreground-muted hover:text-foreground hover:border-border-light transition-colors"
           >
             Voir la fiche
           </Link>
-          <Link
-            href={`/casinos/${casino.slug}`}
-            className="flex items-center gap-1 py-2.5 px-4 rounded-lg border border-border text-sm text-foreground-muted hover:text-foreground hover:border-border-light transition-colors"
+          <a
+            href={casino.affiliateUrl}
+            target="_blank"
+            rel="nofollow sponsored noopener"
+            className="flex items-center gap-1 py-2.5 px-4 rounded-lg bg-gradient-to-r from-accent-primary to-purple-500 text-white text-sm font-medium hover:opacity-90 transition-opacity"
           >
+            Jouer
             <ExternalLink className="w-3.5 h-3.5" />
-            Visiter
-          </Link>
+          </a>
         </div>
       </div>
     </div>
