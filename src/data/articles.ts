@@ -69,9 +69,6 @@ export const subcategoryIcons: Record<ArticleSubcategory, string> = {
 };
 
 export const articles: Article[] = [
-  // ═══════════════════════════════════════════
-  // CATEGORY 1: CASINOS EN LIGNE (5 articles)
-  // ═══════════════════════════════════════════
   {
     slug: "meilleurs-casinos-en-ligne-2025",
     title: "Les 10 Meilleurs Casinos en Ligne en 2025 : Notre Classement Complet",
@@ -279,10 +276,6 @@ Les erreurs classiques des débutants : ne jamais lire les conditions des bonus,
       { question: "Peut-on jouer gratuitement au casino en ligne ?", answer: "Oui, la majorité des jeux sont disponibles en mode démo avec de l'argent fictif. C'est le meilleur moyen de s'entraîner sans risque. Seul le live casino nécessite des mises réelles." },
     ],
   },
-
-  // ═══════════════════════════════════════════
-  // CATEGORY 2: BONUS & PROMOTIONS (5 articles)
-  // ═══════════════════════════════════════════
   {
     slug: "bonus-sans-depot-guide-complet",
     title: "Bonus Sans Dépôt 2025 : Le Guide Complet pour en Profiter",
@@ -458,10 +451,6 @@ Notre recommandation : pour les petits budgets (dépôt 20-50€), privilégiez 
       ],
     },
   },
-
-  // ═══════════════════════════════════════════
-  // CATEGORY 3: MACHINES À SOUS (5 articles)
-  // ═══════════════════════════════════════════
   {
     slug: "machines-a-sous-rtp-volatilite-guide",
     title: "RTP et Volatilité des Slots : Comment Choisir les Meilleures Machines",
@@ -629,10 +618,6 @@ Notre conseil : alternez entre sessions payantes et sessions gratuites. Utilisez
       { question: "Faut-il s'inscrire pour jouer en mode démo ?", answer: "La plupart des casinos permettent le jeu en démo sans inscription. Certains exigent la création d'un compte gratuit. Les sites des fournisseurs ne nécessitent jamais d'inscription." },
     ],
   },
-
-  // ═══════════════════════════════════════════
-  // CATEGORY 4: BLACKJACK (5 articles)
-  // ═══════════════════════════════════════════
   {
     slug: "strategie-blackjack-tableau-optimal",
     title: "Stratégie de Base du Blackjack : Le Tableau Optimal Expliqué",
@@ -810,10 +795,6 @@ Erreur n°10 : Ne pas fixer de limites de gains et de pertes. La discipline est 
       { question: "La martingale peut-elle fonctionner au blackjack ?", answer: "Non. La martingale (doubler la mise après chaque perte) ne fonctionne pas car les limites de table et votre bankroll fini la rendent mathématiquement perdante. Chaque main est indépendante et les progressions ne changent pas l'avantage de la maison." },
     ],
   },
-
-  // ═══════════════════════════════════════════
-  // CATEGORY 5: ROULETTE (5 articles)
-  // ═══════════════════════════════════════════
   {
     slug: "roulette-europeenne-vs-americaine",
     title: "Roulette Européenne vs Américaine : Pourquoi le Zéro Change Tout",
@@ -990,10 +971,6 @@ Notre conseil : ignorez l'historique affiché. Il est divertissant à observer m
       { question: "Une roulette physique peut-elle être biaisée ?", answer: "Théoriquement oui, mais les casinos modernes vérifient et remplacent leurs roulettes régulièrement. En ligne, le RNG rend tout biais impossible. Le biais de roulette physique est un phénomène historique, pas une réalité contemporaine." },
     ],
   },
-
-  // ═══════════════════════════════════════════
-  // CATEGORY 6: POKER (5 articles)
-  // ═══════════════════════════════════════════
   {
     slug: "poker-en-ligne-debutant-guide",
     title: "Poker en Ligne pour Débutants : De Zéro à Votre Première Table",
@@ -1154,10 +1131,6 @@ Les erreurs de bluff des débutants : bluffer trop souvent (prévisible), bluffe
       { question: "Faut-il montrer ses bluffs ?", answer: "Rarement. Montrer un bluff réussi peut déstabiliser votre adversaire mais lui donne aussi de l'information sur votre style de jeu. La plupart des pros ne montrent leurs cartes que stratégiquement pour manipuler l'image qu'ils projettent." },
     ],
   },
-
-  // ═══════════════════════════════════════════
-  // CATEGORY 7: LIVE CASINO (5 articles)
-  // ═══════════════════════════════════════════
   {
     slug: "live-casino-guide-complet-2025",
     title: "Live Casino en 2025 : Le Guide Complet des Jeux avec Croupiers",
@@ -1318,10 +1291,6 @@ Les superstitions et rituels font partie de la culture du casino. Si un joueur a
       { question: "Les pourboires sont-ils possibles au live casino en ligne ?", answer: "Sur certaines plateformes oui, via une fonction 'Tip' dédiée. Les montants vont généralement de 0.50€ à 10€. Ce n'est jamais obligatoire mais toujours apprécié par les croupiers." },
     ],
   },
-
-  // ═══════════════════════════════════════════
-  // CATEGORIES 8-10: Shortened for build
-  // ═══════════════════════════════════════════
   {
     slug: "bitcoin-casino-guide-complet",
     title: "Bitcoin Casino : Guide Complet des Casinos Crypto en 2025",
