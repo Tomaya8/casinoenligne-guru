@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     template: "%s | casinoenligne.guru",
   },
   description:
-    "Découvrez le guide ultime des casinos en ligne pour joueurs francophones. Comparez casinos, bonus et jeux. Faites le bon choix dès maintenant !",
+    "Découvrez le guide ultime des casinos en ligne pour joueurs francophones : comparatifs, bonus, jeux et stratégies. Explorez maintenant!",
   authors: [{ name: "casinoenligne.guru" }],
   creator: "casinoenligne.guru",
   openGraph: {
